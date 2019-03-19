@@ -60,6 +60,8 @@ class Driver {
         /* class constants */
         static const float MAX_UNSTUCK_ANGLE;
         static const float UNSTUCK_TIME_LIMIT;
+	static const float MAX_UNSTUCK_SPEED;
+	static const float MIN_UNSTUCK_DIST;
 
         /* track variables */
         tTrack* track;

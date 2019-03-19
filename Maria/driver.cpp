@@ -20,7 +20,8 @@
 
 const float Driver::MAX_UNSTUCK_ANGLE = 30.0/180.0*PI;  /* [radians] */
 const float Driver::UNSTUCK_TIME_LIMIT = 2.0;           /* [s] */
-
+const float Driver::MAX_UNSTUCK_SPEED = 5.0; /*[m/s]*/
+const float Driver::MIN_UNSTUCK_DIST = 3.0; /*[m]*/
 Driver::Driver(int index)
 {
     INDEX = index;
@@ -51,7 +52,7 @@ void Driver::drive(tCarElt* car, tSituation *s)
     if (isStuck(car)) {
         car->ctrl.steer = -angle / car->_steerLock;
         car->ctrl.gear = -1; // reverse gear
-        car->ctrl.accelCmd = 0.3; // 30% accelerator pedal
+        car->ctrl.accelCmd = 0.5; // 50% accelerator pedal
         car->ctrl.brakeCmd = 0.0; // no brakes
     } else {
         float steerangle = angle - car->_trkPos.toMiddle/car->_trkPos.seg->width;
@@ -86,14 +87,17 @@ void Driver::update(tCarElt* car, tSituation *s)
 /* Check if I'm stuck */
 bool Driver::isStuck(tCarElt* car)
 {
-    if (fabs(angle) < MAX_UNSTUCK_ANGLE) {
+    if (fabs(angle) > MAX_UNSTUCK_ANGLE &&
+        car->_speed_x < MAX_UNSTUCK_SPEED &&
+        fabs(car->_trkPos.toMiddle) > MIN_UNSTUCK_DIST) {
+        if (stuck > MAX_UNSTUCK_COUNT && car->_trkPos.toMiddle*angle < 0.0) {
+            return true;
+        } else {
+            stuck++;
+            return false;
+        }
+    } else {
         stuck = 0;
         return false;
-    }
-    if (stuck < MAX_UNSTUCK_COUNT) {
-        stuck++;
-        return false;
-    } else {
-        return true;
     }
 }
