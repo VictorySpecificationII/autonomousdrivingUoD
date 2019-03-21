@@ -30,6 +30,9 @@ const float Driver::ABS_SLIP = 0.9;        /* [-] range [0.95..0.3] */
 const float Driver::ABS_MINSPEED = 3.0;    /* [m/s] */
 const float Driver::TCL_SLIP = 0.9;        /* [-] range [0.95..0.3] */
 const float Driver::TCL_MINSPEED = 3.0;    /* [m/s] */
+const float Driver::LOOKAHEAD_CONST = 17.0;    /* [m] */
+const float Driver::LOOKAHEAD_FACTOR = 0.33;   /* [1/s] */
+const float Driver::WIDTHDIV = 4.0;    /* [-] */
 
 Driver::Driver(int index)
 {
@@ -70,16 +73,14 @@ void Driver::drive(tSituation *s)
         car->ctrl.accelCmd = 0.5; // 50% accelerator pedal
         car->ctrl.brakeCmd = 0.0; // no brakes
     } else {
-        float steerangle = angle - car->_trkPos.toMiddle/car->_trkPos.seg->width;
-
-        car->ctrl.steer = steerangle / car->_steerLock;
+        car->ctrl.steer = getSteer();
         car->ctrl.gear = 1; // first gear
         car->ctrl.accelCmd = 0.3; // 30% accelerator pedal
         car->ctrl.brakeCmd = 0.0; // no brakes
 	car->ctrl.gear = getGear();
         car->ctrl.brakeCmd = filterABS(getBrake());
         if (car->ctrl.brakeCmd == 0.0) {
-            car->ctrl.accelCmd = filterTCL(getAccel());
+            car->ctrl.accelCmd = filterTCL(filterTrk(getAccel()));
         } else {
             car->ctrl.accelCmd = 0.0;
         }
@@ -132,8 +133,22 @@ float Driver::getAllowedSpeed(tTrackSeg *segment)
     if (segment->type == TR_STR) {
         return FLT_MAX;
     } else {
+
+
+        float arc = 0.0;
+        tTrackSeg *s = segment;
+        
+        while (s->type == segment->type && arc < PI/2.0) {
+            arc += s->arc;
+            s = s->next;
+        }
+
+        arc /= PI/2.0;
         float mu = segment->surface->kFriction;
-        return sqrt((mu*G*segment->radius)/(1.0 - MIN(1.0, segment->radius*CA*mu/mass)));
+
+
+        float r = (segment->radius + segment->width/2.0)/sqrt(arc);
+        return sqrt((mu*G*r)/(1.0 - MIN(1.0, r*CA*mu/mass)));
     }
 }
 
@@ -314,4 +329,80 @@ float Driver::filterTCL_4WD()
             car->_wheelRadius(FRNT_LFT) / 4.0 +
            (car->_wheelSpinVel(REAR_RGT) + car->_wheelSpinVel(REAR_LFT)) *
             car->_wheelRadius(REAR_LFT) / 4.0;
+}
+
+/*get target point*/
+
+v2d Driver::getTargetPoint()
+{
+    tTrackSeg *seg = car->_trkPos.seg;
+    float lookahead = LOOKAHEAD_CONST + car->_speed_x*LOOKAHEAD_FACTOR;
+
+
+    float length = getDistToSegEnd();
+
+    while (length < lookahead) {
+        seg = seg->next;
+        length += seg->length;	
+    }
+
+    length = lookahead - length + seg->length;
+    v2d s;
+    s.x = (seg->vertex[TR_SL].x + seg->vertex[TR_SR].x)/2.0;
+    s.y = (seg->vertex[TR_SL].y + seg->vertex[TR_SR].y)/2.0;
+
+    if ( seg->type == TR_STR) {
+        v2d d;
+        d.x = (seg->vertex[TR_EL].x - seg->vertex[TR_SL].x)/seg->length;
+        d.y = (seg->vertex[TR_EL].y - seg->vertex[TR_SL].y)/seg->length;
+        return s + d*length;
+
+    } else {
+        v2d c;
+        c.x = seg->center.x;
+        c.y = seg->center.y;
+        float arc = length/seg->radius;
+        float arcsign = (seg->type == TR_RGT) ? -1 : 1;
+        arc = arc*arcsign;
+        return s.rotate(c, arc);
+    }
+}
+
+float Driver::getSteer()
+{
+    float targetAngle;
+    v2d target = getTargetPoint();
+
+    targetAngle = atan2(target.y - car->_pos_Y, target.x - car->_pos_X);
+    targetAngle -= car->_yaw;
+    NORM_PI_PI(targetAngle);
+    return targetAngle / car->_steerLock;
+}
+
+/* Hold car on the track */
+float Driver::filterTrk(float accel)
+{
+    tTrackSeg* seg = car->_trkPos.seg;
+
+    if (car->_speed_x < MAX_UNSTUCK_SPEED) return accel;
+
+
+    if (seg->type == TR_STR) {
+        float tm = fabs(car->_trkPos.toMiddle);
+        float w = seg->width/WIDTHDIV;
+        if (tm > w) return 0.0; else return accel;
+
+
+    } else {
+        float sign = (seg->type == TR_RGT) ? -1 : 1;
+        if (car->_trkPos.toMiddle*sign > 0.0) {
+            return accel;
+
+
+        } else {
+            float tm = fabs(car->_trkPos.toMiddle);
+            float w = seg->width/WIDTHDIV;
+            if (tm > w) return 0.0; else return accel;
+        }
+    }
 }
