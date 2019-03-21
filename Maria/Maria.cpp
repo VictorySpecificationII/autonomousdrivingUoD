@@ -72,7 +72,7 @@ extern "C" int Maria(tModInfo *modInfo)
 /* Module interface initialization. */
 static int InitFuncPt(int index, void *pt)
 {
-    tRobotItf *itf = (tRobotItf *)pt;
+    tRobotItf *itf = (tRobotItf *)pt;//dfgdf
 
     /* create robot instance for index */
     driver[index] = new Driver(index);
@@ -103,21 +103,21 @@ static void newRace(int index, tCarElt* car, tSituation *s)
 /* Drive during race. */
 static void drive(int index, tCarElt* car, tSituation *s)
 {
-    driver[index]->drive(car, s);
+    driver[index]->drive(s);
 }
 
 
 /* Pitstop callback */
 static int pitcmd(int index, tCarElt* car, tSituation *s)
 {
-    return driver[index]->pitCommand(car, s);
+    return driver[index]->pitCommand(s);
 }
 
 
 /* End of the current race */
 static void endRace(int index, tCarElt *car, tSituation *s)
 {
-    driver[index]->endRace(car, s);
+    driver[index]->endRace(s);
 }
 
 
