@@ -16,6 +16,7 @@
     <section name="index">
       
       <section name="0">
+	<attstr name="skill level" val="semi-pro"/>
 	<attstr name="name" val="Maria 1"></attstr>
 	<attstr name="desc" val=""></attstr>
 	<attstr name="team" val=""></attstr>
