@@ -17,9 +17,6 @@
 
 #include "driver.h"
 
-#define MARIA_SECT_PRIV "Maria private"
-#define MARIA_ATT_FUELPERLAP "fuelperlap"
-
 
 const float Driver::MAX_UNSTUCK_ANGLE = 30.0/180.0*PI;  /* [radians] */
 const float Driver::UNSTUCK_TIME_LIMIT = 2.0;           /* [s] */
@@ -42,45 +39,12 @@ Driver::Driver(int index)
     INDEX = index;
 }
 
-//FFS boi
-//whyyyyy
-
 /* Called for every track change or new race. */
-void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituation *s)
+void Driver::initTrack(tTrack* t, void *carHandle, 
+                       void **carParmHandle, tSituation *s)
 {
     track = t;
-
-    char buffer[256];
-    /* get a pointer to the first char of the track filename */
-    char* trackname = strrchr(track->filename, '/') + 1;
-
-    switch (s->_raceType) {
-        case RM_TYPE_PRACTICE:
-            sprintf(buffer, "drivers/Maria/%d/practice/%s", INDEX, trackname);
-            break;
-        case RM_TYPE_QUALIF:
-            sprintf(buffer, "drivers/Maria/%d/qualifying/%s", INDEX, trackname);
-            break;
-        case RM_TYPE_RACE:
-            sprintf(buffer, "drivers/Maria/%d/race/%s", INDEX, trackname);	
-            break;
-        default:
-            break;
-    }
-
-    *carParmHandle = GfParmReadFile(buffer, GFPARM_RMODE_STD);
-    if (*carParmHandle == NULL) {
-        sprintf(buffer, "drivers/Maria/%d/acura-nsx-sz.xml", INDEX);
-        *carParmHandle = GfParmReadFile(buffer, GFPARM_RMODE_STD);
-    } 
-
-    float fuel = GfParmGetNum(*carParmHandle, MARIA_SECT_PRIV, 
-        MARIA_ATT_FUELPERLAP, (char*)NULL, 5.0);
-
-
-    fuel *= (s->_totLaps + 1.0);
-    GfParmSetNum(*carParmHandle, SECT_CAR, PRM_FUEL, (char*)NULL, MIN(fuel, 100.0));
-
+    *carParmHandle = NULL;
 }
 
 /* Start a new race. */
