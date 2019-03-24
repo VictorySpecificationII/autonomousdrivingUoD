@@ -16,7 +16,7 @@
 ROBOT       = Maria
 MODULE      = ${ROBOT}.so
 MODULEDIR   = drivers/${ROBOT}
-SOURCES     = ${ROBOT}.cpp driver.cpp
+SOURCES     = ${ROBOT}.cpp driver.cpp opponent.cpp spline.cpp pit.cpp
 
 SHIPDIR     = drivers/${ROBOT}
 SHIP        = ${ROBOT}.xml acura-nsx-sz.rgb logo.rgb

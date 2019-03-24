@@ -35,7 +35,13 @@ const float Driver::TCL_SLIP = 0.9;        /* [-] range [0.95..0.3] */
 const float Driver::TCL_MINSPEED = 3.0;    /* [m/s] */
 const float Driver::LOOKAHEAD_CONST = 17.0;    /* [m] */
 const float Driver::LOOKAHEAD_FACTOR = 0.33;   /* [1/s] */
-const float Driver::WIDTHDIV = 4.0;    /* [-] */
+const float Driver::WIDTHDIV = 3.0;    /* [-] */
+const float Driver::SIDECOLL_MARGIN = 2.0;   /* [m] */
+const float Driver::BORDER_OVERTAKE_MARGIN = 0.5; /* [m] */
+const float Driver::OVERTAKE_OFFSET_INC = 0.1;    /* [m/timestep] */
+const float Driver::PIT_LOOKAHEAD = 6.0;       /* [m] */
+const float Driver::PIT_BRAKE_AHEAD = 200.0;   /* [m] */
+const float Driver::PIT_MU = 0.4;              /* [-] */
 
 Driver::Driver(int index)
 {
@@ -90,14 +96,22 @@ void Driver::newRace(tCarElt* car, tSituation *s)
     initCa();
     initCw();
     initTCLfilter();
+    /* initialize the list of opponents */
+    opponents = new Opponents(s, this);
+    opponent = opponents->getOpponentPtr();
+    myoffset = 0.0;
+    /* create the pit object */
+    pit = new Pit(s, this);
 }
 
 /* Drive during race. */
 void Driver::drive(tSituation *s)
 {
-    update(s);
+   
 
     memset(&car->ctrl, 0, sizeof(tCarCtrl));
+    update(s);
+    //pit->setPitstop(true); //uncomment if you want to pit every lap
 
 
     if (isStuck()) {
@@ -106,12 +120,12 @@ void Driver::drive(tSituation *s)
         car->ctrl.accelCmd = 0.5; // 50% accelerator pedal
         car->ctrl.brakeCmd = 0.0; // no brakes
     } else {
-        car->ctrl.steer = getSteer();
+        car->ctrl.steer = filterSColl(getSteer());
         car->ctrl.gear = 1; // first gear
         car->ctrl.accelCmd = 0.3; // 30% accelerator pedal
         car->ctrl.brakeCmd = 0.0; // no brakes
 	car->ctrl.gear = getGear();
-        car->ctrl.brakeCmd = filterABS(getBrake());
+        car->ctrl.brakeCmd = filterABS(filterBColl(filterBPit(getBrake())));
         if (car->ctrl.brakeCmd == 0.0) {
             car->ctrl.accelCmd = filterTCL(filterTrk(getAccel()));
         } else {
@@ -121,10 +135,12 @@ void Driver::drive(tSituation *s)
 }
 
 
-/* Set pitstop commands. */
+/* Set pitstop commands */
 int Driver::pitCommand(tSituation *s)
 {
-
+    car->_pitRepair = pit->getRepair();
+    car->_pitFuel = pit->getFuel();
+    pit->setPitstop(false);
     return ROB_PIT_IM; /* return immediately */
 }
 
@@ -140,6 +156,10 @@ void Driver::update(tSituation *s)
     angle = trackangle - car->_yaw;
     NORM_PI_PI(angle);
     mass = CARMASS + car->_fuel;
+    speed = Opponent::getSpeed(car);
+    opponents->update(s, this);
+    currentspeedsqr = car->_speed_x*car->_speed_x;
+    pit->update();
 }
 
 /* Check if I'm stuck */
@@ -364,40 +384,62 @@ float Driver::filterTCL_4WD()
             car->_wheelRadius(REAR_LFT) / 4.0;
 }
 
-/*get target point*/
-
+/* compute target point for steering */
 v2d Driver::getTargetPoint()
 {
     tTrackSeg *seg = car->_trkPos.seg;
     float lookahead = LOOKAHEAD_CONST + car->_speed_x*LOOKAHEAD_FACTOR;
-
-
     float length = getDistToSegEnd();
+    float offset = getOvertakeOffset();
+
+    if (pit->getInPit()) {
+        if (currentspeedsqr > pit->getSpeedlimitSqr()) {
+            lookahead = PIT_LOOKAHEAD + car->_speed_x*LOOKAHEAD_FACTOR;
+        } else {
+            lookahead = PIT_LOOKAHEAD;
+        }
+    }
+
 
     while (length < lookahead) {
         seg = seg->next;
-        length += seg->length;	
+        length += seg->length;
     }
 
     length = lookahead - length + seg->length;
+
+    float fromstart = seg->lgfromstart;
+    fromstart += length;
+    offset = pit->getPitOffset(offset, fromstart);
+
+
     v2d s;
     s.x = (seg->vertex[TR_SL].x + seg->vertex[TR_SR].x)/2.0;
     s.y = (seg->vertex[TR_SL].y + seg->vertex[TR_SR].y)/2.0;
 
     if ( seg->type == TR_STR) {
-        v2d d;
+        v2d d, n;
+        n.x = (seg->vertex[TR_EL].x - seg->vertex[TR_ER].x)/seg->length;
+        n.y = (seg->vertex[TR_EL].y - seg->vertex[TR_ER].y)/seg->length;
+        n.normalize();
+
+
         d.x = (seg->vertex[TR_EL].x - seg->vertex[TR_SL].x)/seg->length;
         d.y = (seg->vertex[TR_EL].y - seg->vertex[TR_SL].y)/seg->length;
-        return s + d*length;
-
+        return s + d*length + offset*n;
     } else {
-        v2d c;
+
+
+        v2d c, n;
         c.x = seg->center.x;
         c.y = seg->center.y;
         float arc = length/seg->radius;
-        float arcsign = (seg->type == TR_RGT) ? -1 : 1;
+        float arcsign = (seg->type == TR_RGT) ? -1.0 : 1.0;
         arc = arc*arcsign;
-        return s.rotate(c, arc);
+        s = s.rotate(c, arc);
+        n = c - s;
+        n.normalize();
+        return s + arcsign*offset*n;
     }
 }
 
@@ -417,7 +459,8 @@ float Driver::filterTrk(float accel)
 {
     tTrackSeg* seg = car->_trkPos.seg;
 
-    if (car->_speed_x < MAX_UNSTUCK_SPEED) return accel;
+    if (car->_speed_x < MAX_UNSTUCK_SPEED ||
+        pit->getInPit()) return accel;
 
 
     if (seg->type == TR_STR) {
@@ -438,4 +481,178 @@ float Driver::filterTrk(float accel)
             if (tm > w) return 0.0; else return accel;
         }
     }
+}
+
+Driver::~Driver()
+{
+    delete opponents;
+    delete pit;
+}
+
+/* Brake filter for collision avoidance */
+float Driver::filterBColl(float brake)
+{
+    float currentspeedsqr = car->_speed_x*car->_speed_x;
+    float mu = car->_trkPos.seg->surface->kFriction;
+    float cm = mu*G*mass;
+    float ca = CA*mu + CW;
+    int i;
+
+    for (i = 0; i < opponents->getNOpponents(); i++) {
+
+
+        if (opponent[i].getState() & OPP_COLL) {
+            float allowedspeedsqr = opponent[i].getSpeed();
+            allowedspeedsqr *= allowedspeedsqr;
+            float brakedist = mass*(currentspeedsqr - allowedspeedsqr) /
+                              (2.0*(cm + allowedspeedsqr*ca));
+            if (brakedist > opponent[i].getDistance()) {
+                return 1.0;
+            }
+        }
+    }
+    return brake;
+}
+
+
+/* Steer filter for collision avoidance */
+float Driver::filterSColl(float steer)
+{
+    int i;
+    float sidedist = 0.0, fsidedist = 0.0, minsidedist = FLT_MAX;
+    Opponent *o = NULL;
+
+    /* get the index of the nearest car (o) */
+    for (i = 0; i < opponents->getNOpponents(); i++) {
+        if (opponent[i].getState() & OPP_SIDE) {
+
+
+            sidedist = opponent[i].getSideDist();
+            fsidedist = fabs(sidedist);
+            if (fsidedist < minsidedist) {
+                minsidedist = fsidedist;
+                o = &opponent[i];
+            }
+        }
+    }
+
+
+    /* if there is another car handle the situation */
+    if (o != NULL) {
+        float d = fsidedist - o->getWidth();
+        /* near enough */
+        if (d < SIDECOLL_MARGIN) {
+
+
+            /* compute angle between cars */
+            tCarElt *ocar = o->getCarPtr();
+            float diffangle = ocar->_yaw - car->_yaw;
+            NORM_PI_PI(diffangle);
+            const float c = SIDECOLL_MARGIN/2.0;
+            d = d - c;
+            if (d < 0.0) d = 0.0;
+            float psteer = diffangle/car->_steerLock;
+            return steer*(d/c) + 2.0*psteer*(1.0-d/c);
+        }
+    }
+    return steer;
+}
+
+/* Compute an offset to the target point */
+float Driver::getOvertakeOffset()
+{
+    int i;
+    float catchdist, mincatchdist = FLT_MAX;
+    Opponent *o = NULL;
+
+    for (i = 0; i < opponents->getNOpponents(); i++) {
+        if (opponent[i].getState() & OPP_FRONT) {
+            catchdist = opponent[i].getCatchDist();
+            if (catchdist < mincatchdist) {
+                mincatchdist = catchdist;
+                o = &opponent[i];
+            }
+        }
+    }
+
+
+    if (o != NULL) {
+        float w = o->getCarPtr()->_trkPos.seg->width/WIDTHDIV-BORDER_OVERTAKE_MARGIN;
+        float otm = o->getCarPtr()->_trkPos.toMiddle;
+        if (otm > 0.0 && myoffset > -w) myoffset -= OVERTAKE_OFFSET_INC;
+        else if (otm < 0.0 && myoffset < w) myoffset += OVERTAKE_OFFSET_INC;
+    } else {
+
+
+        if (myoffset > OVERTAKE_OFFSET_INC) myoffset -= OVERTAKE_OFFSET_INC;
+        else if (myoffset < -OVERTAKE_OFFSET_INC) myoffset += OVERTAKE_OFFSET_INC;
+        else myoffset = 0.0;
+    }
+    return myoffset;
+}
+
+float Driver::brakedist(float allowedspeed, float mu)
+{
+    float allowedspeedsqr = allowedspeed*allowedspeed;
+    float cm = mu*G*mass;
+    float ca = CA*mu + CW;
+    return mass*(currentspeedsqr - allowedspeedsqr) / (2.0*(cm + allowedspeedsqr*ca));
+}
+
+
+float Driver::filterBPit(float brake)
+{
+    if (pit->getPitstop() && !pit->getInPit()) {
+        float dl, dw;
+        RtDistToPit(car, track, &dl, &dw);
+        if (dl < PIT_BRAKE_AHEAD) {
+            float mu = car->_trkPos.seg->surface->kFriction*PIT_MU;
+            if (brakedist(0.0, mu) > dl) return 1.0;
+        }
+    }
+
+
+    if (pit->getInPit()) {
+        float s = pit->toSplineCoord(car->_distFromStartLine);
+
+
+        /* pit entry */
+        if (pit->getPitstop()) {
+
+
+            float mu = car->_trkPos.seg->surface->kFriction*PIT_MU;
+            if (s < pit->getNPitStart()) {
+
+
+                /* brake to pit speed limit */
+                float dist = pit->getNPitStart() - s;
+                if (brakedist(pit->getSpeedlimit(), mu) > dist) return 1.0;
+
+
+            } else {
+                /* hold speed limit */
+                if (currentspeedsqr > pit->getSpeedlimitSqr()) return 1.0;
+            }
+
+
+            /* brake into pit (speed limit 0.0 to stop ) */
+            float dist = pit->getNPitLoc() - s;
+            if (brakedist(0.0, mu) > dist) return 1.0;
+
+
+            /* hold in the pit */
+            if (s > pit->getNPitLoc()) return 1.0;
+
+
+        } else {
+            /* pit exit */
+            if (s < pit->getNPitEnd()) {
+                /* pit speed limit */
+                if (currentspeedsqr > pit->getSpeedlimitSqr()) return 1.0;
+            }
+        }
+    }
+
+
+    return brake;
 }

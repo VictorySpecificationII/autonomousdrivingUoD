@@ -32,6 +32,17 @@
 
 #include "linalg.h"
 
+
+#include "opponent.h"
+class Opponents;
+class Opponent;
+
+#include "pit.h"
+
+class Pit;
+
+
+
 class Driver {
     public:
         Driver(int index);
@@ -43,6 +54,10 @@ class Driver {
         void drive(tSituation *s);
         int pitCommand(tSituation *s);
         void endRace(tSituation *s);
+	tCarElt *getCarPtr() { return car; }
+        tTrack *getTrackPtr() { return track; }
+        float getSpeed() { return speed; }
+	~Driver();
 
 
     private:
@@ -65,12 +80,23 @@ class Driver {
 	float getSteer();
         v2d getTargetPoint();
         float filterTrk(float accel);
+	float filterBColl(float brake);
+	float filterSColl(float steer);
+	float getOvertakeOffset();
+	float brakedist(float allowedspeed, float mu);
+	float filterBPit(float brake);
 
         /* per robot global data */
         int stuck;
         float trackangle;
         float angle;
 	float (Driver::*GET_DRIVEN_WHEEL_SPEED)();
+	float speed;    /* speed in track direction */
+	Opponents *opponents;
+        Opponent *opponent;
+	float myoffset;  /* overtake offset sideways */
+	Pit *pit;
+        float currentspeedsqr;
 
         /* data that should stay constant after first initialization */
         int MAX_UNSTUCK_COUNT;
@@ -97,6 +123,13 @@ class Driver {
 	static const float LOOKAHEAD_CONST;
         static const float LOOKAHEAD_FACTOR;
         static const float WIDTHDIV;
+	static const float SIDECOLL_MARGIN;
+	static const float BORDER_OVERTAKE_MARGIN;
+        static const float OVERTAKE_OFFSET_INC;
+	static const float PIT_LOOKAHEAD;
+	static const float PIT_BRAKE_AHEAD;
+        static const float PIT_MU;
+
         /* track variables */
         tTrack* track;
 };
