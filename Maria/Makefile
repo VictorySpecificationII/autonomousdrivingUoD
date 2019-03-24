@@ -20,7 +20,7 @@ SOURCES     = ${ROBOT}.cpp driver.cpp
 
 SHIPDIR     = drivers/${ROBOT}
 SHIP        = ${ROBOT}.xml acura-nsx-sz.rgb logo.rgb
-SHIPSUBDIRS = 
+SHIPSUBDIRS = 0
 
 PKGSUBDIRS  = ${SHIPSUBDIRS}
 src-robots-Maria_PKGFILES = $(shell find * -maxdepth 0 -type f -print)
