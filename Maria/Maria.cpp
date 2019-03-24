@@ -124,6 +124,6 @@ static void endRace(int index, tCarElt *car, tSituation *s)
 /* Called before the module is unloaded */
 static void shutdown(int index)
 {
-    free(botname[index]);
+    //free(botname[index]); //I FIXED IT THIS MOTHERFUCKER WAS RESPONSIBLE FOR MY MISERY, now fix it
     delete driver[index];
 }
