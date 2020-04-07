@@ -1,11 +1,17 @@
-# autonomousdrivingUoD
+# autonomousdrivingUoD - Project Maria
 
-An implementation of an autonomous formula racing car using laser sensors for navigation.
-The onboard view serves as the monocular SLAM input for vision.
+An implementation of an autonomous racing car using game data for navigation.
 
-TODO
+This branch serves as an archetype for derivative designs.
 
-Implement 2nd camera for binocular SLAM
-Vehicle commands come from the game:
-  - Implement actuation control (throttle, brake, steering) to come from SLAM algorithm.
-  - TBA
+Created and tested with TORCS v.1.3.7 running on Ubuntu 16.04.
+
+# Usage
+
+ - Install in /usr/src/<torcs-install-directory>/src/drivers
+ - make install
+
+Every time you make a change, run make install and dive into the game.
+
+Choose practice mode, pick the car and go!
+
