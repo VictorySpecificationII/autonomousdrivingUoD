@@ -8,7 +8,7 @@ Created and tested with TORCS v.1.3.7 running on Ubuntu 16.04.
 
 # Usage
 
- - Install in /usr/src/<torcs-install-directory>/src/drivers
+ - Install in /usr/src/torcs-install-directory/src/drivers
  - make install
 
 Every time you make a change, run make install and dive into the game.
