@@ -1,17 +1,9 @@
-# autonomousdrivingUoD - Project Maria
+# autonomousdrivingUoD - Project Maria Evolution I
 
-An implementation of an autonomous racing car using game data for navigation.
+This is a port of the original design to work with ROS.
+Further development after the port is complete.
+If you wish, follow this project for updates.
 
-This branch serves as an archetype for derivative designs.
-
-Created and tested with TORCS v.1.3.7 running on Ubuntu 16.04.
-
-# Usage
-
- - Install in /usr/src/torcs-install-directory/src/drivers
- - make install
-
-Every time you make a change, run make install and dive into the game.
-
-Choose practice mode, pick the car and go!
+ - Created and tested with TORCS v.1.3.7 SCR running on Ubuntu 16.04.
+ - Tested and verified with TORCS v.1.3.7 SCR running on Ubuntu 18.04.
 
