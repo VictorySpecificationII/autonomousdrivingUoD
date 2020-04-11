@@ -1,4 +1,4 @@
-# autonomousdrivingUoD - Project Maria
+# autonomousdrivingUoD - Project Maria Evolution I
 
 An implementation of an autonomous time attack racing car using Machine Learning with game data for navigation.
 
