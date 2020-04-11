@@ -112,7 +112,8 @@ void Driver::drive(tSituation *s)
     memset(&car->ctrl, 0, sizeof(tCarCtrl));
     update(s);
     //pit->setPitstop(true); //uncomment if you want to pit every lap
-
+    
+    int reconLaps = 0;//recon lap to grab track information
 
     if (isStuck()) {
         car->ctrl.steer = -angle / car->_steerLock;
@@ -120,16 +121,28 @@ void Driver::drive(tSituation *s)
         car->ctrl.accelCmd = 0.5; // 50% accelerator pedal
         car->ctrl.brakeCmd = 0.0; // no brakes
     } else {
+
+    //flag, 1 to drive in the middle of the track, 0 to take turns with the racing line
+	if(reconLaps == 1){
+	   	   float steerangle = angle - car->_trkPos.toMiddle;
+           car->ctrl.steer = steerangle / car->_steerLock;
+           car->ctrl.gear = 1; // first gear
+           car->ctrl.accelCmd = 0.3; // 30% accelerator pedal
+           car->ctrl.brakeCmd = 0.05; // rough fix to limit speed
+        }
+	
+	else{
         car->ctrl.steer = filterSColl(getSteer());
         car->ctrl.gear = 1; // first gear
         car->ctrl.accelCmd = 0.3; // 30% accelerator pedal
         car->ctrl.brakeCmd = 0.0; // no brakes
-	car->ctrl.gear = getGear();
+	    car->ctrl.gear = getGear();
         car->ctrl.brakeCmd = filterABS(filterBColl(filterBPit(getBrake())));
         if (car->ctrl.brakeCmd == 0.0) {
             car->ctrl.accelCmd = filterTCL(filterTrk(getAccel()));
         } else {
             car->ctrl.accelCmd = 0.0;
+        }
         }
     }
 }
