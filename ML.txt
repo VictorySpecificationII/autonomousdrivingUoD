@@ -1,0 +1,37 @@
+ML enhancement to original driving
+
+Mode - Time Attack
+
+I/O
+
+
+I - throttle
+I - brake
+I - steer
+I - gear
+I - track segment
+I - distance raced
+I - current lap time
+I - previous lap time
+I - map
+
+O - Modified throtling based on enhancement
+O - Modified braking based on enhancement
+O - Modified steering  based on enhancement
+O - Modified gearing  based on enhancement
+O - lines taken so far
+
+Logic
+
+Check current lap time
+if lap time previous faster than current time - time to the start line
+get segment information
+get turn information
+ENHANCE - modify steering to place car more on the outside before the corner entry
+ENHANCE - if turn is more than n degrees to brake a little harder
+ENHANCE - modify steering to make car get closer to the apex during the turn
+ENHANCE - modify throttle to get as close to the limit of the g-g diagram as possible
+ENHANCE - modify steering to place car more on the outside after corner exit
+
+
+
