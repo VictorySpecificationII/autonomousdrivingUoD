@@ -1,6 +1,6 @@
-# autonomousdrivingUoD - Project Maria Evolution I
+# autonomousdrivingUoD - Project Maria Evolution II
 
-This is a port of the original design to work with ROS.
+This is a port of Evolution I to work with ROS.
 Further development after the port is complete.
 If you wish, follow this project for updates.
 
