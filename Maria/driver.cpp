@@ -199,9 +199,13 @@ void Driver::drive(tSituation *s)
 
     if (isStuck()) {
         car->ctrl.steer = -angle / car->_steerLock;
+        Logger.AppendToLog("STUCK: Steering command angle over lock: ", to_string(-angle / car->_steerLock), 0);
         car->ctrl.gear = -1; // reverse gear
+        Logger.AppendToLog("STUCK: Gear: ", "R ", 0);
         car->ctrl.accelCmd = 0.5; // 50% accelerator pedal
+        Logger.AppendToLog("STUCK: Throttle: ", "0.5 ", 0);
         car->ctrl.brakeCmd = 0.0; // no brakes
+        Logger.AppendToLog("STUCK: Brake: ", "0.0 ", 0);
     } else {
 
     //flag, 1 to drive in the middle of the track, 0 to take turns with the racing line
@@ -220,16 +224,16 @@ void Driver::drive(tSituation *s)
 	
 	else{
         car->ctrl.steer = filterSColl(getSteer());
-        Logger.AppendToLog("Steering: ", to_string(filterSColl(getSteer())), 0);
+        Logger.AppendToLog("FLAT OUT: Steering: ", to_string(filterSColl(getSteer())), 0);
         car->ctrl.gear = 1; // first gear
         car->ctrl.accelCmd = 0.3; // 30% accelerator pedal
         car->ctrl.brakeCmd = 0.0; // no brakes
 	    car->ctrl.gear = getGear();
         car->ctrl.brakeCmd = filterABS(filterBColl(filterBPit(getBrake())));
-        Logger.AppendToLog("Brake: ", to_string(filterABS(filterBColl(filterBPit(getBrake())))), 0);
+        Logger.AppendToLog("FLAT OUT: Brake: ", to_string(filterABS(filterBColl(filterBPit(getBrake())))), 0);
         if (car->ctrl.brakeCmd == 0.0) {
             car->ctrl.accelCmd = filterTCL(filterTrk(getAccel()));
-            Logger.AppendToLog("Throttle: ", to_string(filterTCL(filterTrk(getAccel()))), 0);
+            Logger.AppendToLog("FLAT OUT: Throttle: ", to_string(filterTCL(filterTrk(getAccel()))), 0);
         } else {
             car->ctrl.accelCmd = 0.0;
         }
@@ -282,6 +286,8 @@ bool Driver::isStuck()
             return true;
         } else {
             stuck++;
+            Logger.AppendToLog("Stuck Incrementing: ", to_string(stuck) + " m/s", 0);
+
             return false;
         }
     } else {
