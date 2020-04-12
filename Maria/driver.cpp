@@ -195,7 +195,7 @@ void Driver::drive(tSituation *s)
     update(s);
     //pit->setPitstop(true); //uncomment if you want to pit every lap
     
-    int reconLaps = 0;//recon lap to grab track information
+    int reconLaps = 1;//recon lap to grab track information
 
     if (isStuck()) {
         car->ctrl.steer = -angle / car->_steerLock;
@@ -207,10 +207,15 @@ void Driver::drive(tSituation *s)
     //flag, 1 to drive in the middle of the track, 0 to take turns with the racing line
 	if(reconLaps == 1){
 	   	   float steerangle = angle - car->_trkPos.toMiddle;
+           Logger.AppendToLog("RECON: Steering angle w.r.t middle of track: ", to_string(steerangle), 0);
            car->ctrl.steer = steerangle / car->_steerLock;
+           Logger.AppendToLog("RECON: Steering command angle over lock: ", to_string(steerangle / car->_steerLock), 0);
            car->ctrl.gear = 1; // first gear
+           Logger.AppendToLog("RECON: Gear: ", to_string(1), 0);
            car->ctrl.accelCmd = 0.3; // 30% accelerator pedal
+           Logger.AppendToLog("RECON: Throttle: ", to_string(0.3), 0);
            car->ctrl.brakeCmd = 0.05; // rough fix to limit speed
+           Logger.AppendToLog("RECON: Brake: ", to_string(0.05), 0);
         }
 	
 	else{
