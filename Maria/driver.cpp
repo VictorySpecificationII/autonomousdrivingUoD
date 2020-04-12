@@ -37,7 +37,8 @@ using namespace std;
 
 /**********************************Logger Parameters*******************************/
 
-const int rate = 1000;//data logger sampling rate, 100ms is 1Hz
+const int rate = 1000;//data logger sampling rate, 1000ms is 10Hz
+Datalogger Logger = Datalogger();//init datalogger
 
 /**********************************************************************************/
 
@@ -110,10 +111,13 @@ int Datalogger::NewLog()
 
 int Datalogger::AppendToLog(string tag, string data, int rate){
 
-  ofstream MyFile("Log.txt", std::ios::app);
+  ofstream MyFile("/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/Log.txt", std::ios::app);
+  printf("%s\n", "DATALOGGER: Opening file to append to..." );
   char* dt = TimeStamp();
-  MyFile << dt << tag << " - " << data << ", ";
+  MyFile << tag << " - " << data << dt << ", \n";
+  /*MyFile << dt << tag << " - " << data << ", ";*/
   std::this_thread::sleep_for(std::chrono::milliseconds(rate));
+  printf("%s\n", "DATALOGGER: Data appended.");
   return 0;
 
 }
@@ -123,6 +127,8 @@ int Datalogger::AppendToLog(string tag, string data, int rate){
 void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituation *s)
 {
     track = t;
+    Logger.NewLog();//init new log
+
 
     char buffer[256];
     /* get a pointer to the first char of the track filename */
@@ -131,6 +137,8 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
 
     switch (s->_raceType) {
         case RM_TYPE_PRACTICE:
+            Logger.AppendToLog("Race Type: ", "RM_TYPE_PRACTICE ", 1);
+            printf("%s\n", "RACE TYPE: Practice");
             sprintf(buffer, "drivers/Maria/%d/practice/%s", INDEX, trackname);
             break;
         case RM_TYPE_QUALIF:
@@ -159,9 +167,6 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
 /* Start a new race. */
 void Driver::newRace(tCarElt* car, tSituation *s)
 {
-
-    Datalogger Logger = Datalogger();//init datalogger
-    Logger.NewLog();
 
     MAX_UNSTUCK_COUNT = int(UNSTUCK_TIME_LIMIT/RCM_MAX_DT_ROBOTS);
     stuck = 0;
