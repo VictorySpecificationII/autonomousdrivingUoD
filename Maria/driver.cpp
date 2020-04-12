@@ -215,13 +215,16 @@ void Driver::drive(tSituation *s)
 	
 	else{
         car->ctrl.steer = filterSColl(getSteer());
+        Logger.AppendToLog("Steering: ", to_string(filterSColl(getSteer())), 0);
         car->ctrl.gear = 1; // first gear
         car->ctrl.accelCmd = 0.3; // 30% accelerator pedal
         car->ctrl.brakeCmd = 0.0; // no brakes
 	    car->ctrl.gear = getGear();
         car->ctrl.brakeCmd = filterABS(filterBColl(filterBPit(getBrake())));
+        Logger.AppendToLog("Brake: ", to_string(filterABS(filterBColl(filterBPit(getBrake())))), 0);
         if (car->ctrl.brakeCmd == 0.0) {
             car->ctrl.accelCmd = filterTCL(filterTrk(getAccel()));
+            Logger.AppendToLog("Throttle: ", to_string(filterTCL(filterTrk(getAccel()))), 0);
         } else {
             car->ctrl.accelCmd = 0.0;
         }
@@ -248,10 +251,17 @@ void Driver::endRace(tSituation *s)
 void Driver::update(tSituation *s)
 {
     trackangle = RtTrackSideTgAngleL(&(car->_trkPos));
+    Logger.AppendToLog("Track angle: ", to_string(trackangle) + " Degrees", 0);
     angle = trackangle - car->_yaw;
+    Logger.AppendToLog("Yaw: ", to_string(car -> _yaw) + " Degrees", 0);
+    Logger.AppendToLog("Angle: ", to_string(angle) + " Degrees", 0);
     NORM_PI_PI(angle);
+    Logger.AppendToLog("Angle(Normalized): ", to_string(angle) + " Degrees", 0);
     mass = CARMASS + car->_fuel;
+    Logger.AppendToLog("Remaining Fuel: ", to_string(car->_fuel) + " L", 0);
+    Logger.AppendToLog("Mass with fuel update: ", to_string(mass) + " Kg", 0);
     speed = Opponent::getSpeed(car);
+    Logger.AppendToLog("Speed: ", to_string(speed) + " m/s", 0);
     opponents->update(s, this);
     currentspeedsqr = car->_speed_x*car->_speed_x;
     pit->update();
