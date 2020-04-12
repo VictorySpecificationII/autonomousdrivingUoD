@@ -112,12 +112,12 @@ int Datalogger::NewLog()
 int Datalogger::AppendToLog(string tag, string data, int rate){
 
   ofstream MyFile("/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/Log.txt", std::ios::app);
-  printf("%s\n", "DATALOGGER: Opening file to append to..." );
+  //printf("%s\n", "DATALOGGER: Opening file to append to..." );
   char* dt = TimeStamp();
   MyFile << tag << " - " << data << dt << ", \n";
   /*MyFile << dt << tag << " - " << data << ", ";*/
   std::this_thread::sleep_for(std::chrono::milliseconds(rate));
-  printf("%s\n", "DATALOGGER: Data appended.");
+  //printf("%s\n", "DATALOGGER: Data appended.");
   return 0;
 
 }
@@ -137,8 +137,8 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
 
     switch (s->_raceType) {
         case RM_TYPE_PRACTICE:
-            Logger.AppendToLog("Race Type: ", "RM_TYPE_PRACTICE ", 1);
-            printf("%s\n", "RACE TYPE: Practice");
+            Logger.AppendToLog("Race Type: ", "RM_TYPE_PRACTICE ", 0);
+            //printf("%s\n", "RACE TYPE: Practice");
             sprintf(buffer, "drivers/Maria/%d/practice/%s", INDEX, trackname);
             break;
         case RM_TYPE_QUALIF:
@@ -160,6 +160,7 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
         MARIA_ATT_FUELPERLAP, (char*)NULL, 5.0);
 
     fuel *= (s->_totLaps + 1.0);
+    Logger.AppendToLog("Fuel: ", to_string(fuel) + "L ", 0);
     GfParmSetNum(*carParmHandle, SECT_CAR, PRM_FUEL, (char*)NULL, MIN(fuel, 100.0));
 
 }
