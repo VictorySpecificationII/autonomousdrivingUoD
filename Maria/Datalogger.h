@@ -23,7 +23,8 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string>
-
+#include <chrono>
+#include <thread>//thread safe in the future?
 
 //TORCS headers
 /*#include <tgf.h>
@@ -41,7 +42,7 @@ class Datalogger {
   public:
       
       int NewLog();
-      int AppendToLog(string tag, string data);
+      int AppendToLog(string tag, string data, int rate);
       //void LoggerInitialization(tTrack* t, void *carHandle, void **carParmHandle, tSituation *s);
       //void LoggerRegisterNewRace(tCarElt* car, tSituation *s);
       //tCarElt *getCarPtr() { return car; }
