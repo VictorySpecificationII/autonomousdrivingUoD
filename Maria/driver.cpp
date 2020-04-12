@@ -16,9 +16,30 @@
  ***************************************************************************/
 
 #include "driver.h"
+#include "Datalogger.h"
+
+/*Logger stuff*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+#include <iostream>
+#include <fstream>
+#include <ctime>
+#include <chrono>
+#include <thread>//thread safe in the future?
+
+using namespace std;
+/*logger stuff ends*/
 
 #define MARIA_SECT_PRIV "Maria private"
 #define MARIA_ATT_FUELPERLAP "fuelperlap"
+
+/**********************************Logger Parameters*******************************/
+
+const int rate = 1000;//data logger sampling rate, 100ms is 1Hz
+
+/**********************************************************************************/
 
 
 const float Driver::MAX_UNSTUCK_ANGLE = 30.0/180.0*PI;  /* [radians] */
@@ -43,16 +64,65 @@ const float Driver::PIT_LOOKAHEAD = 6.0;       /* [m] */
 const float Driver::PIT_BRAKE_AHEAD = 200.0;   /* [m] */
 const float Driver::PIT_MU = 0.4;              /* [-] */
 
+
 Driver::Driver(int index)
 {
     INDEX = index;
 }
 
+
+/*********************************Logger Functions************************************/
+char* TimeStamp(){
+    // current date/time based on current system
+   time_t now = time(0);
+   
+   // convert now to string form
+   char* dt = ctime(&now);
+
+   //cout << "The local date and time is: " << dt << endl;
+
+   // convert now to tm struct for UTC
+   tm *gmtm = gmtime(&now);
+   dt = asctime(gmtm);
+   return dt;
+}
+
+int Datalogger::NewLog()
+{
+  
+  // Create and open a text file
+  ofstream MyFile("/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/Log.txt");
+  printf("%s\n", "DATALOGGER: Initializing logger...");
+
+   
+  // Write to the file
+  MyFile << "Beginning of log...\n";
+
+  char* dt = TimeStamp();
+   
+  MyFile << "The UTC date and time is: "<< dt << endl;
+
+  // Close the file
+  printf("%s\n", "DATALOGGER: Log created and initialized.");
+  //MyFile.close();
+  return 0;
+}
+
+int Datalogger::AppendToLog(string tag, string data, int rate){
+
+  ofstream MyFile("Log.txt", std::ios::app);
+  char* dt = TimeStamp();
+  MyFile << dt << tag << " - " << data << ", ";
+  std::this_thread::sleep_for(std::chrono::milliseconds(rate));
+  return 0;
+
+}
+/****************************************************************************************/
+
 /* Called for every track change or new race. */
 void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituation *s)
 {
     track = t;
-
 
     char buffer[256];
     /* get a pointer to the first char of the track filename */
@@ -89,6 +159,10 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
 /* Start a new race. */
 void Driver::newRace(tCarElt* car, tSituation *s)
 {
+
+    Datalogger Logger = Datalogger();//init datalogger
+    Logger.NewLog();
+
     MAX_UNSTUCK_COUNT = int(UNSTUCK_TIME_LIMIT/RCM_MAX_DT_ROBOTS);
     stuck = 0;
     this->car = car;

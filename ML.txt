@@ -34,4 +34,6 @@ ENHANCE - modify throttle to get as close to the limit of the g-g diagram as pos
 ENHANCE - modify steering to place car more on the outside after corner exit
 
 
-
+To:do
+Write recon mode for car (Complete)
+Write functions to log inputs in a suitable format for the ML algorithm(Pending)
