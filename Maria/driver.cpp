@@ -171,8 +171,10 @@ void Driver::newRace(tCarElt* car, tSituation *s)
 
     MAX_UNSTUCK_COUNT = int(UNSTUCK_TIME_LIMIT/RCM_MAX_DT_ROBOTS);
     stuck = 0;
+    Logger.AppendToLog("Stuck: ", to_string(stuck) + " ", 0);
     this->car = car;
     CARMASS = GfParmGetNum(car->_carHandle, SECT_CAR, PRM_MASS, NULL, 1000.0);
+    Logger.AppendToLog("Car Mass Unladen: ", to_string(CARMASS) +" ", 0);
     initCa();
     initCw();
     initTCLfilter();

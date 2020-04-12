@@ -1,7 +1,11 @@
 Beginning of log...
-The UTC date and time is: Sun Apr 12 15:45:22 2020
+The UTC date and time is: Sun Apr 12 16:12:20 2020
 
-Race Type:  - RM_TYPE_PRACTICE Sun Apr 12 15:45:22 2020
+Race Type:  - RM_TYPE_PRACTICE Sun Apr 12 16:12:20 2020
 , 
-Fuel:  - 30.000000L Sun Apr 12 15:45:22 2020
+Fuel:  - 30.000000L Sun Apr 12 16:12:20 2020
+, 
+Stuck:  - 0 Sun Apr 12 16:12:20 2020
+, 
+Car Mass Unladen:  - 1400.000000 Sun Apr 12 16:12:20 2020
 , 
