@@ -1,5 +1,5 @@
 Beginning of log...
-The UTC date and time is: Mon Apr 13 14:52:29 2020
+The UTC date and time is: Mon Apr 13 15:32:54 2020
 
 [SessionDetail]: Race Type: RM_TYPE_PRACTICE 
 [SessionDetail] Starting Fuel: 10.000000 L 
@@ -6112,6 +6112,6218 @@ The UTC date and time is: Mon Apr 13 14:52:29 2020
 [PositionY]: 13.810036 
 [Stuck]: 0 
 [FLAT OUT: Steering]: 0.000238 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001011 
+[RemainingFuel]: 9.788642 
+[MassWithFuelUpdate]: 1409.788696 
+[VehicleSpeed]: 41.101223 
+[SpeedX]: 41.101250 
+[PositionX]: 188.387894 
+[PositionY]: 13.808976 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000193 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000996 
+[RemainingFuel]: 9.788003 
+[MassWithFuelUpdate]: 1409.787964 
+[VehicleSpeed]: 41.182842 
+[SpeedX]: 41.182873 
+[PositionX]: 189.210739 
+[PositionY]: 13.807960 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000242 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001000 
+[RemainingFuel]: 9.787364 
+[MassWithFuelUpdate]: 1409.787354 
+[VehicleSpeed]: 41.235847 
+[SpeedX]: 41.235874 
+[PositionX]: 190.034927 
+[PositionY]: 13.806989 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000332 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000966 
+[RemainingFuel]: 9.786725 
+[MassWithFuelUpdate]: 1409.786743 
+[VehicleSpeed]: 41.304783 
+[SpeedX]: 41.304810 
+[PositionX]: 190.860565 
+[PositionY]: 13.806056 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000324 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000907 
+[RemainingFuel]: 9.786086 
+[MassWithFuelUpdate]: 1409.786133 
+[VehicleSpeed]: 41.385693 
+[SpeedX]: 41.385712 
+[PositionX]: 191.687515 
+[PositionY]: 13.805149 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000254 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000831 
+[RemainingFuel]: 9.785447 
+[MassWithFuelUpdate]: 1409.785400 
+[VehicleSpeed]: 41.442829 
+[SpeedX]: 41.442848 
+[PositionX]: 192.515778 
+[PositionY]: 13.804263 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000136 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000790 
+[RemainingFuel]: 9.784808 
+[MassWithFuelUpdate]: 1409.784790 
+[VehicleSpeed]: 41.508156 
+[SpeedX]: 41.508179 
+[PositionX]: 193.345444 
+[PositionY]: 13.803399 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000105 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000791 
+[RemainingFuel]: 9.784169 
+[MassWithFuelUpdate]: 1409.784180 
+[VehicleSpeed]: 41.588921 
+[SpeedX]: 41.588940 
+[PositionX]: 194.176437 
+[PositionY]: 13.802570 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000176 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000802 
+[RemainingFuel]: 9.783530 
+[MassWithFuelUpdate]: 1409.783569 
+[VehicleSpeed]: 41.641254 
+[SpeedX]: 41.641277 
+[PositionX]: 195.008743 
+[PositionY]: 13.801777 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000270 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000770 
+[RemainingFuel]: 9.782891 
+[MassWithFuelUpdate]: 1409.782837 
+[VehicleSpeed]: 41.713619 
+[SpeedX]: 41.713638 
+[PositionX]: 195.842499 
+[PositionY]: 13.801017 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000252 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000706 
+[RemainingFuel]: 9.782252 
+[MassWithFuelUpdate]: 1409.782227 
+[VehicleSpeed]: 41.789181 
+[SpeedX]: 41.789192 
+[PositionX]: 196.677551 
+[PositionY]: 13.800283 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000154 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000647 
+[RemainingFuel]: 9.781613 
+[MassWithFuelUpdate]: 1409.781616 
+[VehicleSpeed]: 41.844410 
+[SpeedX]: 41.844421 
+[PositionX]: 197.513901 
+[PositionY]: 13.799576 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000066 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000625 
+[RemainingFuel]: 9.780974 
+[MassWithFuelUpdate]: 1409.781006 
+[VehicleSpeed]: 41.910385 
+[SpeedX]: 41.910397 
+[PositionX]: 198.351624 
+[PositionY]: 13.798887 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000066 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000638 
+[RemainingFuel]: 9.780335 
+[MassWithFuelUpdate]: 1409.780396 
+[VehicleSpeed]: 41.990154 
+[SpeedX]: 41.990166 
+[PositionX]: 199.190643 
+[PositionY]: 13.798222 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000155 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000655 
+[RemainingFuel]: 9.779696 
+[MassWithFuelUpdate]: 1409.779663 
+[VehicleSpeed]: 42.041401 
+[SpeedX]: 42.041412 
+[PositionX]: 200.030945 
+[PositionY]: 13.797587 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000249 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000628 
+[RemainingFuel]: 9.779058 
+[MassWithFuelUpdate]: 1409.779053 
+[VehicleSpeed]: 42.110054 
+[SpeedX]: 42.110065 
+[PositionX]: 200.872650 
+[PositionY]: 13.796977 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000232 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000576 
+[RemainingFuel]: 9.778419 
+[MassWithFuelUpdate]: 1409.778442 
+[VehicleSpeed]: 42.189625 
+[SpeedX]: 42.189632 
+[PositionX]: 201.715668 
+[PositionY]: 13.796385 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000152 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000515 
+[RemainingFuel]: 9.777780 
+[MassWithFuelUpdate]: 1409.777832 
+[VehicleSpeed]: 42.243565 
+[SpeedX]: 42.243572 
+[PositionX]: 202.559982 
+[PositionY]: 13.795804 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000047 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000487 
+[RemainingFuel]: 9.777141 
+[MassWithFuelUpdate]: 1409.777100 
+[VehicleSpeed]: 42.310120 
+[SpeedX]: 42.310127 
+[PositionX]: 203.405701 
+[PositionY]: 13.795238 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000023 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000485 
+[RemainingFuel]: 9.776502 
+[MassWithFuelUpdate]: 1409.776489 
+[VehicleSpeed]: 42.389858 
+[SpeedX]: 42.389870 
+[PositionX]: 204.252747 
+[PositionY]: 13.794693 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000064 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000492 
+[RemainingFuel]: 9.775863 
+[MassWithFuelUpdate]: 1409.775879 
+[VehicleSpeed]: 42.446484 
+[SpeedX]: 42.446495 
+[PositionX]: 205.101074 
+[PositionY]: 13.794172 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000123 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000495 
+[RemainingFuel]: 9.775224 
+[MassWithFuelUpdate]: 1409.775269 
+[VehicleSpeed]: 42.502548 
+[SpeedX]: 42.502560 
+[PositionX]: 205.950699 
+[PositionY]: 13.793675 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000171 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000466 
+[RemainingFuel]: 9.774585 
+[MassWithFuelUpdate]: 1409.774536 
+[VehicleSpeed]: 42.579708 
+[SpeedX]: 42.579716 
+[PositionX]: 206.801712 
+[PositionY]: 13.793201 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000138 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000416 
+[RemainingFuel]: 9.773946 
+[MassWithFuelUpdate]: 1409.773926 
+[VehicleSpeed]: 42.647457 
+[SpeedX]: 42.647461 
+[PositionX]: 207.653946 
+[PositionY]: 13.792739 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000050 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000380 
+[RemainingFuel]: 9.773307 
+[MassWithFuelUpdate]: 1409.773315 
+[VehicleSpeed]: 42.700680 
+[SpeedX]: 42.700684 
+[PositionX]: 208.507492 
+[PositionY]: 13.792290 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000003 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000361 
+[RemainingFuel]: 9.772668 
+[MassWithFuelUpdate]: 1409.772705 
+[VehicleSpeed]: 42.767769 
+[SpeedX]: 42.767773 
+[PositionX]: 209.362366 
+[PositionY]: 13.791859 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000014 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000381 
+[RemainingFuel]: 9.772029 
+[MassWithFuelUpdate]: 1409.771973 
+[VehicleSpeed]: 42.845314 
+[SpeedX]: 42.845318 
+[PositionX]: 210.218475 
+[PositionY]: 13.791438 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000069 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000408 
+[RemainingFuel]: 9.771390 
+[MassWithFuelUpdate]: 1409.771362 
+[VehicleSpeed]: 42.897228 
+[SpeedX]: 42.897232 
+[PositionX]: 211.075897 
+[PositionY]: 13.791039 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000170 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000403 
+[RemainingFuel]: 9.770751 
+[MassWithFuelUpdate]: 1409.770752 
+[VehicleSpeed]: 42.961414 
+[SpeedX]: 42.961418 
+[PositionX]: 211.934662 
+[PositionY]: 13.790656 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000188 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000390 
+[RemainingFuel]: 9.770112 
+[MassWithFuelUpdate]: 1409.770142 
+[VehicleSpeed]: 43.029957 
+[SpeedX]: 43.029961 
+[PositionX]: 212.794693 
+[PositionY]: 13.790287 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000186 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000341 
+[RemainingFuel]: 9.769473 
+[MassWithFuelUpdate]: 1409.769531 
+[VehicleSpeed]: 43.098579 
+[SpeedX]: 43.098579 
+[PositionX]: 213.655960 
+[PositionY]: 13.789921 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000093 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000303 
+[RemainingFuel]: 9.768834 
+[MassWithFuelUpdate]: 1409.768799 
+[VehicleSpeed]: 43.151573 
+[SpeedX]: 43.151573 
+[PositionX]: 214.518524 
+[PositionY]: 13.789562 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000029 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000280 
+[RemainingFuel]: 9.768195 
+[MassWithFuelUpdate]: 1409.768188 
+[VehicleSpeed]: 43.213902 
+[SpeedX]: 43.213902 
+[PositionX]: 215.382355 
+[PositionY]: 13.789211 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000000 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000290 
+[RemainingFuel]: 9.767556 
+[MassWithFuelUpdate]: 1409.767578 
+[VehicleSpeed]: 43.293449 
+[SpeedX]: 43.293449 
+[PositionX]: 216.247467 
+[PositionY]: 13.788877 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000052 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000305 
+[RemainingFuel]: 9.766917 
+[MassWithFuelUpdate]: 1409.766968 
+[VehicleSpeed]: 43.348190 
+[SpeedX]: 43.348190 
+[PositionX]: 217.113892 
+[PositionY]: 13.788559 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000115 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000312 
+[RemainingFuel]: 9.766278 
+[MassWithFuelUpdate]: 1409.766235 
+[VehicleSpeed]: 43.402031 
+[SpeedX]: 43.402031 
+[PositionX]: 217.981522 
+[PositionY]: 13.788255 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000156 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000288 
+[RemainingFuel]: 9.765639 
+[MassWithFuelUpdate]: 1409.765625 
+[VehicleSpeed]: 43.477211 
+[SpeedX]: 43.477211 
+[PositionX]: 218.850494 
+[PositionY]: 13.787959 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000120 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000260 
+[RemainingFuel]: 9.765000 
+[MassWithFuelUpdate]: 1409.765015 
+[VehicleSpeed]: 43.544064 
+[SpeedX]: 43.544067 
+[PositionX]: 219.720673 
+[PositionY]: 13.787679 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000075 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000210 
+[RemainingFuel]: 9.764361 
+[MassWithFuelUpdate]: 1409.764404 
+[VehicleSpeed]: 43.598057 
+[SpeedX]: 43.598061 
+[PositionX]: 220.592072 
+[PositionY]: 13.787398 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000029 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000184 
+[RemainingFuel]: 9.763722 
+[MassWithFuelUpdate]: 1409.763672 
+[VehicleSpeed]: 43.654694 
+[SpeedX]: 43.654697 
+[PositionX]: 221.464798 
+[PositionY]: 13.787136 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000072 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000190 
+[RemainingFuel]: 9.763083 
+[MassWithFuelUpdate]: 1409.763062 
+[VehicleSpeed]: 43.728462 
+[SpeedX]: 43.728466 
+[PositionX]: 222.338730 
+[PositionY]: 13.786877 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000037 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000204 
+[RemainingFuel]: 9.762444 
+[MassWithFuelUpdate]: 1409.762451 
+[VehicleSpeed]: 43.795109 
+[SpeedX]: 43.795113 
+[PositionX]: 223.213898 
+[PositionY]: 13.786634 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000018 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000238 
+[RemainingFuel]: 9.761806 
+[MassWithFuelUpdate]: 1409.761841 
+[VehicleSpeed]: 43.847157 
+[SpeedX]: 43.847157 
+[PositionX]: 224.090302 
+[PositionY]: 13.786407 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000121 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000248 
+[RemainingFuel]: 9.761167 
+[MassWithFuelUpdate]: 1409.761108 
+[VehicleSpeed]: 43.903633 
+[SpeedX]: 43.903633 
+[PositionX]: 224.967987 
+[PositionY]: 13.786181 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000165 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000231 
+[RemainingFuel]: 9.760528 
+[MassWithFuelUpdate]: 1409.760498 
+[VehicleSpeed]: 43.976509 
+[SpeedX]: 43.976513 
+[PositionX]: 225.846924 
+[PositionY]: 13.785972 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000139 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000214 
+[RemainingFuel]: 9.759889 
+[MassWithFuelUpdate]: 1409.759888 
+[VehicleSpeed]: 44.041862 
+[SpeedX]: 44.041866 
+[PositionX]: 226.727081 
+[PositionY]: 13.785770 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000112 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000172 
+[RemainingFuel]: 9.759250 
+[MassWithFuelUpdate]: 1409.759277 
+[VehicleSpeed]: 44.096214 
+[SpeedX]: 44.096214 
+[PositionX]: 227.608475 
+[PositionY]: 13.785559 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000024 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000144 
+[RemainingFuel]: 9.758611 
+[MassWithFuelUpdate]: 1409.758667 
+[VehicleSpeed]: 44.150131 
+[SpeedX]: 44.150131 
+[PositionX]: 228.491058 
+[PositionY]: 13.785354 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000028 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000135 
+[RemainingFuel]: 9.757972 
+[MassWithFuelUpdate]: 1409.757935 
+[VehicleSpeed]: 44.215469 
+[SpeedX]: 44.215469 
+[PositionX]: 229.374893 
+[PositionY]: 13.785165 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000036 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000153 
+[RemainingFuel]: 9.757333 
+[MassWithFuelUpdate]: 1409.757324 
+[VehicleSpeed]: 44.289368 
+[SpeedX]: 44.289368 
+[PositionX]: 230.259949 
+[PositionY]: 13.784970 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000025 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000163 
+[RemainingFuel]: 9.756694 
+[MassWithFuelUpdate]: 1409.756714 
+[VehicleSpeed]: 44.346825 
+[SpeedX]: 44.346828 
+[PositionX]: 231.146225 
+[PositionY]: 13.784781 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000064 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000175 
+[RemainingFuel]: 9.756055 
+[MassWithFuelUpdate]: 1409.756104 
+[VehicleSpeed]: 44.396946 
+[SpeedX]: 44.396946 
+[PositionX]: 232.033768 
+[PositionY]: 13.784613 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000109 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000171 
+[RemainingFuel]: 9.755416 
+[MassWithFuelUpdate]: 1409.755371 
+[VehicleSpeed]: 44.457649 
+[SpeedX]: 44.457649 
+[PositionX]: 232.922501 
+[PositionY]: 13.784455 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000110 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000155 
+[RemainingFuel]: 9.754777 
+[MassWithFuelUpdate]: 1409.754761 
+[VehicleSpeed]: 44.527130 
+[SpeedX]: 44.527130 
+[PositionX]: 233.812454 
+[PositionY]: 13.784292 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000085 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000121 
+[RemainingFuel]: 9.754138 
+[MassWithFuelUpdate]: 1409.754150 
+[VehicleSpeed]: 44.589222 
+[SpeedX]: 44.589222 
+[PositionX]: 234.703583 
+[PositionY]: 13.784135 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000012 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000086 
+[RemainingFuel]: 9.753499 
+[MassWithFuelUpdate]: 1409.753540 
+[VehicleSpeed]: 44.642788 
+[SpeedX]: 44.642788 
+[PositionX]: 235.595886 
+[PositionY]: 13.783989 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000065 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000070 
+[RemainingFuel]: 9.752860 
+[MassWithFuelUpdate]: 1409.752808 
+[VehicleSpeed]: 44.697029 
+[SpeedX]: 44.697029 
+[PositionX]: 236.489441 
+[PositionY]: 13.783858 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000092 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000071 
+[RemainingFuel]: 9.752221 
+[MassWithFuelUpdate]: 1409.752197 
+[VehicleSpeed]: 44.759766 
+[SpeedX]: 44.759766 
+[PositionX]: 237.384201 
+[PositionY]: 13.783730 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000081 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000093 
+[RemainingFuel]: 9.751582 
+[MassWithFuelUpdate]: 1409.751587 
+[VehicleSpeed]: 44.832283 
+[SpeedX]: 44.832283 
+[PositionX]: 238.280136 
+[PositionY]: 13.783598 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000015 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000110 
+[RemainingFuel]: 9.750943 
+[MassWithFuelUpdate]: 1409.750977 
+[VehicleSpeed]: 44.889912 
+[SpeedX]: 44.889912 
+[PositionX]: 239.177261 
+[PositionY]: 13.783466 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000037 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000126 
+[RemainingFuel]: 9.750304 
+[MassWithFuelUpdate]: 1409.750244 
+[VehicleSpeed]: 44.941406 
+[SpeedX]: 44.941406 
+[PositionX]: 240.075592 
+[PositionY]: 13.783341 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000088 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000133 
+[RemainingFuel]: 9.749665 
+[MassWithFuelUpdate]: 1409.749634 
+[VehicleSpeed]: 44.994934 
+[SpeedX]: 44.994934 
+[PositionX]: 240.975082 
+[PositionY]: 13.783229 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000114 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000118 
+[RemainingFuel]: 9.749026 
+[MassWithFuelUpdate]: 1409.749023 
+[VehicleSpeed]: 45.061668 
+[SpeedX]: 45.061668 
+[PositionX]: 241.875778 
+[PositionY]: 13.783133 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000085 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000105 
+[RemainingFuel]: 9.748387 
+[MassWithFuelUpdate]: 1409.748413 
+[VehicleSpeed]: 45.126122 
+[SpeedX]: 45.126122 
+[PositionX]: 242.777664 
+[PositionY]: 13.783041 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000058 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000079 
+[RemainingFuel]: 9.747748 
+[MassWithFuelUpdate]: 1409.747803 
+[VehicleSpeed]: 45.186047 
+[SpeedX]: 45.186047 
+[PositionX]: 243.680725 
+[PositionY]: 13.782952 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000001 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000051 
+[RemainingFuel]: 9.747110 
+[MassWithFuelUpdate]: 1409.747070 
+[VehicleSpeed]: 45.237717 
+[SpeedX]: 45.237717 
+[PositionX]: 244.584915 
+[PositionY]: 13.782867 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000061 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000034 
+[RemainingFuel]: 9.746473 
+[MassWithFuelUpdate]: 1409.746460 
+[VehicleSpeed]: 45.288788 
+[SpeedX]: 45.288788 
+[PositionX]: 245.490341 
+[PositionY]: 13.782784 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000098 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000032 
+[RemainingFuel]: 9.745836 
+[MassWithFuelUpdate]: 1409.745850 
+[VehicleSpeed]: 45.349167 
+[SpeedX]: 45.349167 
+[PositionX]: 246.396896 
+[PositionY]: 13.782703 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000096 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000045 
+[RemainingFuel]: 9.745201 
+[MassWithFuelUpdate]: 1409.745239 
+[VehicleSpeed]: 45.415161 
+[SpeedX]: 45.415161 
+[PositionX]: 247.304596 
+[PositionY]: 13.782624 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000058 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000067 
+[RemainingFuel]: 9.744567 
+[MassWithFuelUpdate]: 1409.744507 
+[VehicleSpeed]: 45.474625 
+[SpeedX]: 45.474625 
+[PositionX]: 248.213440 
+[PositionY]: 13.782551 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000003 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000085 
+[RemainingFuel]: 9.743933 
+[MassWithFuelUpdate]: 1409.743896 
+[VehicleSpeed]: 45.528702 
+[SpeedX]: 45.528702 
+[PositionX]: 249.123459 
+[PositionY]: 13.782484 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000053 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000101 
+[RemainingFuel]: 9.743298 
+[MassWithFuelUpdate]: 1409.743286 
+[VehicleSpeed]: 45.579418 
+[SpeedX]: 45.579418 
+[PositionX]: 250.034607 
+[PositionY]: 13.782432 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000098 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000106 
+[RemainingFuel]: 9.742663 
+[MassWithFuelUpdate]: 1409.742676 
+[VehicleSpeed]: 45.636257 
+[SpeedX]: 45.636257 
+[PositionX]: 250.946945 
+[PositionY]: 13.782389 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000112 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000052 
+[RemainingFuel]: 9.742027 
+[MassWithFuelUpdate]: 1409.742065 
+[VehicleSpeed]: 45.698120 
+[SpeedX]: 45.698120 
+[PositionX]: 251.860565 
+[PositionY]: 13.782324 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000016 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000053 
+[RemainingFuel]: 9.741393 
+[MassWithFuelUpdate]: 1409.741333 
+[VehicleSpeed]: 45.759781 
+[SpeedX]: 45.759781 
+[PositionX]: 252.775253 
+[PositionY]: 13.782285 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000011 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000058 
+[RemainingFuel]: 9.740761 
+[MassWithFuelUpdate]: 1409.740723 
+[VehicleSpeed]: 45.818447 
+[SpeedX]: 45.818447 
+[PositionX]: 253.691025 
+[PositionY]: 13.782250 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000004 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000072 
+[RemainingFuel]: 9.740129 
+[MassWithFuelUpdate]: 1409.740112 
+[VehicleSpeed]: 45.877155 
+[SpeedX]: 45.877155 
+[PositionX]: 254.607910 
+[PositionY]: 13.782228 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000042 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000090 
+[RemainingFuel]: 9.739495 
+[MassWithFuelUpdate]: 1409.739502 
+[VehicleSpeed]: 45.927998 
+[SpeedX]: 45.927998 
+[PositionX]: 255.525955 
+[PositionY]: 13.782217 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000087 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000100 
+[RemainingFuel]: 9.738863 
+[MassWithFuelUpdate]: 1409.738892 
+[VehicleSpeed]: 45.976868 
+[SpeedX]: 45.976868 
+[PositionX]: 256.445129 
+[PositionY]: 13.782209 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000112 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000091 
+[RemainingFuel]: 9.738231 
+[MassWithFuelUpdate]: 1409.738281 
+[VehicleSpeed]: 46.035419 
+[SpeedX]: 46.035419 
+[PositionX]: 257.365448 
+[PositionY]: 13.782207 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000090 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000070 
+[RemainingFuel]: 9.737597 
+[MassWithFuelUpdate]: 1409.737549 
+[VehicleSpeed]: 46.094494 
+[SpeedX]: 46.094494 
+[PositionX]: 258.286896 
+[PositionY]: 13.782209 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.000038 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000039 
+[RemainingFuel]: 9.736963 
+[MassWithFuelUpdate]: 1409.736938 
+[VehicleSpeed]: 46.157043 
+[SpeedX]: 46.157043 
+[PositionX]: 259.209442 
+[PositionY]: 13.782214 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000038 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000003 
+[RemainingFuel]: 9.736328 
+[MassWithFuelUpdate]: 1409.736328 
+[VehicleSpeed]: 46.215458 
+[SpeedX]: 46.215458 
+[PositionX]: 260.133087 
+[PositionY]: 13.782230 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000130 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000032 
+[RemainingFuel]: 9.735693 
+[MassWithFuelUpdate]: 1409.735718 
+[VehicleSpeed]: 46.265724 
+[SpeedX]: 46.265724 
+[PositionX]: 261.057831 
+[PositionY]: 13.782252 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000219 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000047 
+[RemainingFuel]: 9.735060 
+[MassWithFuelUpdate]: 1409.735107 
+[VehicleSpeed]: 46.332806 
+[SpeedX]: 46.332806 
+[PositionX]: 261.983856 
+[PositionY]: 13.782256 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000258 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000031 
+[RemainingFuel]: 9.734425 
+[MassWithFuelUpdate]: 1409.734375 
+[VehicleSpeed]: 46.372295 
+[SpeedX]: 46.372295 
+[PositionX]: 262.910980 
+[PositionY]: 13.782311 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000221 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000031 
+[RemainingFuel]: 9.733788 
+[MassWithFuelUpdate]: 1409.733765 
+[VehicleSpeed]: 46.424522 
+[SpeedX]: 46.424522 
+[PositionX]: 263.839081 
+[PositionY]: 13.782385 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000227 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000025 
+[RemainingFuel]: 9.733149 
+[MassWithFuelUpdate]: 1409.733154 
+[VehicleSpeed]: 46.479488 
+[SpeedX]: 46.479488 
+[PositionX]: 264.768311 
+[PositionY]: 13.782475 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000218 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000029 
+[RemainingFuel]: 9.732510 
+[MassWithFuelUpdate]: 1409.732544 
+[VehicleSpeed]: 46.544106 
+[SpeedX]: 46.544106 
+[PositionX]: 265.698608 
+[PositionY]: 13.782583 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000237 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000026 
+[RemainingFuel]: 9.731871 
+[MassWithFuelUpdate]: 1409.731812 
+[VehicleSpeed]: 46.601196 
+[SpeedX]: 46.601196 
+[PositionX]: 266.630035 
+[PositionY]: 13.782712 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000238 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000032 
+[RemainingFuel]: 9.731232 
+[MassWithFuelUpdate]: 1409.731201 
+[VehicleSpeed]: 46.659439 
+[SpeedX]: 46.659439 
+[PositionX]: 267.562561 
+[PositionY]: 13.782850 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000263 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000043 
+[RemainingFuel]: 9.730593 
+[MassWithFuelUpdate]: 1409.730591 
+[VehicleSpeed]: 46.709194 
+[SpeedX]: 46.709194 
+[PositionX]: 268.496185 
+[PositionY]: 13.782998 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000302 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000048 
+[RemainingFuel]: 9.729954 
+[MassWithFuelUpdate]: 1409.729980 
+[VehicleSpeed]: 46.757542 
+[SpeedX]: 46.757542 
+[PositionX]: 269.430969 
+[PositionY]: 13.783154 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000328 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000042 
+[RemainingFuel]: 9.729315 
+[MassWithFuelUpdate]: 1409.729370 
+[VehicleSpeed]: 46.810688 
+[SpeedX]: 46.810688 
+[PositionX]: 270.366821 
+[PositionY]: 13.783325 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000326 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000028 
+[RemainingFuel]: 9.728676 
+[MassWithFuelUpdate]: 1409.728638 
+[VehicleSpeed]: 46.867626 
+[SpeedX]: 46.867626 
+[PositionX]: 271.303833 
+[PositionY]: 13.783504 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000304 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000013 
+[RemainingFuel]: 9.728036 
+[MassWithFuelUpdate]: 1409.728027 
+[VehicleSpeed]: 46.937077 
+[SpeedX]: 46.937077 
+[PositionX]: 272.241882 
+[PositionY]: 13.783671 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000214 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000038 
+[RemainingFuel]: 9.727397 
+[MassWithFuelUpdate]: 1409.727417 
+[VehicleSpeed]: 46.980564 
+[SpeedX]: 46.980564 
+[PositionX]: 273.181091 
+[PositionY]: 13.783869 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000166 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000047 
+[RemainingFuel]: 9.726758 
+[MassWithFuelUpdate]: 1409.726807 
+[VehicleSpeed]: 47.036819 
+[SpeedX]: 47.036819 
+[PositionX]: 274.121338 
+[PositionY]: 13.784072 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000161 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000042 
+[RemainingFuel]: 9.726117 
+[MassWithFuelUpdate]: 1409.726074 
+[VehicleSpeed]: 47.096512 
+[SpeedX]: 47.096512 
+[PositionX]: 275.062683 
+[PositionY]: 13.784287 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000190 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000044 
+[RemainingFuel]: 9.725476 
+[MassWithFuelUpdate]: 1409.725464 
+[VehicleSpeed]: 47.149059 
+[SpeedX]: 47.149059 
+[PositionX]: 276.005066 
+[PositionY]: 13.784517 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000203 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000025 
+[RemainingFuel]: 9.724833 
+[MassWithFuelUpdate]: 1409.724854 
+[VehicleSpeed]: 47.201538 
+[SpeedX]: 47.201538 
+[PositionX]: 276.948517 
+[PositionY]: 13.784756 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000268 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000017 
+[RemainingFuel]: 9.724190 
+[MassWithFuelUpdate]: 1409.724243 
+[VehicleSpeed]: 47.254684 
+[SpeedX]: 47.254684 
+[PositionX]: 277.893097 
+[PositionY]: 13.785010 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000307 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000002 
+[RemainingFuel]: 9.723547 
+[MassWithFuelUpdate]: 1409.723511 
+[VehicleSpeed]: 47.303249 
+[SpeedX]: 47.303249 
+[PositionX]: 278.838806 
+[PositionY]: 13.785272 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000373 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000007 
+[RemainingFuel]: 9.722903 
+[MassWithFuelUpdate]: 1409.722900 
+[VehicleSpeed]: 47.355621 
+[SpeedX]: 47.355621 
+[PositionX]: 279.785461 
+[PositionY]: 13.785542 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000407 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.000007 
+[RemainingFuel]: 9.722259 
+[MassWithFuelUpdate]: 1409.722290 
+[VehicleSpeed]: 47.410259 
+[SpeedX]: 47.410259 
+[PositionX]: 280.733246 
+[PositionY]: 13.785832 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000428 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000005 
+[RemainingFuel]: 9.721613 
+[MassWithFuelUpdate]: 1409.721558 
+[VehicleSpeed]: 47.467365 
+[SpeedX]: 47.467365 
+[PositionX]: 281.682159 
+[PositionY]: 13.786128 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000421 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000043 
+[RemainingFuel]: 9.720967 
+[MassWithFuelUpdate]: 1409.720947 
+[VehicleSpeed]: 47.531048 
+[SpeedX]: 47.531048 
+[PositionX]: 282.632141 
+[PositionY]: 13.786434 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000349 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000067 
+[RemainingFuel]: 9.720325 
+[MassWithFuelUpdate]: 1409.720337 
+[VehicleSpeed]: 47.578247 
+[SpeedX]: 47.578247 
+[PositionX]: 283.583252 
+[PositionY]: 13.786762 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000314 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000078 
+[RemainingFuel]: 9.719677 
+[MassWithFuelUpdate]: 1409.719727 
+[VehicleSpeed]: 47.628651 
+[SpeedX]: 47.628651 
+[PositionX]: 284.535339 
+[PositionY]: 13.787105 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000313 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000068 
+[RemainingFuel]: 9.719028 
+[MassWithFuelUpdate]: 1409.718994 
+[VehicleSpeed]: 47.689209 
+[SpeedX]: 47.689209 
+[PositionX]: 285.488495 
+[PositionY]: 13.787461 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000363 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000068 
+[RemainingFuel]: 9.718380 
+[MassWithFuelUpdate]: 1409.718384 
+[VehicleSpeed]: 47.741074 
+[SpeedX]: 47.741074 
+[PositionX]: 286.442688 
+[PositionY]: 13.787834 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000391 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000053 
+[RemainingFuel]: 9.717731 
+[MassWithFuelUpdate]: 1409.717773 
+[VehicleSpeed]: 47.793190 
+[SpeedX]: 47.793190 
+[PositionX]: 287.398010 
+[PositionY]: 13.788218 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000459 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000047 
+[RemainingFuel]: 9.717083 
+[MassWithFuelUpdate]: 1409.717041 
+[VehicleSpeed]: 47.845249 
+[SpeedX]: 47.845249 
+[PositionX]: 288.354431 
+[PositionY]: 13.788623 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000503 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000039 
+[RemainingFuel]: 9.716434 
+[MassWithFuelUpdate]: 1409.716431 
+[VehicleSpeed]: 47.892574 
+[SpeedX]: 47.892574 
+[PositionX]: 289.311829 
+[PositionY]: 13.789039 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000555 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000036 
+[RemainingFuel]: 9.715786 
+[MassWithFuelUpdate]: 1409.715820 
+[VehicleSpeed]: 47.945202 
+[SpeedX]: 47.945202 
+[PositionX]: 290.270355 
+[PositionY]: 13.789474 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000596 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000043 
+[RemainingFuel]: 9.715137 
+[MassWithFuelUpdate]: 1409.715088 
+[VehicleSpeed]: 47.996643 
+[SpeedX]: 47.996643 
+[PositionX]: 291.229858 
+[PositionY]: 13.789921 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000611 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000053 
+[RemainingFuel]: 9.714489 
+[MassWithFuelUpdate]: 1409.714478 
+[VehicleSpeed]: 48.051506 
+[SpeedX]: 48.051506 
+[PositionX]: 292.190460 
+[PositionY]: 13.790379 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000621 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000099 
+[RemainingFuel]: 9.713840 
+[MassWithFuelUpdate]: 1409.713867 
+[VehicleSpeed]: 48.118355 
+[SpeedX]: 48.118351 
+[PositionX]: 293.152161 
+[PositionY]: 13.790833 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000541 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000133 
+[RemainingFuel]: 9.713192 
+[MassWithFuelUpdate]: 1409.713135 
+[VehicleSpeed]: 48.156406 
+[SpeedX]: 48.156403 
+[PositionX]: 294.114960 
+[PositionY]: 13.791320 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000491 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000155 
+[RemainingFuel]: 9.712543 
+[MassWithFuelUpdate]: 1409.712524 
+[VehicleSpeed]: 48.205341 
+[SpeedX]: 48.205338 
+[PositionX]: 295.078735 
+[PositionY]: 13.791824 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000474 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000166 
+[RemainingFuel]: 9.711894 
+[MassWithFuelUpdate]: 1409.711914 
+[VehicleSpeed]: 48.266640 
+[SpeedX]: 48.266636 
+[PositionX]: 296.043549 
+[PositionY]: 13.792343 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000487 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000180 
+[RemainingFuel]: 9.711245 
+[MassWithFuelUpdate]: 1409.711304 
+[VehicleSpeed]: 48.319260 
+[SpeedX]: 48.319256 
+[PositionX]: 297.009460 
+[PositionY]: 13.792877 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000491 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000189 
+[RemainingFuel]: 9.710594 
+[MassWithFuelUpdate]: 1409.710571 
+[VehicleSpeed]: 48.369568 
+[SpeedX]: 48.369564 
+[PositionX]: 297.976379 
+[PositionY]: 13.793427 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000510 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000184 
+[RemainingFuel]: 9.709943 
+[MassWithFuelUpdate]: 1409.709961 
+[VehicleSpeed]: 48.428619 
+[SpeedX]: 48.428616 
+[PositionX]: 298.944366 
+[PositionY]: 13.793987 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000565 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000185 
+[RemainingFuel]: 9.709291 
+[MassWithFuelUpdate]: 1409.709351 
+[VehicleSpeed]: 48.481316 
+[SpeedX]: 48.481312 
+[PositionX]: 299.913452 
+[PositionY]: 13.794565 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000605 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000181 
+[RemainingFuel]: 9.708639 
+[MassWithFuelUpdate]: 1409.708618 
+[VehicleSpeed]: 48.531769 
+[SpeedX]: 48.531765 
+[PositionX]: 300.883514 
+[PositionY]: 13.795159 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000659 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000175 
+[RemainingFuel]: 9.707985 
+[MassWithFuelUpdate]: 1409.708008 
+[VehicleSpeed]: 48.584000 
+[SpeedX]: 48.583996 
+[PositionX]: 301.854645 
+[PositionY]: 13.795762 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000720 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000180 
+[RemainingFuel]: 9.707331 
+[MassWithFuelUpdate]: 1409.707275 
+[VehicleSpeed]: 48.635929 
+[SpeedX]: 48.635925 
+[PositionX]: 302.826782 
+[PositionY]: 13.796385 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000753 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000187 
+[RemainingFuel]: 9.706678 
+[MassWithFuelUpdate]: 1409.706665 
+[VehicleSpeed]: 48.695324 
+[SpeedX]: 48.695316 
+[PositionX]: 303.800049 
+[PositionY]: 13.796988 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000781 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000221 
+[RemainingFuel]: 9.706024 
+[MassWithFuelUpdate]: 1409.706055 
+[VehicleSpeed]: 48.739635 
+[SpeedX]: 48.739628 
+[PositionX]: 304.774292 
+[PositionY]: 13.797626 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000744 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000243 
+[RemainingFuel]: 9.705370 
+[MassWithFuelUpdate]: 1409.705322 
+[VehicleSpeed]: 48.789581 
+[SpeedX]: 48.789570 
+[PositionX]: 305.749573 
+[PositionY]: 13.798280 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000737 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000261 
+[RemainingFuel]: 9.704714 
+[MassWithFuelUpdate]: 1409.704712 
+[VehicleSpeed]: 48.840145 
+[SpeedX]: 48.840134 
+[PositionX]: 306.725922 
+[PositionY]: 13.798948 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000740 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000280 
+[RemainingFuel]: 9.704056 
+[MassWithFuelUpdate]: 1409.704102 
+[VehicleSpeed]: 48.891075 
+[SpeedX]: 48.891064 
+[PositionX]: 307.703217 
+[PositionY]: 13.799630 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000744 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000306 
+[RemainingFuel]: 9.703398 
+[MassWithFuelUpdate]: 1409.703369 
+[VehicleSpeed]: 48.938198 
+[SpeedX]: 48.938183 
+[PositionX]: 308.681610 
+[PositionY]: 13.800322 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000730 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000321 
+[RemainingFuel]: 9.702740 
+[MassWithFuelUpdate]: 1409.702759 
+[VehicleSpeed]: 48.988728 
+[SpeedX]: 48.988712 
+[PositionX]: 309.661072 
+[PositionY]: 13.801027 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000747 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000330 
+[RemainingFuel]: 9.702082 
+[MassWithFuelUpdate]: 1409.702026 
+[VehicleSpeed]: 49.039482 
+[SpeedX]: 49.039467 
+[PositionX]: 310.641541 
+[PositionY]: 13.801751 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000778 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000338 
+[RemainingFuel]: 9.701424 
+[MassWithFuelUpdate]: 1409.701416 
+[VehicleSpeed]: 49.089912 
+[SpeedX]: 49.089897 
+[PositionX]: 311.622986 
+[PositionY]: 13.802489 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000811 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000356 
+[RemainingFuel]: 9.700766 
+[MassWithFuelUpdate]: 1409.700806 
+[VehicleSpeed]: 49.139946 
+[SpeedX]: 49.139931 
+[PositionX]: 312.605469 
+[PositionY]: 13.803241 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000823 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000368 
+[RemainingFuel]: 9.700108 
+[MassWithFuelUpdate]: 1409.700073 
+[VehicleSpeed]: 49.193760 
+[SpeedX]: 49.193745 
+[PositionX]: 313.588989 
+[PositionY]: 13.804008 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000849 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000338 
+[RemainingFuel]: 9.699450 
+[MassWithFuelUpdate]: 1409.699463 
+[VehicleSpeed]: 49.248627 
+[SpeedX]: 49.248608 
+[PositionX]: 314.573608 
+[PositionY]: 13.804771 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000979 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000347 
+[RemainingFuel]: 9.698792 
+[MassWithFuelUpdate]: 1409.698730 
+[VehicleSpeed]: 49.297516 
+[SpeedX]: 49.297497 
+[PositionX]: 315.559174 
+[PositionY]: 13.805555 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001016 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000367 
+[RemainingFuel]: 9.698133 
+[MassWithFuelUpdate]: 1409.698120 
+[VehicleSpeed]: 49.347294 
+[SpeedX]: 49.347275 
+[PositionX]: 316.545746 
+[PositionY]: 13.806351 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001025 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000400 
+[RemainingFuel]: 9.697474 
+[MassWithFuelUpdate]: 1409.697510 
+[VehicleSpeed]: 49.397133 
+[SpeedX]: 49.397114 
+[PositionX]: 317.533264 
+[PositionY]: 13.807146 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001002 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000436 
+[RemainingFuel]: 9.696816 
+[MassWithFuelUpdate]: 1409.696777 
+[VehicleSpeed]: 49.447083 
+[SpeedX]: 49.447056 
+[PositionX]: 318.521881 
+[PositionY]: 13.807952 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000971 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000467 
+[RemainingFuel]: 9.696158 
+[MassWithFuelUpdate]: 1409.696167 
+[VehicleSpeed]: 49.500793 
+[SpeedX]: 49.500767 
+[PositionX]: 319.511475 
+[PositionY]: 13.808773 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000953 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000492 
+[RemainingFuel]: 9.695499 
+[MassWithFuelUpdate]: 1409.695557 
+[VehicleSpeed]: 49.551563 
+[SpeedX]: 49.551533 
+[PositionX]: 320.502136 
+[PositionY]: 13.809606 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000952 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000509 
+[RemainingFuel]: 9.694840 
+[MassWithFuelUpdate]: 1409.694824 
+[VehicleSpeed]: 49.602634 
+[SpeedX]: 49.602604 
+[PositionX]: 321.493835 
+[PositionY]: 13.810455 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000971 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000525 
+[RemainingFuel]: 9.694181 
+[MassWithFuelUpdate]: 1409.694214 
+[VehicleSpeed]: 49.652840 
+[SpeedX]: 49.652809 
+[PositionX]: 322.486481 
+[PositionY]: 13.811318 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000996 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000546 
+[RemainingFuel]: 9.693521 
+[MassWithFuelUpdate]: 1409.693481 
+[VehicleSpeed]: 49.702869 
+[SpeedX]: 49.702839 
+[PositionX]: 323.480164 
+[PositionY]: 13.812186 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001006 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000607 
+[RemainingFuel]: 9.692860 
+[MassWithFuelUpdate]: 1409.692871 
+[VehicleSpeed]: 49.764469 
+[SpeedX]: 49.764435 
+[PositionX]: 324.474854 
+[PositionY]: 13.813036 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000916 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000639 
+[RemainingFuel]: 9.692200 
+[MassWithFuelUpdate]: 1409.692139 
+[VehicleSpeed]: 49.802845 
+[SpeedX]: 49.802811 
+[PositionX]: 325.470581 
+[PositionY]: 13.813904 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000900 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000653 
+[RemainingFuel]: 9.691537 
+[MassWithFuelUpdate]: 1409.691528 
+[VehicleSpeed]: 49.851826 
+[SpeedX]: 49.851788 
+[PositionX]: 326.467285 
+[PositionY]: 13.814775 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000929 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000659 
+[RemainingFuel]: 9.690874 
+[MassWithFuelUpdate]: 1409.690918 
+[VehicleSpeed]: 49.901432 
+[SpeedX]: 49.901394 
+[PositionX]: 327.464996 
+[PositionY]: 13.815657 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000978 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000661 
+[RemainingFuel]: 9.690210 
+[MassWithFuelUpdate]: 1409.690186 
+[VehicleSpeed]: 49.950932 
+[SpeedX]: 49.950893 
+[PositionX]: 328.463684 
+[PositionY]: 13.816550 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001039 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000660 
+[RemainingFuel]: 9.689545 
+[MassWithFuelUpdate]: 1409.689575 
+[VehicleSpeed]: 50.000324 
+[SpeedX]: 50.000282 
+[PositionX]: 329.463348 
+[PositionY]: 13.817454 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001108 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000657 
+[RemainingFuel]: 9.688879 
+[MassWithFuelUpdate]: 1409.688843 
+[VehicleSpeed]: 50.049679 
+[SpeedX]: 50.049637 
+[PositionX]: 330.464050 
+[PositionY]: 13.818374 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001183 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000654 
+[RemainingFuel]: 9.688212 
+[MassWithFuelUpdate]: 1409.688232 
+[VehicleSpeed]: 50.099052 
+[SpeedX]: 50.099010 
+[PositionX]: 331.465729 
+[PositionY]: 13.819307 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001257 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000648 
+[RemainingFuel]: 9.687546 
+[MassWithFuelUpdate]: 1409.687500 
+[VehicleSpeed]: 50.150135 
+[SpeedX]: 50.150093 
+[PositionX]: 332.468384 
+[PositionY]: 13.820263 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001342 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000651 
+[RemainingFuel]: 9.686878 
+[MassWithFuelUpdate]: 1409.686890 
+[VehicleSpeed]: 50.199398 
+[SpeedX]: 50.199356 
+[PositionX]: 333.472076 
+[PositionY]: 13.821238 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001407 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000660 
+[RemainingFuel]: 9.686211 
+[MassWithFuelUpdate]: 1409.686157 
+[VehicleSpeed]: 50.247715 
+[SpeedX]: 50.247673 
+[PositionX]: 334.476746 
+[PositionY]: 13.822235 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001456 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000631 
+[RemainingFuel]: 9.685545 
+[MassWithFuelUpdate]: 1409.685547 
+[VehicleSpeed]: 50.306351 
+[SpeedX]: 50.306309 
+[PositionX]: 335.482483 
+[PositionY]: 13.823243 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001601 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000665 
+[RemainingFuel]: 9.684877 
+[MassWithFuelUpdate]: 1409.684937 
+[VehicleSpeed]: 50.356373 
+[SpeedX]: 50.356327 
+[PositionX]: 336.489227 
+[PositionY]: 13.824279 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001590 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000722 
+[RemainingFuel]: 9.684210 
+[MassWithFuelUpdate]: 1409.684204 
+[VehicleSpeed]: 50.406963 
+[SpeedX]: 50.406914 
+[PositionX]: 337.496887 
+[PositionY]: 13.825327 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001526 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000790 
+[RemainingFuel]: 9.683542 
+[MassWithFuelUpdate]: 1409.683594 
+[VehicleSpeed]: 50.455521 
+[SpeedX]: 50.455463 
+[PositionX]: 338.505554 
+[PositionY]: 13.826378 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001433 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000862 
+[RemainingFuel]: 9.682875 
+[MassWithFuelUpdate]: 1409.682861 
+[VehicleSpeed]: 50.507702 
+[SpeedX]: 50.507637 
+[PositionX]: 339.515137 
+[PositionY]: 13.827434 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001329 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000913 
+[RemainingFuel]: 9.682207 
+[MassWithFuelUpdate]: 1409.682251 
+[VehicleSpeed]: 50.557781 
+[SpeedX]: 50.557709 
+[PositionX]: 340.525696 
+[PositionY]: 13.828489 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001279 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000955 
+[RemainingFuel]: 9.681540 
+[MassWithFuelUpdate]: 1409.681519 
+[VehicleSpeed]: 50.607273 
+[SpeedX]: 50.607201 
+[PositionX]: 341.537292 
+[PositionY]: 13.829539 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001250 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000986 
+[RemainingFuel]: 9.680872 
+[MassWithFuelUpdate]: 1409.680908 
+[VehicleSpeed]: 50.656590 
+[SpeedX]: 50.656513 
+[PositionX]: 342.549927 
+[PositionY]: 13.830588 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001248 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001020 
+[RemainingFuel]: 9.680204 
+[MassWithFuelUpdate]: 1409.680176 
+[VehicleSpeed]: 50.706932 
+[SpeedX]: 50.706856 
+[PositionX]: 343.563507 
+[PositionY]: 13.831638 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001240 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001043 
+[RemainingFuel]: 9.679537 
+[MassWithFuelUpdate]: 1409.679565 
+[VehicleSpeed]: 50.756538 
+[SpeedX]: 50.756458 
+[PositionX]: 344.578064 
+[PositionY]: 13.832687 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001256 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001035 
+[RemainingFuel]: 9.678869 
+[MassWithFuelUpdate]: 1409.678833 
+[VehicleSpeed]: 50.807507 
+[SpeedX]: 50.807426 
+[PositionX]: 345.593750 
+[PositionY]: 13.833706 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001350 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001049 
+[RemainingFuel]: 9.678202 
+[MassWithFuelUpdate]: 1409.678223 
+[VehicleSpeed]: 50.854759 
+[SpeedX]: 50.854671 
+[PositionX]: 346.610321 
+[PositionY]: 13.834755 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001392 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001057 
+[RemainingFuel]: 9.677534 
+[MassWithFuelUpdate]: 1409.677490 
+[VehicleSpeed]: 50.903271 
+[SpeedX]: 50.903183 
+[PositionX]: 347.627869 
+[PositionY]: 13.835808 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001448 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001057 
+[RemainingFuel]: 9.676866 
+[MassWithFuelUpdate]: 1409.676880 
+[VehicleSpeed]: 50.946556 
+[SpeedX]: 50.946468 
+[PositionX]: 348.646332 
+[PositionY]: 13.836866 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001523 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001065 
+[RemainingFuel]: 9.676195 
+[MassWithFuelUpdate]: 1409.676147 
+[VehicleSpeed]: 50.996044 
+[SpeedX]: 50.995953 
+[PositionX]: 349.665741 
+[PositionY]: 13.837936 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001581 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001073 
+[RemainingFuel]: 9.675525 
+[MassWithFuelUpdate]: 1409.675537 
+[VehicleSpeed]: 51.045280 
+[SpeedX]: 51.045189 
+[PositionX]: 350.686157 
+[PositionY]: 13.839010 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001638 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001085 
+[RemainingFuel]: 9.674855 
+[MassWithFuelUpdate]: 1409.674805 
+[VehicleSpeed]: 51.094040 
+[SpeedX]: 51.093948 
+[PositionX]: 351.707581 
+[PositionY]: 13.840093 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001685 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001105 
+[RemainingFuel]: 9.674185 
+[MassWithFuelUpdate]: 1409.674194 
+[VehicleSpeed]: 51.142704 
+[SpeedX]: 51.142612 
+[PositionX]: 352.730011 
+[PositionY]: 13.841185 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001714 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001130 
+[RemainingFuel]: 9.673513 
+[MassWithFuelUpdate]: 1409.673462 
+[VehicleSpeed]: 51.187008 
+[SpeedX]: 51.186909 
+[PositionX]: 353.753357 
+[PositionY]: 13.842286 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001731 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001168 
+[RemainingFuel]: 9.672841 
+[MassWithFuelUpdate]: 1409.672852 
+[VehicleSpeed]: 51.236580 
+[SpeedX]: 51.236481 
+[PositionX]: 354.777710 
+[PositionY]: 13.843390 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001714 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001227 
+[RemainingFuel]: 9.672168 
+[MassWithFuelUpdate]: 1409.672119 
+[VehicleSpeed]: 51.292591 
+[SpeedX]: 51.292488 
+[PositionX]: 355.803040 
+[PositionY]: 13.844478 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001646 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001264 
+[RemainingFuel]: 9.671495 
+[MassWithFuelUpdate]: 1409.671509 
+[VehicleSpeed]: 51.330231 
+[SpeedX]: 51.330124 
+[PositionX]: 356.829346 
+[PositionY]: 13.845590 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001632 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001293 
+[RemainingFuel]: 9.670822 
+[MassWithFuelUpdate]: 1409.670776 
+[VehicleSpeed]: 51.378654 
+[SpeedX]: 51.378540 
+[PositionX]: 357.856598 
+[PositionY]: 13.846710 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001639 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001318 
+[RemainingFuel]: 9.670148 
+[MassWithFuelUpdate]: 1409.670166 
+[VehicleSpeed]: 51.432098 
+[SpeedX]: 51.431976 
+[PositionX]: 358.884827 
+[PositionY]: 13.847842 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001658 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001351 
+[RemainingFuel]: 9.669471 
+[MassWithFuelUpdate]: 1409.669434 
+[VehicleSpeed]: 51.480190 
+[SpeedX]: 51.480068 
+[PositionX]: 359.913971 
+[PositionY]: 13.848982 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001658 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001379 
+[RemainingFuel]: 9.668794 
+[MassWithFuelUpdate]: 1409.668823 
+[VehicleSpeed]: 51.529533 
+[SpeedX]: 51.529408 
+[PositionX]: 360.944092 
+[PositionY]: 13.850120 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001669 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001386 
+[RemainingFuel]: 9.668692 
+[MassWithFuelUpdate]: 1409.668701 
+[VehicleSpeed]: 51.529755 
+[SpeedX]: 51.529629 
+[PositionX]: 361.974854 
+[PositionY]: 13.851248 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001733 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001407 
+[RemainingFuel]: 9.668653 
+[MassWithFuelUpdate]: 1409.668701 
+[VehicleSpeed]: 51.506950 
+[SpeedX]: 51.506817 
+[PositionX]: 363.005249 
+[PositionY]: 13.852370 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001766 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001419 
+[RemainingFuel]: 9.668615 
+[MassWithFuelUpdate]: 1409.668579 
+[VehicleSpeed]: 51.482231 
+[SpeedX]: 51.482098 
+[PositionX]: 364.035095 
+[PositionY]: 13.853482 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001819 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001436 
+[RemainingFuel]: 9.668580 
+[MassWithFuelUpdate]: 1409.668579 
+[VehicleSpeed]: 51.457596 
+[SpeedX]: 51.457462 
+[PositionX]: 365.064453 
+[PositionY]: 13.854580 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001857 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001454 
+[RemainingFuel]: 9.668551 
+[MassWithFuelUpdate]: 1409.668579 
+[VehicleSpeed]: 51.433243 
+[SpeedX]: 51.433113 
+[PositionX]: 366.093353 
+[PositionY]: 13.855659 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001893 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001496 
+[RemainingFuel]: 9.668523 
+[MassWithFuelUpdate]: 1409.668579 
+[VehicleSpeed]: 51.408657 
+[SpeedX]: 51.408524 
+[PositionX]: 367.121735 
+[PositionY]: 13.856746 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001869 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001551 
+[RemainingFuel]: 9.668494 
+[MassWithFuelUpdate]: 1409.668457 
+[VehicleSpeed]: 51.384079 
+[SpeedX]: 51.383938 
+[PositionX]: 368.149658 
+[PositionY]: 13.857828 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001814 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001626 
+[RemainingFuel]: 9.668466 
+[MassWithFuelUpdate]: 1409.668457 
+[VehicleSpeed]: 51.359631 
+[SpeedX]: 51.359478 
+[PositionX]: 369.177063 
+[PositionY]: 13.858898 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001705 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001714 
+[RemainingFuel]: 9.668437 
+[MassWithFuelUpdate]: 1409.668457 
+[VehicleSpeed]: 51.335072 
+[SpeedX]: 51.334911 
+[PositionX]: 370.203979 
+[PositionY]: 13.859955 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001565 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001807 
+[RemainingFuel]: 9.668408 
+[MassWithFuelUpdate]: 1409.668457 
+[VehicleSpeed]: 51.310631 
+[SpeedX]: 51.310455 
+[PositionX]: 371.230408 
+[PositionY]: 13.860995 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001411 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001931 
+[RemainingFuel]: 9.667770 
+[MassWithFuelUpdate]: 1409.667725 
+[VehicleSpeed]: 51.329433 
+[SpeedX]: 51.329243 
+[PositionX]: 372.256805 
+[PositionY]: 13.862016 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001176 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002034 
+[RemainingFuel]: 9.667131 
+[MassWithFuelUpdate]: 1409.667114 
+[VehicleSpeed]: 51.372620 
+[SpeedX]: 51.372417 
+[PositionX]: 373.283936 
+[PositionY]: 13.863020 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000992 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002115 
+[RemainingFuel]: 9.666492 
+[MassWithFuelUpdate]: 1409.666504 
+[VehicleSpeed]: 51.423054 
+[SpeedX]: 51.422832 
+[PositionX]: 374.311981 
+[PositionY]: 13.864017 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000860 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002190 
+[RemainingFuel]: 9.665854 
+[MassWithFuelUpdate]: 1409.665894 
+[VehicleSpeed]: 51.467987 
+[SpeedX]: 51.467758 
+[PositionX]: 375.340942 
+[PositionY]: 13.865002 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000743 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002211 
+[RemainingFuel]: 9.665215 
+[MassWithFuelUpdate]: 1409.665161 
+[VehicleSpeed]: 51.511459 
+[SpeedX]: 51.511227 
+[PositionX]: 376.370819 
+[PositionY]: 13.865979 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000759 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002189 
+[RemainingFuel]: 9.664576 
+[MassWithFuelUpdate]: 1409.664551 
+[VehicleSpeed]: 51.558018 
+[SpeedX]: 51.557793 
+[PositionX]: 377.401642 
+[PositionY]: 13.866943 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000881 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002141 
+[RemainingFuel]: 9.663937 
+[MassWithFuelUpdate]: 1409.663940 
+[VehicleSpeed]: 51.599113 
+[SpeedX]: 51.598892 
+[PositionX]: 378.433289 
+[PositionY]: 13.867905 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001068 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002064 
+[RemainingFuel]: 9.663298 
+[MassWithFuelUpdate]: 1409.663330 
+[VehicleSpeed]: 51.642864 
+[SpeedX]: 51.642654 
+[PositionX]: 379.465759 
+[PositionY]: 13.868888 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001329 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001980 
+[RemainingFuel]: 9.662659 
+[MassWithFuelUpdate]: 1409.662598 
+[VehicleSpeed]: 51.685867 
+[SpeedX]: 51.685669 
+[PositionX]: 380.499115 
+[PositionY]: 13.869885 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001610 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001901 
+[RemainingFuel]: 9.662020 
+[MassWithFuelUpdate]: 1409.661987 
+[VehicleSpeed]: 51.725998 
+[SpeedX]: 51.725811 
+[PositionX]: 381.533386 
+[PositionY]: 13.870896 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001878 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001823 
+[RemainingFuel]: 9.661381 
+[MassWithFuelUpdate]: 1409.661377 
+[VehicleSpeed]: 51.770397 
+[SpeedX]: 51.770218 
+[PositionX]: 382.568573 
+[PositionY]: 13.871933 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002145 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001761 
+[RemainingFuel]: 9.660742 
+[MassWithFuelUpdate]: 1409.660767 
+[VehicleSpeed]: 51.814655 
+[SpeedX]: 51.814484 
+[PositionX]: 383.604614 
+[PositionY]: 13.872989 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002374 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001718 
+[RemainingFuel]: 9.660103 
+[MassWithFuelUpdate]: 1409.660156 
+[VehicleSpeed]: 51.860474 
+[SpeedX]: 51.860306 
+[PositionX]: 384.641479 
+[PositionY]: 13.874072 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002558 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001701 
+[RemainingFuel]: 9.659464 
+[MassWithFuelUpdate]: 1409.659424 
+[VehicleSpeed]: 51.904438 
+[SpeedX]: 51.904274 
+[PositionX]: 385.679230 
+[PositionY]: 13.875181 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002677 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001692 
+[RemainingFuel]: 9.658825 
+[MassWithFuelUpdate]: 1409.658813 
+[VehicleSpeed]: 51.948708 
+[SpeedX]: 51.948540 
+[PositionX]: 386.717926 
+[PositionY]: 13.876323 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002780 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001705 
+[RemainingFuel]: 9.658186 
+[MassWithFuelUpdate]: 1409.658203 
+[VehicleSpeed]: 51.997810 
+[SpeedX]: 51.997639 
+[PositionX]: 387.757507 
+[PositionY]: 13.877485 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002829 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001751 
+[RemainingFuel]: 9.657547 
+[MassWithFuelUpdate]: 1409.657593 
+[VehicleSpeed]: 52.040462 
+[SpeedX]: 52.040283 
+[PositionX]: 388.797913 
+[PositionY]: 13.878679 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002799 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001829 
+[RemainingFuel]: 9.656908 
+[MassWithFuelUpdate]: 1409.656860 
+[VehicleSpeed]: 52.084366 
+[SpeedX]: 52.084171 
+[PositionX]: 389.839172 
+[PositionY]: 13.879878 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002689 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001931 
+[RemainingFuel]: 9.656269 
+[MassWithFuelUpdate]: 1409.656250 
+[VehicleSpeed]: 52.124939 
+[SpeedX]: 52.124729 
+[PositionX]: 390.881287 
+[PositionY]: 13.881081 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002520 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002043 
+[RemainingFuel]: 9.655630 
+[MassWithFuelUpdate]: 1409.655640 
+[VehicleSpeed]: 52.166149 
+[SpeedX]: 52.165924 
+[PositionX]: 391.924286 
+[PositionY]: 13.882286 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002324 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002175 
+[RemainingFuel]: 9.654991 
+[MassWithFuelUpdate]: 1409.655029 
+[VehicleSpeed]: 52.205219 
+[SpeedX]: 52.204975 
+[PositionX]: 392.968079 
+[PositionY]: 13.883471 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002080 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002292 
+[RemainingFuel]: 9.654352 
+[MassWithFuelUpdate]: 1409.654297 
+[VehicleSpeed]: 52.248699 
+[SpeedX]: 52.248440 
+[PositionX]: 394.012756 
+[PositionY]: 13.884639 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001871 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002383 
+[RemainingFuel]: 9.653713 
+[MassWithFuelUpdate]: 1409.653687 
+[VehicleSpeed]: 52.292984 
+[SpeedX]: 52.292706 
+[PositionX]: 395.058380 
+[PositionY]: 13.885790 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001724 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002454 
+[RemainingFuel]: 9.653074 
+[MassWithFuelUpdate]: 1409.653076 
+[VehicleSpeed]: 52.337765 
+[SpeedX]: 52.337475 
+[PositionX]: 396.104889 
+[PositionY]: 13.886912 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001625 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002483 
+[RemainingFuel]: 9.652435 
+[MassWithFuelUpdate]: 1409.652466 
+[VehicleSpeed]: 52.381630 
+[SpeedX]: 52.381332 
+[PositionX]: 397.152191 
+[PositionY]: 13.888013 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001630 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002490 
+[RemainingFuel]: 9.651796 
+[MassWithFuelUpdate]: 1409.651855 
+[VehicleSpeed]: 52.430058 
+[SpeedX]: 52.429760 
+[PositionX]: 398.200409 
+[PositionY]: 13.889087 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001686 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002496 
+[RemainingFuel]: 9.651157 
+[MassWithFuelUpdate]: 1409.651123 
+[VehicleSpeed]: 52.472095 
+[SpeedX]: 52.471802 
+[PositionX]: 399.249451 
+[PositionY]: 13.890147 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001746 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002503 
+[RemainingFuel]: 9.650518 
+[MassWithFuelUpdate]: 1409.650513 
+[VehicleSpeed]: 52.511963 
+[SpeedX]: 52.511673 
+[PositionX]: 400.299316 
+[PositionY]: 13.891182 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001801 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002495 
+[RemainingFuel]: 9.649879 
+[MassWithFuelUpdate]: 1409.649902 
+[VehicleSpeed]: 52.554253 
+[SpeedX]: 52.553967 
+[PositionX]: 401.350067 
+[PositionY]: 13.892206 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001892 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002500 
+[RemainingFuel]: 9.649240 
+[MassWithFuelUpdate]: 1409.649292 
+[VehicleSpeed]: 52.592506 
+[SpeedX]: 52.592220 
+[PositionX]: 402.401703 
+[PositionY]: 13.893209 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001947 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002492 
+[RemainingFuel]: 9.648602 
+[MassWithFuelUpdate]: 1409.648560 
+[VehicleSpeed]: 52.635838 
+[SpeedX]: 52.635555 
+[PositionX]: 403.454132 
+[PositionY]: 13.894198 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002036 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002494 
+[RemainingFuel]: 9.647963 
+[MassWithFuelUpdate]: 1409.647949 
+[VehicleSpeed]: 52.679981 
+[SpeedX]: 52.679699 
+[PositionX]: 404.507446 
+[PositionY]: 13.895170 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002099 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002480 
+[RemainingFuel]: 9.647324 
+[MassWithFuelUpdate]: 1409.647339 
+[VehicleSpeed]: 52.723724 
+[SpeedX]: 52.723442 
+[PositionX]: 405.561646 
+[PositionY]: 13.896138 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002199 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002462 
+[RemainingFuel]: 9.646685 
+[MassWithFuelUpdate]: 1409.646729 
+[VehicleSpeed]: 52.772614 
+[SpeedX]: 52.772335 
+[PositionX]: 406.616669 
+[PositionY]: 13.897097 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002309 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002450 
+[RemainingFuel]: 9.646046 
+[MassWithFuelUpdate]: 1409.645996 
+[VehicleSpeed]: 52.812977 
+[SpeedX]: 52.812698 
+[PositionX]: 407.672546 
+[PositionY]: 13.898061 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.002390 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002443 
+[RemainingFuel]: 9.645407 
+[MassWithFuelUpdate]: 1409.645386 
+[VehicleSpeed]: 52.852577 
+[SpeedX]: 52.852303 
+[PositionX]: 408.729370 
+[PositionY]: 13.899035 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.001892 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002433 
+[RemainingFuel]: 9.644768 
+[MassWithFuelUpdate]: 1409.644775 
+[VehicleSpeed]: 52.894806 
+[SpeedX]: 52.894531 
+[PositionX]: 409.786926 
+[PositionY]: 13.900036 
+[Stuck]: 0 
+[FLAT OUT: Steering]: -0.000574 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002418 
+[RemainingFuel]: 9.644129 
+[MassWithFuelUpdate]: 1409.644165 
+[VehicleSpeed]: 52.933273 
+[SpeedX]: 52.932991 
+[PositionX]: 410.845367 
+[PositionY]: 13.901077 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.001556 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002328 
+[RemainingFuel]: 9.643490 
+[MassWithFuelUpdate]: 1409.643433 
+[VehicleSpeed]: 52.976089 
+[SpeedX]: 52.975811 
+[PositionX]: 411.904663 
+[PositionY]: 13.902215 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.004326 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.002122 
+[RemainingFuel]: 9.642851 
+[MassWithFuelUpdate]: 1409.642822 
+[VehicleSpeed]: 53.019924 
+[SpeedX]: 53.019653 
+[PositionX]: 412.964722 
+[PositionY]: 13.903514 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.007629 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001724 
+[RemainingFuel]: 9.642212 
+[MassWithFuelUpdate]: 1409.642212 
+[VehicleSpeed]: 53.063618 
+[SpeedX]: 53.063385 
+[PositionX]: 414.025696 
+[PositionY]: 13.905079 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.011269 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.001072 
+[RemainingFuel]: 9.641573 
+[MassWithFuelUpdate]: 1409.641602 
+[VehicleSpeed]: 53.110897 
+[SpeedX]: 53.110737 
+[PositionX]: 415.087555 
+[PositionY]: 13.907035 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.015088 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: -0.000119 
+[RemainingFuel]: 9.640934 
+[MassWithFuelUpdate]: 1409.640991 
+[VehicleSpeed]: 53.154922 
+[SpeedX]: 53.154888 
+[PositionX]: 416.150208 
+[PositionY]: 13.909546 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.018947 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.001161 
+[RemainingFuel]: 9.640295 
+[MassWithFuelUpdate]: 1409.640259 
+[VehicleSpeed]: 53.196571 
+[SpeedX]: 53.196728 
+[PositionX]: 417.213715 
+[PositionY]: 13.912788 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.022771 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.002784 
+[RemainingFuel]: 9.639656 
+[MassWithFuelUpdate]: 1409.639648 
+[VehicleSpeed]: 53.240532 
+[SpeedX]: 53.240952 
+[PositionX]: 418.278046 
+[PositionY]: 13.916951 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.026516 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.004754 
+[RemainingFuel]: 9.639017 
+[MassWithFuelUpdate]: 1409.639038 
+[VehicleSpeed]: 53.272938 
+[SpeedX]: 53.273731 
+[PositionX]: 419.343231 
+[PositionY]: 13.922294 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.030121 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.007111 
+[RemainingFuel]: 9.638378 
+[MassWithFuelUpdate]: 1409.638428 
+[VehicleSpeed]: 53.315647 
+[SpeedX]: 53.316933 
+[PositionX]: 420.409271 
+[PositionY]: 13.929032 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.033525 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.009837 
+[RemainingFuel]: 9.637739 
+[MassWithFuelUpdate]: 1409.637695 
+[VehicleSpeed]: 53.363380 
+[SpeedX]: 53.365314 
+[PositionX]: 421.476105 
+[PositionY]: 13.937416 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.036744 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.012923 
+[RemainingFuel]: 9.637100 
+[MassWithFuelUpdate]: 1409.637085 
+[VehicleSpeed]: 53.403553 
+[SpeedX]: 53.406387 
+[PositionX]: 422.543793 
+[PositionY]: 13.947763 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.039747 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.016372 
+[RemainingFuel]: 9.636461 
+[MassWithFuelUpdate]: 1409.636475 
+[VehicleSpeed]: 53.444889 
+[SpeedX]: 53.448921 
+[PositionX]: 423.612274 
+[PositionY]: 13.960318 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.042534 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.020145 
+[RemainingFuel]: 9.635822 
+[MassWithFuelUpdate]: 1409.635864 
+[VehicleSpeed]: 53.483383 
+[SpeedX]: 53.489063 
+[PositionX]: 424.681580 
+[PositionY]: 13.975414 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.045166 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.024221 
+[RemainingFuel]: 9.635183 
+[MassWithFuelUpdate]: 1409.635132 
+[VehicleSpeed]: 53.522018 
+[SpeedX]: 53.529770 
+[PositionX]: 425.751617 
+[PositionY]: 13.993336 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.047684 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.028604 
+[RemainingFuel]: 9.634544 
+[MassWithFuelUpdate]: 1409.634521 
+[VehicleSpeed]: 53.560226 
+[SpeedX]: 53.570709 
+[PositionX]: 426.822449 
+[PositionY]: 14.014402 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.050061 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.033220 
+[RemainingFuel]: 9.633905 
+[MassWithFuelUpdate]: 1409.633911 
+[VehicleSpeed]: 53.597858 
+[SpeedX]: 53.611656 
+[PositionX]: 427.894043 
+[PositionY]: 14.038842 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.052461 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.038065 
+[RemainingFuel]: 9.633266 
+[MassWithFuelUpdate]: 1409.633301 
+[VehicleSpeed]: 53.638325 
+[SpeedX]: 53.656174 
+[PositionX]: 428.966370 
+[PositionY]: 14.066802 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.054899 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.042988 
+[RemainingFuel]: 9.632627 
+[MassWithFuelUpdate]: 1409.632568 
+[VehicleSpeed]: 53.675850 
+[SpeedX]: 53.698891 
+[PositionX]: 430.039490 
+[PositionY]: 14.098685 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.057705 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.048034 
+[RemainingFuel]: 9.631989 
+[MassWithFuelUpdate]: 1409.631958 
+[VehicleSpeed]: 53.710110 
+[SpeedX]: 53.739021 
+[PositionX]: 431.113281 
+[PositionY]: 14.134584 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.060759 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.053123 
+[RemainingFuel]: 9.631350 
+[MassWithFuelUpdate]: 1409.631348 
+[VehicleSpeed]: 53.741867 
+[SpeedX]: 53.777439 
+[PositionX]: 432.187683 
+[PositionY]: 14.174593 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.064257 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.058322 
+[RemainingFuel]: 9.630711 
+[MassWithFuelUpdate]: 1409.630737 
+[VehicleSpeed]: 53.772144 
+[SpeedX]: 53.816223 
+[PositionX]: 433.262695 
+[PositionY]: 14.218931 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.068021 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.063617 
+[RemainingFuel]: 9.630072 
+[MassWithFuelUpdate]: 1409.630127 
+[VehicleSpeed]: 53.802704 
+[SpeedX]: 53.856461 
+[PositionX]: 434.338348 
+[PositionY]: 14.267671 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.072092 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.069098 
+[RemainingFuel]: 9.629433 
+[MassWithFuelUpdate]: 1409.629395 
+[VehicleSpeed]: 53.831314 
+[SpeedX]: 53.895618 
+[PositionX]: 435.414612 
+[PositionY]: 14.321047 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.076223 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.074956 
+[RemainingFuel]: 9.628794 
+[MassWithFuelUpdate]: 1409.628784 
+[VehicleSpeed]: 53.850014 
+[SpeedX]: 53.926773 
+[PositionX]: 436.491333 
+[PositionY]: 14.379417 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.079875 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.081237 
+[RemainingFuel]: 9.628155 
+[MassWithFuelUpdate]: 1409.628174 
+[VehicleSpeed]: 53.866158 
+[SpeedX]: 53.957058 
+[PositionX]: 437.568542 
+[PositionY]: 14.443033 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.082950 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.087901 
+[RemainingFuel]: 9.627516 
+[MassWithFuelUpdate]: 1409.627563 
+[VehicleSpeed]: 53.890057 
+[SpeedX]: 53.996696 
+[PositionX]: 438.646149 
+[PositionY]: 14.512020 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.085586 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.094732 
+[RemainingFuel]: 9.626877 
+[MassWithFuelUpdate]: 1409.626831 
+[VehicleSpeed]: 53.906216 
+[SpeedX]: 54.030388 
+[PositionX]: 439.724121 
+[PositionY]: 14.586579 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.088239 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.101415 
+[RemainingFuel]: 9.626238 
+[MassWithFuelUpdate]: 1409.626221 
+[VehicleSpeed]: 53.925800 
+[SpeedX]: 54.066803 
+[PositionX]: 440.802521 
+[PositionY]: 14.666638 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.091744 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.000000 
+[Yaw]: 0.108231 
+[RemainingFuel]: 9.625599 
+[MassWithFuelUpdate]: 1409.625610 
+[VehicleSpeed]: 53.928085 
+[SpeedX]: 54.093651 
+[PositionX]: 441.881012 
+[PositionY]: 14.752830 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.095287 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.010875 
+[Yaw]: 0.115894 
+[RemainingFuel]: 9.624960 
+[MassWithFuelUpdate]: 1409.625000 
+[VehicleSpeed]: 53.972126 
+[SpeedX]: 54.117455 
+[PositionX]: 442.959656 
+[PositionY]: 14.845840 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.097248 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.765987 
+[TrackAngle]: 0.021795 
+[Yaw]: 0.124803 
+[RemainingFuel]: 9.624502 
+[MassWithFuelUpdate]: 1409.624512 
+[VehicleSpeed]: 54.013302 
+[SpeedX]: 54.142735 
+[PositionX]: 444.038116 
+[PositionY]: 14.946309 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.096461 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.765987 
+[TrackAngle]: 0.032729 
+[Yaw]: 0.134649 
+[RemainingFuel]: 9.624044 
+[MassWithFuelUpdate]: 1409.624023 
+[VehicleSpeed]: 54.032192 
+[SpeedX]: 54.144703 
+[PositionX]: 445.115967 
+[PositionY]: 15.054864 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.093522 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.765988 
+[TrackAngle]: 0.043674 
+[Yaw]: 0.144816 
+[RemainingFuel]: 9.623587 
+[MassWithFuelUpdate]: 1409.623535 
+[VehicleSpeed]: 54.051624 
+[SpeedX]: 54.147854 
+[PositionX]: 446.193085 
+[PositionY]: 15.171753 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.090067 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.765988 
+[TrackAngle]: 0.054633 
+[Yaw]: 0.154625 
+[RemainingFuel]: 9.623129 
+[MassWithFuelUpdate]: 1409.623169 
+[VehicleSpeed]: 54.067863 
+[SpeedX]: 54.153427 
+[PositionX]: 447.269409 
+[PositionY]: 15.297429 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.087758 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.765988 
+[TrackAngle]: 0.065601 
+[Yaw]: 0.164371 
+[RemainingFuel]: 9.622671 
+[MassWithFuelUpdate]: 1409.622681 
+[VehicleSpeed]: 54.076298 
+[SpeedX]: 54.154972 
+[PositionX]: 448.344666 
+[PositionY]: 15.432616 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.085773 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.076580 
+[Yaw]: 0.174417 
+[RemainingFuel]: 9.622032 
+[MassWithFuelUpdate]: 1409.622070 
+[VehicleSpeed]: 54.096157 
+[SpeedX]: 54.167381 
+[PositionX]: 449.418732 
+[PositionY]: 15.577767 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.083255 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.087570 
+[Yaw]: 0.184926 
+[RemainingFuel]: 9.621393 
+[MassWithFuelUpdate]: 1409.621338 
+[VehicleSpeed]: 54.122517 
+[SpeedX]: 54.185570 
+[PositionX]: 450.491730 
+[PositionY]: 15.732893 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.079774 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.098573 
+[Yaw]: 0.195173 
+[RemainingFuel]: 9.620754 
+[MassWithFuelUpdate]: 1409.620728 
+[VehicleSpeed]: 54.146946 
+[SpeedX]: 54.203991 
+[PositionX]: 451.563599 
+[PositionY]: 15.898403 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.077080 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.109588 
+[Yaw]: 0.204889 
+[RemainingFuel]: 9.620115 
+[MassWithFuelUpdate]: 1409.620117 
+[VehicleSpeed]: 54.171761 
+[SpeedX]: 54.223183 
+[PositionX]: 452.634216 
+[PositionY]: 16.074045 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.075868 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.120615 
+[Yaw]: 0.213755 
+[RemainingFuel]: 9.619476 
+[MassWithFuelUpdate]: 1409.619507 
+[VehicleSpeed]: 54.195679 
+[SpeedX]: 54.241379 
+[PositionX]: 453.703552 
+[PositionY]: 16.259451 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.076945 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.131654 
+[Yaw]: 0.222207 
+[RemainingFuel]: 9.618837 
+[MassWithFuelUpdate]: 1409.618896 
+[VehicleSpeed]: 54.216156 
+[SpeedX]: 54.257870 
+[PositionX]: 454.771515 
+[PositionY]: 16.454706 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.079219 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.142704 
+[Yaw]: 0.230452 
+[RemainingFuel]: 9.618198 
+[MassWithFuelUpdate]: 1409.618164 
+[VehicleSpeed]: 54.241676 
+[SpeedX]: 54.278217 
+[PositionX]: 455.838043 
+[PositionY]: 16.659542 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.082219 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.153766 
+[Yaw]: 0.238392 
+[RemainingFuel]: 9.617559 
+[MassWithFuelUpdate]: 1409.617554 
+[VehicleSpeed]: 54.265232 
+[SpeedX]: 54.296051 
+[PositionX]: 456.903168 
+[PositionY]: 16.873806 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.086174 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.164839 
+[Yaw]: 0.245949 
+[RemainingFuel]: 9.616920 
+[MassWithFuelUpdate]: 1409.616943 
+[VehicleSpeed]: 54.287033 
+[SpeedX]: 54.313007 
+[PositionX]: 457.966797 
+[PositionY]: 17.097288 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.091299 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.175924 
+[Yaw]: 0.253197 
+[RemainingFuel]: 9.616282 
+[MassWithFuelUpdate]: 1409.616333 
+[VehicleSpeed]: 54.314468 
+[SpeedX]: 54.334793 
+[PositionX]: 459.028870 
+[PositionY]: 17.329737 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.097448 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.187019 
+[Yaw]: 0.260203 
+[RemainingFuel]: 9.615643 
+[MassWithFuelUpdate]: 1409.615601 
+[VehicleSpeed]: 54.343834 
+[SpeedX]: 54.358818 
+[PositionX]: 460.089447 
+[PositionY]: 17.570898 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.103911 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.198124 
+[Yaw]: 0.267513 
+[RemainingFuel]: 9.615004 
+[MassWithFuelUpdate]: 1409.614990 
+[VehicleSpeed]: 54.372040 
+[SpeedX]: 54.382915 
+[PositionX]: 461.148315 
+[PositionY]: 17.820890 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.108979 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.209240 
+[Yaw]: 0.275238 
+[RemainingFuel]: 9.614365 
+[MassWithFuelUpdate]: 1409.614380 
+[VehicleSpeed]: 54.399601 
+[SpeedX]: 54.405716 
+[PositionX]: 462.205536 
+[PositionY]: 18.079571 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.112376 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.220365 
+[Yaw]: 0.283315 
+[RemainingFuel]: 9.613726 
+[MassWithFuelUpdate]: 1409.613770 
+[VehicleSpeed]: 54.419216 
+[SpeedX]: 54.419792 
+[PositionX]: 463.261108 
+[PositionY]: 18.346766 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.114236 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.231478 
+[Yaw]: 0.290673 
+[RemainingFuel]: 9.613610 
+[MassWithFuelUpdate]: 1409.613647 
+[VehicleSpeed]: 54.182907 
+[SpeedX]: 54.174717 
+[PositionX]: 464.312927 
+[PositionY]: 18.621367 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.116117 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.242524 
+[Yaw]: 0.295953 
+[RemainingFuel]: 9.613496 
+[MassWithFuelUpdate]: 1409.613525 
+[VehicleSpeed]: 53.813477 
+[SpeedX]: 53.797981 
+[PositionX]: 465.356384 
+[PositionY]: 18.900278 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.122114 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.884649 
+[TrackAngle]: 0.253494 
+[Yaw]: 0.299382 
+[RemainingFuel]: 9.613383 
+[MassWithFuelUpdate]: 1409.613403 
+[VehicleSpeed]: 53.434158 
+[SpeedX]: 53.415848 
+[PositionX]: 466.390869 
+[PositionY]: 19.182661 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.132268 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.264400 
+[Yaw]: 0.303051 
+[RemainingFuel]: 9.612744 
+[MassWithFuelUpdate]: 1409.612793 
+[VehicleSpeed]: 53.219421 
+[SpeedX]: 53.202633 
+[PositionX]: 467.417358 
+[PositionY]: 19.469234 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.142040 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.275269 
+[Yaw]: 0.308704 
+[RemainingFuel]: 9.612637 
+[MassWithFuelUpdate]: 1409.612671 
+[VehicleSpeed]: 52.937347 
+[SpeedX]: 52.920135 
+[PositionX]: 468.438202 
+[PositionY]: 19.761879 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.146066 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.286059 
+[Yaw]: 0.314574 
+[RemainingFuel]: 9.612532 
+[MassWithFuelUpdate]: 1409.612549 
+[VehicleSpeed]: 52.505856 
+[SpeedX]: 52.487598 
+[PositionX]: 469.449768 
+[PositionY]: 20.058201 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.148508 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.296781 
+[Yaw]: 0.321292 
+[RemainingFuel]: 9.611893 
+[MassWithFuelUpdate]: 1409.611938 
+[VehicleSpeed]: 52.325634 
+[SpeedX]: 52.308533 
+[PositionX]: 470.453217 
+[PositionY]: 20.358858 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.149246 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.307495 
+[Yaw]: 0.330831 
+[RemainingFuel]: 9.611254 
+[MassWithFuelUpdate]: 1409.611206 
+[VehicleSpeed]: 52.342884 
+[SpeedX]: 52.324902 
+[PositionX]: 471.453400 
+[PositionY]: 20.667442 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.143000 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.318189 
+[Yaw]: 0.341402 
+[RemainingFuel]: 9.611147 
+[MassWithFuelUpdate]: 1409.611206 
+[VehicleSpeed]: 52.099541 
+[SpeedX]: 52.077080 
+[PositionX]: 472.449280 
+[PositionY]: 20.983259 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.132705 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.328809 
+[Yaw]: 0.350804 
+[RemainingFuel]: 9.611042 
+[MassWithFuelUpdate]: 1409.611084 
+[VehicleSpeed]: 51.721863 
+[SpeedX]: 51.695492 
+[PositionX]: 473.436523 
+[PositionY]: 21.302763 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.124416 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.878032 
+[TrackAngle]: 0.339347 
+[Yaw]: 0.358446 
+[RemainingFuel]: 9.610937 
+[MassWithFuelUpdate]: 1409.610962 
+[VehicleSpeed]: 51.320930 
+[SpeedX]: 51.294552 
+[PositionX]: 474.414764 
+[PositionY]: 21.625118 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.120023 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.878466 
+[TrackAngle]: 0.349803 
+[Yaw]: 0.364958 
+[RemainingFuel]: 9.610838 
+[MassWithFuelUpdate]: 1409.610840 
+[VehicleSpeed]: 50.906269 
+[SpeedX]: 50.883480 
+[PositionX]: 475.383820 
+[PositionY]: 21.950212 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.117986 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.884592 
+[TrackAngle]: 0.360174 
+[Yaw]: 0.370917 
+[RemainingFuel]: 9.610742 
+[MassWithFuelUpdate]: 1409.610718 
+[VehicleSpeed]: 50.499973 
+[SpeedX]: 50.482738 
+[PositionX]: 476.343597 
+[PositionY]: 22.278048 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.116915 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.370473 
+[Yaw]: 0.377490 
+[RemainingFuel]: 9.610108 
+[MassWithFuelUpdate]: 1409.610107 
+[VehicleSpeed]: 50.295841 
+[SpeedX]: 50.284916 
+[PositionX]: 477.295166 
+[PositionY]: 22.609470 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.114357 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.380733 
+[Yaw]: 0.385758 
+[RemainingFuel]: 9.610010 
+[MassWithFuelUpdate]: 1409.609985 
+[VehicleSpeed]: 50.025635 
+[SpeedX]: 50.017715 
+[PositionX]: 478.240997 
+[PositionY]: 22.946869 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.106837 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.390915 
+[Yaw]: 0.392916 
+[RemainingFuel]: 9.609915 
+[MassWithFuelUpdate]: 1409.609863 
+[VehicleSpeed]: 49.647087 
+[SpeedX]: 49.644363 
+[PositionX]: 479.178131 
+[PositionY]: 23.287298 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.101373 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.401026 
+[Yaw]: 0.399511 
+[RemainingFuel]: 9.609288 
+[MassWithFuelUpdate]: 1409.609253 
+[VehicleSpeed]: 49.410934 
+[SpeedX]: 49.415665 
+[PositionX]: 480.107361 
+[PositionY]: 23.630829 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.097586 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.411095 
+[Yaw]: 0.406679 
+[RemainingFuel]: 9.609191 
+[MassWithFuelUpdate]: 1409.609131 
+[VehicleSpeed]: 49.168144 
+[SpeedX]: 49.179482 
+[PositionX]: 481.030975 
+[PositionY]: 23.979483 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.092490 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.421091 
+[Yaw]: 0.412834 
+[RemainingFuel]: 9.609101 
+[MassWithFuelUpdate]: 1409.609131 
+[VehicleSpeed]: 48.793438 
+[SpeedX]: 48.814442 
+[PositionX]: 481.946625 
+[PositionY]: 24.330736 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.089785 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.862253 
+[TrackAngle]: 0.431002 
+[Yaw]: 0.418149 
+[RemainingFuel]: 9.609015 
+[MassWithFuelUpdate]: 1409.609009 
+[VehicleSpeed]: 48.395988 
+[SpeedX]: 48.429535 
+[PositionX]: 482.853577 
+[PositionY]: 24.683250 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.089340 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.440837 
+[Yaw]: 0.423568 
+[RemainingFuel]: 9.608394 
+[MassWithFuelUpdate]: 1409.608398 
+[VehicleSpeed]: 48.160011 
+[SpeedX]: 48.205879 
+[PositionX]: 483.752686 
+[PositionY]: 25.037935 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.089252 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.450626 
+[Yaw]: 0.430466 
+[RemainingFuel]: 9.608304 
+[MassWithFuelUpdate]: 1409.608276 
+[VehicleSpeed]: 47.905602 
+[SpeedX]: 47.960617 
+[PositionX]: 484.645874 
+[PositionY]: 25.397282 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.085537 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.894953 
+[TrackAngle]: 0.460342 
+[Yaw]: 0.435814 
+[RemainingFuel]: 9.608218 
+[MassWithFuelUpdate]: 1409.608276 
+[VehicleSpeed]: 47.536156 
+[SpeedX]: 47.604710 
+[PositionX]: 485.531311 
+[PositionY]: 25.758965 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.085527 
+[FLAT OUT: Gear]: 4 
+[FLAT OUT: Brake]: 0.872067 
+[TrackAngle]: 0.469974 
+[Yaw]: 0.439440 
+[RemainingFuel]: 9.608132 
+[MassWithFuelUpdate]: 1409.608154 
+[VehicleSpeed]: 47.134708 
+[SpeedX]: 47.220825 
+[PositionX]: 486.408203 
+[PositionY]: 26.122261 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.089880 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.479528 
+[Yaw]: 0.442255 
+[RemainingFuel]: 9.608020 
+[MassWithFuelUpdate]: 1409.608032 
+[VehicleSpeed]: 46.892487 
+[SpeedX]: 46.997375 
+[PositionX]: 487.276764 
+[PositionY]: 26.487936 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.096848 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.489045 
+[Yaw]: 0.447351 
+[RemainingFuel]: 9.607963 
+[MassWithFuelUpdate]: 1409.607910 
+[VehicleSpeed]: 46.812382 
+[SpeedX]: 46.929501 
+[PositionX]: 488.140289 
+[PositionY]: 26.858480 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.098735 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.498529 
+[Yaw]: 0.453587 
+[RemainingFuel]: 9.607831 
+[MassWithFuelUpdate]: 1409.607788 
+[VehicleSpeed]: 46.571243 
+[SpeedX]: 46.700676 
+[PositionX]: 488.998962 
+[PositionY]: 27.234190 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.097367 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.892739 
+[TrackAngle]: 0.507935 
+[Yaw]: 0.459238 
+[RemainingFuel]: 9.607707 
+[MassWithFuelUpdate]: 1409.607666 
+[VehicleSpeed]: 46.212334 
+[SpeedX]: 46.357620 
+[PositionX]: 489.849670 
+[PositionY]: 27.611557 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.097224 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.869959 
+[TrackAngle]: 0.517258 
+[Yaw]: 0.464085 
+[RemainingFuel]: 9.607583 
+[MassWithFuelUpdate]: 1409.607544 
+[VehicleSpeed]: 45.821571 
+[SpeedX]: 45.984264 
+[PositionX]: 490.692139 
+[PositionY]: 27.990078 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.099128 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.869773 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.467991 
+[RemainingFuel]: 9.607459 
+[MassWithFuelUpdate]: 1409.607422 
+[VehicleSpeed]: 45.488602 
+[SpeedX]: 45.658577 
+[PositionX]: 491.526398 
+[PositionY]: 28.369791 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.103632 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.844527 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.470528 
+[RemainingFuel]: 9.607335 
+[MassWithFuelUpdate]: 1409.607300 
+[VehicleSpeed]: 45.158592 
+[SpeedX]: 45.310875 
+[PositionX]: 492.352509 
+[PositionY]: 28.750648 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.111524 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.838298 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.471806 
+[RemainingFuel]: 9.607211 
+[MassWithFuelUpdate]: 1409.607178 
+[VehicleSpeed]: 44.840195 
+[SpeedX]: 44.978500 
+[PositionX]: 493.170715 
+[PositionY]: 29.132427 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.122765 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.826532 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.472261 
+[RemainingFuel]: 9.607094 
+[MassWithFuelUpdate]: 1409.607056 
+[VehicleSpeed]: 44.530777 
+[SpeedX]: 44.658932 
+[PositionX]: 493.981598 
+[PositionY]: 29.514814 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.136297 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.472841 
+[RemainingFuel]: 9.607056 
+[MassWithFuelUpdate]: 1409.607056 
+[VehicleSpeed]: 44.295094 
+[SpeedX]: 44.412079 
+[PositionX]: 494.785736 
+[PositionY]: 29.897757 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.150011 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.475035 
+[RemainingFuel]: 9.606941 
+[MassWithFuelUpdate]: 1409.606934 
+[VehicleSpeed]: 44.049255 
+[SpeedX]: 44.154037 
+[PositionX]: 495.584106 
+[PositionY]: 30.282318 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.159863 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.840627 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.477463 
+[RemainingFuel]: 9.606831 
+[MassWithFuelUpdate]: 1409.606812 
+[VehicleSpeed]: 43.738289 
+[SpeedX]: 43.833412 
+[PositionX]: 496.375427 
+[PositionY]: 30.666834 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.169118 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.811175 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.480048 
+[RemainingFuel]: 9.606722 
+[MassWithFuelUpdate]: 1409.606689 
+[VehicleSpeed]: 43.400505 
+[SpeedX]: 43.486244 
+[PositionX]: 497.159302 
+[PositionY]: 31.050695 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.178108 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.483202 
+[RemainingFuel]: 9.606083 
+[MassWithFuelUpdate]: 1409.606079 
+[VehicleSpeed]: 43.151352 
+[SpeedX]: 43.225731 
+[PositionX]: 497.936005 
+[PositionY]: 31.434578 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.186223 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.488635 
+[RemainingFuel]: 9.605444 
+[MassWithFuelUpdate]: 1409.605469 
+[VehicleSpeed]: 43.169083 
+[SpeedX]: 43.227581 
+[PositionX]: 498.709137 
+[PositionY]: 31.822142 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.189879 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.495687 
+[RemainingFuel]: 9.605330 
+[MassWithFuelUpdate]: 1409.605347 
+[VehicleSpeed]: 42.999180 
+[SpeedX]: 43.043625 
+[PositionX]: 499.478424 
+[PositionY]: 32.213848 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.188877 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.871213 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.502066 
+[RemainingFuel]: 9.605225 
+[MassWithFuelUpdate]: 1409.605225 
+[VehicleSpeed]: 42.721539 
+[SpeedX]: 42.755226 
+[PositionX]: 500.241333 
+[PositionY]: 32.606339 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.189306 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.813897 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.507419 
+[RemainingFuel]: 9.605120 
+[MassWithFuelUpdate]: 1409.605103 
+[VehicleSpeed]: 42.418755 
+[SpeedX]: 42.443466 
+[PositionX]: 500.997498 
+[PositionY]: 32.998688 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.192394 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.785439 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.511812 
+[RemainingFuel]: 9.605015 
+[MassWithFuelUpdate]: 1409.604980 
+[VehicleSpeed]: 42.089546 
+[SpeedX]: 42.107029 
+[PositionX]: 501.746796 
+[PositionY]: 33.390625 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.197976 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.776847 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.515350 
+[RemainingFuel]: 9.604912 
+[MassWithFuelUpdate]: 1409.604858 
+[VehicleSpeed]: 41.763477 
+[SpeedX]: 41.775238 
+[PositionX]: 502.489136 
+[PositionY]: 33.782043 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.205898 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.768469 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.518361 
+[RemainingFuel]: 9.604811 
+[MassWithFuelUpdate]: 1409.604858 
+[VehicleSpeed]: 41.435162 
+[SpeedX]: 41.442261 
+[PositionX]: 503.224060 
+[PositionY]: 34.172768 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.215298 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.765031 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.521203 
+[RemainingFuel]: 9.604712 
+[MassWithFuelUpdate]: 1409.604736 
+[VehicleSpeed]: 41.090290 
+[SpeedX]: 41.093445 
+[PositionX]: 503.951324 
+[PositionY]: 34.562778 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.225198 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.770582 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.524318 
+[RemainingFuel]: 9.604616 
+[MassWithFuelUpdate]: 1409.604614 
+[VehicleSpeed]: 40.752140 
+[SpeedX]: 40.751690 
+[PositionX]: 504.670685 
+[PositionY]: 34.952084 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.234559 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.772078 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.527950 
+[RemainingFuel]: 9.604521 
+[MassWithFuelUpdate]: 1409.604492 
+[VehicleSpeed]: 40.376511 
+[SpeedX]: 40.372704 
+[PositionX]: 505.382080 
+[PositionY]: 35.340813 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.242573 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.795485 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.532050 
+[RemainingFuel]: 9.604425 
+[MassWithFuelUpdate]: 1409.604370 
+[VehicleSpeed]: 39.994446 
+[SpeedX]: 39.987667 
+[PositionX]: 506.085510 
+[PositionY]: 35.729160 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.249467 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.537098 
+[RemainingFuel]: 9.603794 
+[MassWithFuelUpdate]: 1409.603760 
+[VehicleSpeed]: 39.803665 
+[SpeedX]: 39.794792 
+[PositionX]: 506.781860 
+[PositionY]: 36.118217 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.254882 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 1.000000 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.544231 
+[RemainingFuel]: 9.603696 
+[MassWithFuelUpdate]: 1409.603638 
+[VehicleSpeed]: 39.565456 
+[SpeedX]: 39.553673 
+[PositionX]: 507.472534 
+[PositionY]: 36.509960 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.254905 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.848231 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.551136 
+[RemainingFuel]: 9.603605 
+[MassWithFuelUpdate]: 1409.603638 
+[VehicleSpeed]: 39.262371 
+[SpeedX]: 39.247562 
+[PositionX]: 508.155762 
+[PositionY]: 36.902153 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.255241 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.805297 
+[TrackAngle]: 0.523599 
+[Yaw]: 0.557608 
+[RemainingFuel]: 9.603517 
+[MassWithFuelUpdate]: 1409.603516 
+[VehicleSpeed]: 38.911411 
+[SpeedX]: 38.894676 
+[PositionX]: 508.831329 
+[PositionY]: 37.294052 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.256498 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.528717 
+[Yaw]: 0.564211 
+[RemainingFuel]: 9.602894 
+[MassWithFuelUpdate]: 1409.602905 
+[VehicleSpeed]: 38.668446 
+[SpeedX]: 38.652344 
+[PositionX]: 509.499847 
+[PositionY]: 37.686584 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.257950 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.677730 
+[TrackAngle]: 0.536473 
+[Yaw]: 0.573559 
+[RemainingFuel]: 9.602503 
+[MassWithFuelUpdate]: 1409.602539 
+[VehicleSpeed]: 38.667992 
+[SpeedX]: 38.651924 
+[PositionX]: 510.163757 
+[PositionY]: 38.083157 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.253604 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.677730 
+[TrackAngle]: 0.544230 
+[Yaw]: 0.585420 
+[RemainingFuel]: 9.602112 
+[MassWithFuelUpdate]: 1409.602051 
+[VehicleSpeed]: 38.681656 
+[SpeedX]: 38.662262 
+[PositionX]: 510.824005 
+[PositionY]: 38.485882 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.242954 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.677730 
+[TrackAngle]: 0.551991 
+[Yaw]: 0.598247 
+[RemainingFuel]: 9.601721 
+[MassWithFuelUpdate]: 1409.601685 
+[VehicleSpeed]: 38.690289 
+[SpeedX]: 38.667374 
+[PositionX]: 511.480743 
+[PositionY]: 38.895069 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.229769 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.677730 
+[TrackAngle]: 0.559757 
+[Yaw]: 0.611153 
+[RemainingFuel]: 9.601330 
+[MassWithFuelUpdate]: 1409.601318 
+[VehicleSpeed]: 38.707169 
+[SpeedX]: 38.680573 
+[PositionX]: 512.133911 
+[PositionY]: 39.310707 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.216326 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.677730 
+[TrackAngle]: 0.567527 
+[Yaw]: 0.623870 
+[RemainingFuel]: 9.600939 
+[MassWithFuelUpdate]: 1409.600952 
+[VehicleSpeed]: 38.732216 
+[SpeedX]: 38.701675 
+[PositionX]: 512.783325 
+[PositionY]: 39.732784 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.203274 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.677730 
+[TrackAngle]: 0.575300 
+[Yaw]: 0.636163 
+[RemainingFuel]: 9.600548 
+[MassWithFuelUpdate]: 1409.600586 
+[VehicleSpeed]: 38.752590 
+[SpeedX]: 38.718788 
+[PositionX]: 513.428894 
+[PositionY]: 40.161282 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.191149 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.677730 
+[TrackAngle]: 0.583078 
+[Yaw]: 0.647321 
+[RemainingFuel]: 9.600157 
+[MassWithFuelUpdate]: 1409.600098 
+[VehicleSpeed]: 38.762917 
+[SpeedX]: 38.727119 
+[PositionX]: 514.070740 
+[PositionY]: 40.596024 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.181723 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.677730 
+[TrackAngle]: 0.590861 
+[Yaw]: 0.657647 
+[RemainingFuel]: 9.599766 
+[MassWithFuelUpdate]: 1409.599731 
+[VehicleSpeed]: 38.777092 
+[SpeedX]: 38.739235 
+[PositionX]: 514.708557 
+[PositionY]: 41.037312 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.174262 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.686025 
+[TrackAngle]: 0.598648 
+[Yaw]: 0.667325 
+[RemainingFuel]: 9.599365 
+[MassWithFuelUpdate]: 1409.599365 
+[VehicleSpeed]: 38.802315 
+[SpeedX]: 38.766029 
+[PositionX]: 515.342407 
+[PositionY]: 41.484951 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.168370 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.686025 
+[TrackAngle]: 0.606439 
+[Yaw]: 0.676769 
+[RemainingFuel]: 9.598965 
+[MassWithFuelUpdate]: 1409.598999 
+[VehicleSpeed]: 38.819866 
+[SpeedX]: 38.785828 
+[PositionX]: 515.972351 
+[PositionY]: 41.938541 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.162943 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.686025 
+[TrackAngle]: 0.614236 
+[Yaw]: 0.685303 
+[RemainingFuel]: 9.598564 
+[MassWithFuelUpdate]: 1409.598511 
+[VehicleSpeed]: 38.825203 
+[SpeedX]: 38.794529 
+[PositionX]: 516.598267 
+[PositionY]: 42.398521 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.159633 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.686025 
+[TrackAngle]: 0.622039 
+[Yaw]: 0.693592 
+[RemainingFuel]: 9.598164 
+[MassWithFuelUpdate]: 1409.598145 
+[VehicleSpeed]: 38.854874 
+[SpeedX]: 38.828049 
+[PositionX]: 517.220276 
+[PositionY]: 42.864548 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.156962 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.686025 
+[TrackAngle]: 0.629846 
+[Yaw]: 0.701948 
+[RemainingFuel]: 9.597763 
+[MassWithFuelUpdate]: 1409.597778 
+[VehicleSpeed]: 38.882225 
+[SpeedX]: 38.857422 
+[PositionX]: 517.838074 
+[PositionY]: 43.336613 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.154011 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.686025 
+[TrackAngle]: 0.637659 
+[Yaw]: 0.710392 
+[RemainingFuel]: 9.597363 
+[MassWithFuelUpdate]: 1409.597412 
+[VehicleSpeed]: 38.894878 
+[SpeedX]: 38.873795 
+[PositionX]: 518.451660 
+[PositionY]: 43.814762 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.150684 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.686025 
+[TrackAngle]: 0.646259 
+[Yaw]: 0.719583 
+[RemainingFuel]: 9.596922 
+[MassWithFuelUpdate]: 1409.596924 
+[VehicleSpeed]: 38.903442 
+[SpeedX]: 38.886894 
+[PositionX]: 519.121765 
+[PositionY]: 44.347767 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.147138 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.686025 
+[TrackAngle]: 0.654867 
+[Yaw]: 0.728854 
+[RemainingFuel]: 9.596481 
+[MassWithFuelUpdate]: 1409.596436 
+[VehicleSpeed]: 38.924599 
+[SpeedX]: 38.912071 
+[PositionX]: 519.786682 
+[PositionY]: 44.888115 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.143327 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.694817 
+[TrackAngle]: 0.663483 
+[Yaw]: 0.738370 
+[RemainingFuel]: 9.596032 
+[MassWithFuelUpdate]: 1409.596069 
+[VehicleSpeed]: 38.955093 
+[SpeedX]: 38.946362 
+[PositionX]: 520.446411 
+[PositionY]: 45.435631 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.138850 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.694817 
+[TrackAngle]: 0.672104 
+[Yaw]: 0.748322 
+[RemainingFuel]: 9.595581 
+[MassWithFuelUpdate]: 1409.595581 
+[VehicleSpeed]: 38.989674 
+[SpeedX]: 38.983841 
+[PositionX]: 521.100647 
+[PositionY]: 45.990307 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.133181 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.694817 
+[TrackAngle]: 0.680735 
+[Yaw]: 0.758378 
+[RemainingFuel]: 9.595130 
+[MassWithFuelUpdate]: 1409.595093 
+[VehicleSpeed]: 39.007027 
+[SpeedX]: 39.004074 
+[PositionX]: 521.749573 
+[PositionY]: 46.552246 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.127061 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.694817 
+[TrackAngle]: 0.689375 
+[Yaw]: 0.768454 
+[RemainingFuel]: 9.594680 
+[MassWithFuelUpdate]: 1409.594727 
+[VehicleSpeed]: 39.023849 
+[SpeedX]: 39.024544 
+[PositionX]: 522.393311 
+[PositionY]: 47.121231 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.120807 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.694817 
+[TrackAngle]: 0.698023 
+[Yaw]: 0.778383 
+[RemainingFuel]: 9.594229 
+[MassWithFuelUpdate]: 1409.594238 
+[VehicleSpeed]: 39.047066 
+[SpeedX]: 39.049831 
+[PositionX]: 523.031616 
+[PositionY]: 47.697113 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.114852 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.694817 
+[TrackAngle]: 0.706680 
+[Yaw]: 0.788522 
+[RemainingFuel]: 9.593778 
+[MassWithFuelUpdate]: 1409.593750 
+[VehicleSpeed]: 39.078617 
+[SpeedX]: 39.083042 
+[PositionX]: 523.664490 
+[PositionY]: 48.279900 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.108320 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.694817 
+[TrackAngle]: 0.715347 
+[Yaw]: 0.798093 
+[RemainingFuel]: 9.593327 
+[MassWithFuelUpdate]: 1409.593384 
+[VehicleSpeed]: 39.111614 
+[SpeedX]: 39.119572 
+[PositionX]: 524.292236 
+[PositionY]: 48.869240 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.103173 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.724026 
+[Yaw]: 0.807208 
+[RemainingFuel]: 9.592634 
+[MassWithFuelUpdate]: 1409.592651 
+[VehicleSpeed]: 39.172070 
+[SpeedX]: 39.182838 
+[PositionX]: 524.914856 
+[PositionY]: 49.465290 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.099242 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.732722 
+[Yaw]: 0.815822 
+[RemainingFuel]: 9.591942 
+[MassWithFuelUpdate]: 1409.591919 
+[VehicleSpeed]: 39.231247 
+[SpeedX]: 39.243935 
+[PositionX]: 525.532593 
+[PositionY]: 50.068481 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.096504 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.741437 
+[Yaw]: 0.824237 
+[RemainingFuel]: 9.591249 
+[MassWithFuelUpdate]: 1409.591309 
+[VehicleSpeed]: 39.301373 
+[SpeedX]: 39.317146 
+[PositionX]: 526.145630 
+[PositionY]: 50.678612 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.094309 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.704161 
+[TrackAngle]: 0.750167 
+[Yaw]: 0.832370 
+[RemainingFuel]: 9.590792 
+[MassWithFuelUpdate]: 1409.590820 
+[VehicleSpeed]: 39.348320 
+[SpeedX]: 39.366993 
+[PositionX]: 526.753723 
+[PositionY]: 51.295307 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.092685 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.704161 
+[TrackAngle]: 0.758908 
+[Yaw]: 0.840244 
+[RemainingFuel]: 9.590336 
+[MassWithFuelUpdate]: 1409.590332 
+[VehicleSpeed]: 39.382725 
+[SpeedX]: 39.403358 
+[PositionX]: 527.356567 
+[PositionY]: 51.918243 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.091624 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.704162 
+[TrackAngle]: 0.767660 
+[Yaw]: 0.847884 
+[RemainingFuel]: 9.589880 
+[MassWithFuelUpdate]: 1409.589844 
+[VehicleSpeed]: 39.404079 
+[SpeedX]: 39.428734 
+[PositionX]: 527.954041 
+[PositionY]: 52.547279 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.091073 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.704162 
+[TrackAngle]: 0.776423 
+[Yaw]: 0.855674 
+[RemainingFuel]: 9.589424 
+[MassWithFuelUpdate]: 1409.589478 
+[VehicleSpeed]: 39.430561 
+[SpeedX]: 39.457535 
+[PositionX]: 528.546265 
+[PositionY]: 53.182396 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.090157 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.785200 
+[Yaw]: 0.863838 
+[RemainingFuel]: 9.588728 
+[MassWithFuelUpdate]: 1409.588745 
+[VehicleSpeed]: 39.489655 
+[SpeedX]: 39.519035 
+[PositionX]: 529.133240 
+[PositionY]: 53.823723 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.088474 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.793996 
+[Yaw]: 0.872622 
+[RemainingFuel]: 9.588031 
+[MassWithFuelUpdate]: 1409.588013 
+[VehicleSpeed]: 39.580994 
+[SpeedX]: 39.610634 
+[PositionX]: 529.715454 
+[PositionY]: 54.471359 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.085433 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.802810 
+[Yaw]: 0.881486 
+[RemainingFuel]: 9.587332 
+[MassWithFuelUpdate]: 1409.587280 
+[VehicleSpeed]: 39.647926 
+[SpeedX]: 39.678017 
+[PositionX]: 530.292725 
+[PositionY]: 55.125378 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.082091 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.811644 
+[Yaw]: 0.890101 
+[RemainingFuel]: 9.586632 
+[MassWithFuelUpdate]: 1409.586670 
+[VehicleSpeed]: 39.710121 
+[SpeedX]: 39.740524 
+[PositionX]: 530.865295 
+[PositionY]: 55.785568 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.079400 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.820497 
+[Yaw]: 0.898257 
+[RemainingFuel]: 9.585932 
+[MassWithFuelUpdate]: 1409.585938 
+[VehicleSpeed]: 39.779816 
+[SpeedX]: 39.810844 
+[PositionX]: 531.433044 
+[PositionY]: 56.451988 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.077944 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.829372 
+[Yaw]: 0.905857 
+[RemainingFuel]: 9.585232 
+[MassWithFuelUpdate]: 1409.585205 
+[VehicleSpeed]: 39.854343 
+[SpeedX]: 39.885139 
+[PositionX]: 531.996094 
+[PositionY]: 57.124592 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.077959 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 0.714122 
+[TrackAngle]: 0.838264 
+[Yaw]: 0.913052 
+[RemainingFuel]: 9.584770 
+[MassWithFuelUpdate]: 1409.584717 
+[VehicleSpeed]: 39.903542 
+[SpeedX]: 39.936867 
+[PositionX]: 532.554016 
+[PositionY]: 57.803127 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.078904 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.847170 
+[Yaw]: 0.919842 
+[RemainingFuel]: 9.584070 
+[MassWithFuelUpdate]: 1409.584106 
+[VehicleSpeed]: 39.972641 
+[SpeedX]: 40.006897 
+[PositionX]: 533.106934 
+[PositionY]: 58.487148 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.081038 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.856096 
+[Yaw]: 0.926497 
+[RemainingFuel]: 9.583368 
+[MassWithFuelUpdate]: 1409.583374 
+[VehicleSpeed]: 40.032928 
+[SpeedX]: 40.065861 
+[PositionX]: 533.655212 
+[PositionY]: 59.176792 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.083546 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.865043 
+[Yaw]: 0.933215 
+[RemainingFuel]: 9.582665 
+[MassWithFuelUpdate]: 1409.582642 
+[VehicleSpeed]: 40.103012 
+[SpeedX]: 40.136482 
+[PositionX]: 534.198914 
+[PositionY]: 59.872177 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.086076 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.874010 
+[Yaw]: 0.940227 
+[RemainingFuel]: 9.581963 
+[MassWithFuelUpdate]: 1409.581909 
+[VehicleSpeed]: 40.179024 
+[SpeedX]: 40.211372 
+[PositionX]: 534.737976 
+[PositionY]: 60.573029 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.088018 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.882996 
+[Yaw]: 0.947606 
+[RemainingFuel]: 9.581260 
+[MassWithFuelUpdate]: 1409.581299 
+[VehicleSpeed]: 40.257523 
+[SpeedX]: 40.288055 
+[PositionX]: 535.272461 
+[PositionY]: 61.279331 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.089185 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.892000 
+[Yaw]: 0.955477 
+[RemainingFuel]: 9.580557 
+[MassWithFuelUpdate]: 1409.580566 
+[VehicleSpeed]: 40.335857 
+[SpeedX]: 40.364666 
+[PositionX]: 535.802063 
+[PositionY]: 61.991127 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.089235 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.901025 
+[Yaw]: 0.963620 
+[RemainingFuel]: 9.579854 
+[MassWithFuelUpdate]: 1409.579834 
+[VehicleSpeed]: 40.405785 
+[SpeedX]: 40.433197 
+[PositionX]: 536.326843 
+[PositionY]: 62.708424 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.088684 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.910069 
+[Yaw]: 0.971974 
+[RemainingFuel]: 9.579151 
+[MassWithFuelUpdate]: 1409.579102 
+[VehicleSpeed]: 40.471886 
+[SpeedX]: 40.497543 
+[PositionX]: 536.846802 
+[PositionY]: 63.431179 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.087706 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.919133 
+[Yaw]: 0.980389 
+[RemainingFuel]: 9.578448 
+[MassWithFuelUpdate]: 1409.578491 
+[VehicleSpeed]: 40.540230 
+[SpeedX]: 40.564026 
+[PositionX]: 537.361755 
+[PositionY]: 64.159378 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.086703 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.928218 
+[Yaw]: 0.988723 
+[RemainingFuel]: 9.577745 
+[MassWithFuelUpdate]: 1409.577759 
+[VehicleSpeed]: 40.610500 
+[SpeedX]: 40.632195 
+[PositionX]: 537.871887 
+[PositionY]: 64.892998 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.086051 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.937321 
+[Yaw]: 0.996927 
+[RemainingFuel]: 9.577043 
+[MassWithFuelUpdate]: 1409.577026 
+[VehicleSpeed]: 40.688522 
+[SpeedX]: 40.707909 
+[PositionX]: 538.376892 
+[PositionY]: 65.631958 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.085878 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.946443 
+[Yaw]: 1.004923 
+[RemainingFuel]: 9.576340 
+[MassWithFuelUpdate]: 1409.576294 
+[VehicleSpeed]: 40.764797 
+[SpeedX]: 40.782188 
+[PositionX]: 538.876892 
+[PositionY]: 66.376213 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.086351 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.955585 
+[Yaw]: 1.012662 
+[RemainingFuel]: 9.575637 
+[MassWithFuelUpdate]: 1409.575684 
+[VehicleSpeed]: 40.832657 
+[SpeedX]: 40.849194 
+[PositionX]: 539.371826 
+[PositionY]: 67.125671 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.087557 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.964746 
+[Yaw]: 1.020283 
+[RemainingFuel]: 9.574934 
+[MassWithFuelUpdate]: 1409.574951 
+[VehicleSpeed]: 40.896355 
+[SpeedX]: 40.910889 
+[PositionX]: 539.861633 
+[PositionY]: 67.880325 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.089163 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.973925 
+[Yaw]: 1.027912 
+[RemainingFuel]: 9.574231 
+[MassWithFuelUpdate]: 1409.574219 
+[VehicleSpeed]: 40.961067 
+[SpeedX]: 40.973801 
+[PositionX]: 540.346313 
+[PositionY]: 68.640076 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.090902 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.983124 
+[Yaw]: 1.035592 
+[RemainingFuel]: 9.573528 
+[MassWithFuelUpdate]: 1409.573486 
+[VehicleSpeed]: 41.044785 
+[SpeedX]: 41.056396 
+[PositionX]: 540.825806 
+[PositionY]: 69.404938 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.092769 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 0.992339 
+[Yaw]: 1.043516 
+[RemainingFuel]: 9.572825 
+[MassWithFuelUpdate]: 1409.572876 
+[VehicleSpeed]: 41.116936 
+[SpeedX]: 41.126282 
+[PositionX]: 541.300049 
+[PositionY]: 70.174660 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.094102 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.001572 
+[Yaw]: 1.051570 
+[RemainingFuel]: 9.572123 
+[MassWithFuelUpdate]: 1409.572144 
+[VehicleSpeed]: 41.185192 
+[SpeedX]: 41.192501 
+[PositionX]: 541.769043 
+[PositionY]: 70.949272 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.095239 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.010823 
+[Yaw]: 1.059875 
+[RemainingFuel]: 9.571420 
+[MassWithFuelUpdate]: 1409.571411 
+[VehicleSpeed]: 41.251129 
+[SpeedX]: 41.256310 
+[PositionX]: 542.232788 
+[PositionY]: 71.728813 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.095892 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.020092 
+[Yaw]: 1.068429 
+[RemainingFuel]: 9.570717 
+[MassWithFuelUpdate]: 1409.570679 
+[VehicleSpeed]: 41.314362 
+[SpeedX]: 41.317963 
+[PositionX]: 542.691101 
+[PositionY]: 72.513260 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.096062 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.029378 
+[Yaw]: 1.077204 
+[RemainingFuel]: 9.570014 
+[MassWithFuelUpdate]: 1409.570068 
+[VehicleSpeed]: 41.376980 
+[SpeedX]: 41.378845 
+[PositionX]: 543.143738 
+[PositionY]: 73.302643 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.095797 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.038680 
+[Yaw]: 1.086181 
+[RemainingFuel]: 9.569311 
+[MassWithFuelUpdate]: 1409.569336 
+[VehicleSpeed]: 41.439667 
+[SpeedX]: 41.439754 
+[PositionX]: 543.590576 
+[PositionY]: 74.096901 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.095150 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.048001 
+[Yaw]: 1.095250 
+[RemainingFuel]: 9.568608 
+[MassWithFuelUpdate]: 1409.568604 
+[VehicleSpeed]: 41.506935 
+[SpeedX]: 41.505638 
+[PositionX]: 544.031677 
+[PositionY]: 74.896172 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.094440 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.057338 
+[Yaw]: 1.104334 
+[RemainingFuel]: 9.567905 
+[MassWithFuelUpdate]: 1409.567871 
+[VehicleSpeed]: 41.570824 
+[SpeedX]: 41.567825 
+[PositionX]: 544.466675 
+[PositionY]: 75.700256 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.093778 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.066691 
+[Yaw]: 1.113455 
+[RemainingFuel]: 9.567203 
+[MassWithFuelUpdate]: 1409.567261 
+[VehicleSpeed]: 41.641891 
+[SpeedX]: 41.637100 
+[PositionX]: 544.895630 
+[PositionY]: 76.509163 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.093181 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.076059 
+[Yaw]: 1.122595 
+[RemainingFuel]: 9.566500 
+[MassWithFuelUpdate]: 1409.566528 
+[VehicleSpeed]: 41.709148 
+[SpeedX]: 41.702606 
+[PositionX]: 545.318298 
+[PositionY]: 77.322884 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.092618 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.085443 
+[Yaw]: 1.131716 
+[RemainingFuel]: 9.565797 
+[MassWithFuelUpdate]: 1409.565796 
+[VehicleSpeed]: 41.771400 
+[SpeedX]: 41.763931 
+[PositionX]: 545.734680 
+[PositionY]: 78.141380 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.092184 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.094844 
+[Yaw]: 1.140834 
+[RemainingFuel]: 9.565094 
+[MassWithFuelUpdate]: 1409.565063 
+[VehicleSpeed]: 41.831436 
+[SpeedX]: 41.822746 
+[PositionX]: 546.144714 
+[PositionY]: 78.964622 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.091849 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.104259 
+[Yaw]: 1.149911 
+[RemainingFuel]: 9.564391 
+[MassWithFuelUpdate]: 1409.564331 
+[VehicleSpeed]: 41.891705 
+[SpeedX]: 41.881699 
+[PositionX]: 546.548218 
+[PositionY]: 79.792511 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.091715 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.113692 
+[Yaw]: 1.158877 
+[RemainingFuel]: 9.563688 
+[MassWithFuelUpdate]: 1409.563721 
+[VehicleSpeed]: 41.946224 
+[SpeedX]: 41.935009 
+[PositionX]: 546.945557 
+[PositionY]: 80.625046 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.091959 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.123138 
+[Yaw]: 1.167613 
+[RemainingFuel]: 9.562985 
+[MassWithFuelUpdate]: 1409.562988 
+[VehicleSpeed]: 42.009369 
+[SpeedX]: 41.997200 
+[PositionX]: 547.336182 
+[PositionY]: 81.462158 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.092922 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.132601 
+[Yaw]: 1.176073 
+[RemainingFuel]: 9.562283 
+[MassWithFuelUpdate]: 1409.562256 
+[VehicleSpeed]: 42.073570 
+[SpeedX]: 42.060745 
+[PositionX]: 547.720276 
+[PositionY]: 82.303787 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.094688 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.142079 
+[Yaw]: 1.184303 
+[RemainingFuel]: 9.561580 
+[MassWithFuelUpdate]: 1409.561523 
+[VehicleSpeed]: 42.139259 
+[SpeedX]: 42.125446 
+[PositionX]: 548.097839 
+[PositionY]: 83.149887 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.097154 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.151571 
+[Yaw]: 1.192564 
+[RemainingFuel]: 9.560877 
+[MassWithFuelUpdate]: 1409.560913 
+[VehicleSpeed]: 42.200798 
+[SpeedX]: 42.187275 
+[PositionX]: 548.468445 
+[PositionY]: 84.000450 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.099616 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.161078 
+[Yaw]: 1.200673 
+[RemainingFuel]: 9.560174 
+[MassWithFuelUpdate]: 1409.560181 
+[VehicleSpeed]: 42.263092 
+[SpeedX]: 42.249420 
+[PositionX]: 548.832397 
+[PositionY]: 84.855309 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.102570 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.170600 
+[Yaw]: 1.208856 
+[RemainingFuel]: 9.559471 
+[MassWithFuelUpdate]: 1409.559448 
+[VehicleSpeed]: 42.318089 
+[SpeedX]: 42.303947 
+[PositionX]: 549.189697 
+[PositionY]: 85.714394 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.105417 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.180137 
+[Yaw]: 1.216936 
+[RemainingFuel]: 9.558768 
+[MassWithFuelUpdate]: 1409.558716 
+[VehicleSpeed]: 42.371803 
+[SpeedX]: 42.357647 
+[PositionX]: 549.540100 
+[PositionY]: 86.577774 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.108629 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.189687 
+[Yaw]: 1.225080 
+[RemainingFuel]: 9.558065 
+[MassWithFuelUpdate]: 1409.558105 
+[VehicleSpeed]: 42.428211 
+[SpeedX]: 42.414291 
+[PositionX]: 549.883606 
+[PositionY]: 87.445297 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.111806 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.199252 
+[Yaw]: 1.233359 
+[RemainingFuel]: 9.557363 
+[MassWithFuelUpdate]: 1409.557373 
+[VehicleSpeed]: 42.487190 
+[SpeedX]: 42.473091 
+[PositionX]: 550.220215 
+[PositionY]: 88.316879 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.114784 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.208830 
+[Yaw]: 1.241681 
+[RemainingFuel]: 9.556660 
+[MassWithFuelUpdate]: 1409.556641 
+[VehicleSpeed]: 42.546680 
+[SpeedX]: 42.532562 
+[PositionX]: 550.549866 
+[PositionY]: 89.192467 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.117766 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.218421 
+[Yaw]: 1.250380 
+[RemainingFuel]: 9.555957 
+[MassWithFuelUpdate]: 1409.555908 
+[VehicleSpeed]: 42.605118 
+[SpeedX]: 42.590420 
+[PositionX]: 550.872437 
+[PositionY]: 90.072014 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.119916 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.228027 
+[Yaw]: 1.259262 
+[RemainingFuel]: 9.555254 
+[MassWithFuelUpdate]: 1409.555298 
+[VehicleSpeed]: 42.665504 
+[SpeedX]: 42.650146 
+[PositionX]: 551.187988 
+[PositionY]: 90.955452 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.121740 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.237644 
+[Yaw]: 1.268391 
+[RemainingFuel]: 9.554551 
+[MassWithFuelUpdate]: 1409.554565 
+[VehicleSpeed]: 42.731865 
+[SpeedX]: 42.715813 
+[PositionX]: 551.496643 
+[PositionY]: 91.842628 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.123119 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.247276 
+[Yaw]: 1.277520 
+[RemainingFuel]: 9.553848 
+[MassWithFuelUpdate]: 1409.553833 
+[VehicleSpeed]: 42.788143 
+[SpeedX]: 42.771183 
+[PositionX]: 551.798096 
+[PositionY]: 92.733612 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.124551 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.256919 
+[Yaw]: 1.286799 
+[RemainingFuel]: 9.553145 
+[MassWithFuelUpdate]: 1409.553101 
+[VehicleSpeed]: 42.842712 
+[SpeedX]: 42.824780 
+[PositionX]: 552.092163 
+[PositionY]: 93.628311 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.125700 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.266575 
+[Yaw]: 1.296200 
+[RemainingFuel]: 9.552443 
+[MassWithFuelUpdate]: 1409.552490 
+[VehicleSpeed]: 42.896725 
+[SpeedX]: 42.877785 
+[PositionX]: 552.378845 
+[PositionY]: 94.526657 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.126648 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.276243 
+[Yaw]: 1.305656 
+[RemainingFuel]: 9.551740 
+[MassWithFuelUpdate]: 1409.551758 
+[VehicleSpeed]: 42.949089 
+[SpeedX]: 42.929562 
+[PositionX]: 552.658142 
+[PositionY]: 95.428574 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.127565 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.285924 
+[Yaw]: 1.315192 
+[RemainingFuel]: 9.551037 
+[MassWithFuelUpdate]: 1409.551025 
+[VehicleSpeed]: 42.999420 
+[SpeedX]: 42.978889 
+[PositionX]: 552.930054 
+[PositionY]: 96.334030 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.128380 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.295615 
+[Yaw]: 1.324810 
+[RemainingFuel]: 9.550334 
+[MassWithFuelUpdate]: 1409.550293 
+[VehicleSpeed]: 43.041664 
+[SpeedX]: 43.019669 
+[PositionX]: 553.194214 
+[PositionY]: 97.242912 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.129027 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.305319 
+[Yaw]: 1.334401 
+[RemainingFuel]: 9.549631 
+[MassWithFuelUpdate]: 1409.549683 
+[VehicleSpeed]: 43.091145 
+[SpeedX]: 43.068623 
+[PositionX]: 553.450745 
+[PositionY]: 98.155296 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.129895 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.315034 
+[Yaw]: 1.344074 
+[RemainingFuel]: 9.548928 
+[MassWithFuelUpdate]: 1409.548950 
+[VehicleSpeed]: 43.142418 
+[SpeedX]: 43.118847 
+[PositionX]: 553.699402 
+[PositionY]: 99.070946 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.130654 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.324759 
+[Yaw]: 1.353726 
+[RemainingFuel]: 9.548225 
+[MassWithFuelUpdate]: 1409.548218 
+[VehicleSpeed]: 43.193073 
+[SpeedX]: 43.168423 
+[PositionX]: 553.940125 
+[PositionY]: 99.989845 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.131544 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.334495 
+[Yaw]: 1.363240 
+[RemainingFuel]: 9.547523 
+[MassWithFuelUpdate]: 1409.547485 
+[VehicleSpeed]: 43.245422 
+[SpeedX]: 43.220352 
+[PositionX]: 554.173035 
+[PositionY]: 100.911949 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.132894 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.344242 
+[Yaw]: 1.372943 
+[RemainingFuel]: 9.546820 
+[MassWithFuelUpdate]: 1409.546875 
+[VehicleSpeed]: 43.294731 
+[SpeedX]: 43.268726 
+[PositionX]: 554.397827 
+[PositionY]: 101.837189 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.133826 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.353999 
+[Yaw]: 1.382576 
+[RemainingFuel]: 9.546117 
+[MassWithFuelUpdate]: 1409.546143 
+[VehicleSpeed]: 43.343548 
+[SpeedX]: 43.316711 
+[PositionX]: 554.614563 
+[PositionY]: 102.765442 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.135015 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.363766 
+[Yaw]: 1.392265 
+[RemainingFuel]: 9.545414 
+[MassWithFuelUpdate]: 1409.545410 
+[VehicleSpeed]: 43.403946 
+[SpeedX]: 43.376728 
+[PositionX]: 554.823242 
+[PositionY]: 103.696671 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.136228 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.373544 
+[Yaw]: 1.401750 
+[RemainingFuel]: 9.544711 
+[MassWithFuelUpdate]: 1409.544678 
+[VehicleSpeed]: 43.451836 
+[SpeedX]: 43.424183 
+[PositionX]: 555.023621 
+[PositionY]: 104.630806 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.137950 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.383330 
+[Yaw]: 1.411167 
+[RemainingFuel]: 9.544008 
+[MassWithFuelUpdate]: 1409.544067 
+[VehicleSpeed]: 43.498802 
+[SpeedX]: 43.470871 
+[PositionX]: 555.215576 
+[PositionY]: 105.567734 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.139898 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.393127 
+[Yaw]: 1.420497 
+[RemainingFuel]: 9.543305 
+[MassWithFuelUpdate]: 1409.543335 
+[VehicleSpeed]: 43.546581 
+[SpeedX]: 43.518143 
+[PositionX]: 555.399414 
+[PositionY]: 106.507416 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.142162 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.402933 
+[Yaw]: 1.430000 
+[RemainingFuel]: 9.542603 
+[MassWithFuelUpdate]: 1409.542603 
+[VehicleSpeed]: 43.590900 
+[SpeedX]: 43.562401 
+[PositionX]: 555.574524 
+[PositionY]: 107.449760 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.144024 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.412749 
+[Yaw]: 1.439432 
+[RemainingFuel]: 9.541900 
+[MassWithFuelUpdate]: 1409.541870 
+[VehicleSpeed]: 43.636028 
+[SpeedX]: 43.607319 
+[PositionX]: 555.741211 
+[PositionY]: 108.394676 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.146148 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.422573 
+[Yaw]: 1.448897 
+[RemainingFuel]: 9.541197 
+[MassWithFuelUpdate]: 1409.541138 
+[VehicleSpeed]: 43.680408 
+[SpeedX]: 43.651173 
+[PositionX]: 555.899414 
+[PositionY]: 109.342049 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.148250 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.432406 
+[Yaw]: 1.458263 
+[RemainingFuel]: 9.540494 
+[MassWithFuelUpdate]: 1409.540527 
+[VehicleSpeed]: 43.725349 
+[SpeedX]: 43.696239 
+[PositionX]: 556.048950 
+[PositionY]: 110.291855 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.150677 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.442248 
+[Yaw]: 1.467657 
+[RemainingFuel]: 9.539791 
+[MassWithFuelUpdate]: 1409.539795 
+[VehicleSpeed]: 43.769024 
+[SpeedX]: 43.740208 
+[PositionX]: 556.189636 
+[PositionY]: 111.243988 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.153072 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.452098 
+[Yaw]: 1.477119 
+[RemainingFuel]: 9.539088 
+[MassWithFuelUpdate]: 1409.539062 
+[VehicleSpeed]: 43.812069 
+[SpeedX]: 43.783409 
+[PositionX]: 556.321594 
+[PositionY]: 112.198334 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.155360 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.461957 
+[Yaw]: 1.486641 
+[RemainingFuel]: 9.538385 
+[MassWithFuelUpdate]: 1409.538330 
+[VehicleSpeed]: 43.852402 
+[SpeedX]: 43.824322 
+[PositionX]: 556.445007 
+[PositionY]: 113.154785 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.157561 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.471823 
+[Yaw]: 1.496434 
+[RemainingFuel]: 9.537683 
+[MassWithFuelUpdate]: 1409.537720 
+[VehicleSpeed]: 43.894146 
+[SpeedX]: 43.865604 
+[PositionX]: 556.559509 
+[PositionY]: 114.113266 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.159146 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.481697 
+[Yaw]: 1.506507 
+[RemainingFuel]: 9.536980 
+[MassWithFuelUpdate]: 1409.536987 
+[VehicleSpeed]: 43.934906 
+[SpeedX]: 43.905357 
+[PositionX]: 556.665161 
+[PositionY]: 115.073669 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.160084 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.491579 
+[Yaw]: 1.516823 
+[RemainingFuel]: 9.536277 
+[MassWithFuelUpdate]: 1409.536255 
+[VehicleSpeed]: 43.967712 
+[SpeedX]: 43.936775 
+[PositionX]: 556.761963 
+[PositionY]: 116.035934 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.160429 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.501467 
+[Yaw]: 1.527362 
+[RemainingFuel]: 9.535574 
+[MassWithFuelUpdate]: 1409.535522 
+[VehicleSpeed]: 44.005310 
+[SpeedX]: 43.972389 
+[PositionX]: 556.849915 
+[PositionY]: 116.999916 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.160312 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.511364 
+[Yaw]: 1.538135 
+[RemainingFuel]: 9.534871 
+[MassWithFuelUpdate]: 1409.534912 
+[VehicleSpeed]: 44.044029 
+[SpeedX]: 44.008556 
+[PositionX]: 556.929077 
+[PositionY]: 117.965561 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.159686 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.521267 
+[Yaw]: 1.548969 
+[RemainingFuel]: 9.534168 
+[MassWithFuelUpdate]: 1409.534180 
+[VehicleSpeed]: 44.079544 
+[SpeedX]: 44.041393 
+[PositionX]: 556.999512 
+[PositionY]: 118.932747 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.158963 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.531177 
+[Yaw]: 1.559785 
+[RemainingFuel]: 9.533465 
+[MassWithFuelUpdate]: 1409.533447 
+[VehicleSpeed]: 44.117863 
+[SpeedX]: 44.076775 
+[PositionX]: 557.061218 
+[PositionY]: 119.901413 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.158387 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.541094 
+[Yaw]: 1.570493 
+[RemainingFuel]: 9.532763 
+[MassWithFuelUpdate]: 1409.532715 
+[VehicleSpeed]: 44.154305 
+[SpeedX]: 44.110451 
+[PositionX]: 557.114197 
+[PositionY]: 120.871460 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.158151 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.551019 
+[Yaw]: 1.581022 
+[RemainingFuel]: 9.532060 
+[MassWithFuelUpdate]: 1409.532104 
+[VehicleSpeed]: 44.202988 
+[SpeedX]: 44.157219 
+[PositionX]: 557.158325 
+[PositionY]: 121.842888 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.158514 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.560948 
+[Yaw]: 1.591382 
+[RemainingFuel]: 9.531357 
+[MassWithFuelUpdate]: 1409.531372 
+[VehicleSpeed]: 44.239849 
+[SpeedX]: 44.191956 
+[PositionX]: 557.193604 
+[PositionY]: 122.815407 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.159301 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.570884 
+[Yaw]: 1.601597 
+[RemainingFuel]: 9.530654 
+[MassWithFuelUpdate]: 1409.530640 
+[VehicleSpeed]: 44.275539 
+[SpeedX]: 44.226032 
+[PositionX]: 557.220032 
+[PositionY]: 123.789001 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.160524 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.580825 
+[Yaw]: 1.611678 
+[RemainingFuel]: 9.529951 
+[MassWithFuelUpdate]: 1409.529907 
+[VehicleSpeed]: 44.310844 
+[SpeedX]: 44.259949 
+[PositionX]: 557.237488 
+[PositionY]: 124.763611 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.162152 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.590772 
+[Yaw]: 1.621723 
+[RemainingFuel]: 9.529248 
+[MassWithFuelUpdate]: 1409.529297 
+[VehicleSpeed]: 44.348892 
+[SpeedX]: 44.297153 
+[PositionX]: 557.245605 
+[PositionY]: 125.739105 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.163928 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.600724 
+[Yaw]: 1.631477 
+[RemainingFuel]: 9.528545 
+[MassWithFuelUpdate]: 1409.528564 
+[VehicleSpeed]: 44.383118 
+[SpeedX]: 44.331104 
+[PositionX]: 557.244324 
+[PositionY]: 126.715431 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.166446 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.610682 
+[Yaw]: 1.640931 
+[RemainingFuel]: 9.527843 
+[MassWithFuelUpdate]: 1409.527832 
+[VehicleSpeed]: 44.420799 
+[SpeedX]: 44.369331 
+[PositionX]: 557.233826 
+[PositionY]: 127.692490 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.169790 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.620645 
+[Yaw]: 1.650149 
+[RemainingFuel]: 9.527140 
+[MassWithFuelUpdate]: 1409.527100 
+[VehicleSpeed]: 44.454964 
+[SpeedX]: 44.404636 
+[PositionX]: 557.213928 
+[PositionY]: 128.670105 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.173747 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.630612 
+[Yaw]: 1.659297 
+[RemainingFuel]: 9.526437 
+[MassWithFuelUpdate]: 1409.526489 
+[VehicleSpeed]: 44.487713 
+[SpeedX]: 44.438847 
+[PositionX]: 557.184753 
+[PositionY]: 129.648224 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.177920 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.640585 
+[Yaw]: 1.668400 
+[RemainingFuel]: 9.525734 
+[MassWithFuelUpdate]: 1409.525757 
+[VehicleSpeed]: 44.519684 
+[SpeedX]: 44.472462 
+[PositionX]: 557.146179 
+[PositionY]: 130.626770 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.182249 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.650562 
+[Yaw]: 1.677514 
+[RemainingFuel]: 9.525031 
+[MassWithFuelUpdate]: 1409.525024 
+[VehicleSpeed]: 44.553349 
+[SpeedX]: 44.507229 
+[PositionX]: 557.098083 
+[PositionY]: 131.605591 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.186584 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.660544 
+[Yaw]: 1.686425 
+[RemainingFuel]: 9.524328 
+[MassWithFuelUpdate]: 1409.524292 
+[VehicleSpeed]: 44.584492 
+[SpeedX]: 44.540245 
+[PositionX]: 557.040710 
+[PositionY]: 132.584671 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.191471 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.670530 
+[Yaw]: 1.695195 
+[RemainingFuel]: 9.523625 
+[MassWithFuelUpdate]: 1409.523682 
+[VehicleSpeed]: 44.614407 
+[SpeedX]: 44.572422 
+[PositionX]: 556.973938 
+[PositionY]: 133.563889 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.196753 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.680521 
+[Yaw]: 1.703892 
+[RemainingFuel]: 9.522923 
+[MassWithFuelUpdate]: 1409.522949 
+[VehicleSpeed]: 44.646168 
+[SpeedX]: 44.606689 
+[PositionX]: 556.897522 
+[PositionY]: 134.543060 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.202247 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.690516 
+[Yaw]: 1.712697 
+[RemainingFuel]: 9.522220 
+[MassWithFuelUpdate]: 1409.522217 
+[VehicleSpeed]: 44.675735 
+[SpeedX]: 44.638664 
+[PositionX]: 556.811646 
+[PositionY]: 135.522171 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.207504 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.700515 
+[Yaw]: 1.721800 
+[RemainingFuel]: 9.521517 
+[MassWithFuelUpdate]: 1409.521484 
+[VehicleSpeed]: 44.705238 
+[SpeedX]: 44.669918 
+[PositionX]: 556.716309 
+[PositionY]: 136.501053 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.212049 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.710518 
+[Yaw]: 1.731414 
+[RemainingFuel]: 9.520814 
+[MassWithFuelUpdate]: 1409.520874 
+[VehicleSpeed]: 44.734894 
+[SpeedX]: 44.700233 
+[PositionX]: 556.611511 
+[PositionY]: 137.479584 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.215360 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.720524 
+[Yaw]: 1.741235 
+[RemainingFuel]: 9.520111 
+[MassWithFuelUpdate]: 1409.520142 
+[VehicleSpeed]: 44.765476 
+[SpeedX]: 44.730595 
+[PositionX]: 556.497559 
+[PositionY]: 138.457764 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.218215 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.730533 
+[Yaw]: 1.751201 
+[RemainingFuel]: 9.519409 
+[MassWithFuelUpdate]: 1409.519409 
+[VehicleSpeed]: 44.795990 
+[SpeedX]: 44.760361 
+[PositionX]: 556.374756 
+[PositionY]: 139.435562 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.220801 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.740546 
+[Yaw]: 1.761195 
+[RemainingFuel]: 9.518708 
+[MassWithFuelUpdate]: 1409.518677 
+[VehicleSpeed]: 44.821728 
+[SpeedX]: 44.784992 
+[PositionX]: 556.242920 
+[PositionY]: 140.412796 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.223358 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.750562 
+[Yaw]: 1.771242 
+[RemainingFuel]: 9.518008 
+[MassWithFuelUpdate]: 1409.518066 
+[VehicleSpeed]: 44.850567 
+[SpeedX]: 44.812721 
+[PositionX]: 556.102173 
+[PositionY]: 141.389511 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.225890 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.760582 
+[Yaw]: 1.781363 
+[RemainingFuel]: 9.517308 
+[MassWithFuelUpdate]: 1409.517334 
+[VehicleSpeed]: 44.879974 
+[SpeedX]: 44.840969 
+[PositionX]: 555.952637 
+[PositionY]: 142.365601 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.228336 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.770605 
+[Yaw]: 1.791481 
+[RemainingFuel]: 9.516608 
+[MassWithFuelUpdate]: 1409.516602 
+[VehicleSpeed]: 44.909637 
+[SpeedX]: 44.869289 
+[PositionX]: 555.794250 
+[PositionY]: 143.340942 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.230875 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.780630 
+[Yaw]: 1.801548 
+[RemainingFuel]: 9.515908 
+[MassWithFuelUpdate]: 1409.515869 
+[VehicleSpeed]: 44.936214 
+[SpeedX]: 44.895363 
+[PositionX]: 555.626770 
+[PositionY]: 144.315414 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.233527 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.790658 
+[Yaw]: 1.811430 
+[RemainingFuel]: 9.515207 
+[MassWithFuelUpdate]: 1409.515259 
+[VehicleSpeed]: 44.962963 
+[SpeedX]: 44.921932 
+[PositionX]: 555.450012 
+[PositionY]: 145.288879 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.236023 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.800687 
+[Yaw]: 1.821330 
+[RemainingFuel]: 9.514506 
+[MassWithFuelUpdate]: 1409.514526 
+[VehicleSpeed]: 44.982510 
+[SpeedX]: 44.941177 
+[PositionX]: 555.263977 
+[PositionY]: 146.261124 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.237696 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.810719 
+[Yaw]: 1.831109 
+[RemainingFuel]: 9.513805 
+[MassWithFuelUpdate]: 1409.513794 
+[VehicleSpeed]: 45.005676 
+[SpeedX]: 44.964699 
+[PositionX]: 555.068237 
+[PositionY]: 147.232117 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.238912 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.820752 
+[Yaw]: 1.840902 
+[RemainingFuel]: 9.513104 
+[MassWithFuelUpdate]: 1409.513062 
+[VehicleSpeed]: 45.032169 
+[SpeedX]: 44.991470 
+[PositionX]: 554.862976 
+[PositionY]: 148.201645 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.239338 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.830787 
+[Yaw]: 1.850611 
+[RemainingFuel]: 9.512402 
+[MassWithFuelUpdate]: 1409.512451 
+[VehicleSpeed]: 45.055595 
+[SpeedX]: 45.015556 
+[PositionX]: 554.648193 
+[PositionY]: 149.169647 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.239184 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.840823 
+[Yaw]: 1.860297 
+[RemainingFuel]: 9.511699 
+[MassWithFuelUpdate]: 1409.511719 
+[VehicleSpeed]: 45.076851 
+[SpeedX]: 45.037842 
+[PositionX]: 554.423584 
+[PositionY]: 150.135956 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.238284 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.850861 
+[Yaw]: 1.870111 
+[RemainingFuel]: 9.510996 
+[MassWithFuelUpdate]: 1409.510986 
+[VehicleSpeed]: 45.098045 
+[SpeedX]: 45.059586 
+[PositionX]: 554.189392 
+[PositionY]: 151.100479 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.236285 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.860899 
+[Yaw]: 1.880199 
+[RemainingFuel]: 9.510295 
+[MassWithFuelUpdate]: 1409.510254 
+[VehicleSpeed]: 45.119820 
+[SpeedX]: 45.080887 
+[PositionX]: 553.945618 
+[PositionY]: 152.063110 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.232816 
+[FLAT OUT: Gear]: 3 
+[FLAT OUT: Brake]: 0.000000 
+[FLAT OUT: Throttle]: 1.000000 
+[TrackAngle]: 1.870939 
+[Yaw]: 1.890493 
+[RemainingFuel]: 9.509597 
+[MassWithFuelUpdate]: 1409.509644 
+[VehicleSpeed]: 45.139835 
+[SpeedX]: 45.099773 
+[PositionX]: 553.692505 
+[PositionY]: 153.023819 
+[Stuck]: 0 
+[FLAT OUT: Steering]: 0.228063 
 [FLAT OUT: Gear]: 3 
 [FLAT OUT: Brake]: 0.000000 
 [FLAT OUT: Throttle]: 1.000000 

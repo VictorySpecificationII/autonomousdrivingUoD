@@ -18,7 +18,7 @@ Created and tested with TORCS v.1.3.7 running on Ubuntu 16.04.
 ## Datalogging
  - Rough first pass of the logger.
  - Custom message format.
- - Currently enabled, will add disable flag in the near future.
- - After the end of each race, run '''./postRaceSort.sh'''.
- - The separated values will each appear in their own file.
+ - Enable/Disable flag in driver.cpp.
+ - After the end of each race, if you have datalogging enabled, run '''./postRaceSort.sh'''.
+ - The separated values will each appear in their own file in the Logs directory.
 
