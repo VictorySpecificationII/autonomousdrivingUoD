@@ -15,7 +15,7 @@ Created and tested with TORCS v.1.3.7 running on Ubuntu 16.04.
  - Run 'make'
  - Run 'make install'
 
-##Datalogging
+## Datalogging
  - Rough first pass of the logger.
  - Custom message format.
  - Currently enabled, will add disable flag in the near future.
