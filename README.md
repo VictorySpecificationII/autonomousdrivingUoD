@@ -14,3 +14,11 @@ Created and tested with TORCS v.1.3.7 running on Ubuntu 16.04.
  - Run 'make clean'
  - Run 'make'
  - Run 'make install'
+
+##Datalogging
+ - Rough first pass of the logger.
+ - Custom message format.
+ - Currently enabled, will add disable flag in the near future.
+ - After the end of each race, run '''./postRaceSort.sh'''.
+ - The separated values will each appear in their own file.
+
