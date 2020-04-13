@@ -114,7 +114,9 @@ int Datalogger::AppendToLog(string tag, string data, int rate){
   ofstream MyFile("/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/Log.txt", std::ios::app);
   //printf("%s\n", "DATALOGGER: Opening file to append to..." );
   char* dt = TimeStamp();
-  MyFile << tag << " - " << data << dt << ", \n";
+  //MyFile << tag << data << ",";//we already know that the data follows the timestamp, no need to include
+  MyFile << tag << data << "\n";//DEBUG STATEMENT
+  //MyFile << tag << data << dt << ",";//Uncomment to include time stamp
   /*MyFile << dt << tag << " - " << data << ", ";*/
   std::this_thread::sleep_for(std::chrono::milliseconds(rate));
   //printf("%s\n", "DATALOGGER: Data appended.");
@@ -137,7 +139,7 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
 
     switch (s->_raceType) {
         case RM_TYPE_PRACTICE:
-            Logger.AppendToLog("Race Type: ", "RM_TYPE_PRACTICE ", 0);
+            Logger.AppendToLog("[SessionDetail]: ", "Race Type: RM_TYPE_PRACTICE ", 0);
             //printf("%s\n", "RACE TYPE: Practice");
             sprintf(buffer, "drivers/Maria/%d/practice/%s", INDEX, trackname);
             break;
@@ -160,7 +162,7 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
         MARIA_ATT_FUELPERLAP, (char*)NULL, 5.0);
 
     fuel *= (s->_totLaps + 1.0);
-    Logger.AppendToLog("Fuel: ", to_string(fuel) + "L ", 0);
+    Logger.AppendToLog("[SessionDetail] Starting Fuel: ", to_string(fuel) + " L ", 0);
     GfParmSetNum(*carParmHandle, SECT_CAR, PRM_FUEL, (char*)NULL, MIN(fuel, 100.0));
 
 }
@@ -171,10 +173,11 @@ void Driver::newRace(tCarElt* car, tSituation *s)
 
     MAX_UNSTUCK_COUNT = int(UNSTUCK_TIME_LIMIT/RCM_MAX_DT_ROBOTS);
     stuck = 0;
-    Logger.AppendToLog("Stuck: ", to_string(stuck) + " ", 0);
     this->car = car;
     CARMASS = GfParmGetNum(car->_carHandle, SECT_CAR, PRM_MASS, NULL, 1000.0);
-    Logger.AppendToLog("Car Mass Unladen: ", to_string(CARMASS) +" ", 0);
+    Logger.AppendToLog("[SessionDetail] Car Mass Unladen: ", to_string(CARMASS) +" Kg ", 0);
+    Logger.AppendToLog("[Stuck]: ", to_string(stuck) + " ", 0);
+    
     initCa();
     initCw();
     initTCLfilter();
@@ -195,45 +198,46 @@ void Driver::drive(tSituation *s)
     update(s);
     //pit->setPitstop(true); //uncomment if you want to pit every lap
     
-    int reconLaps = 1;//recon lap to grab track information
+    int reconLaps = 0;//recon lap to grab track information
 
     if (isStuck()) {
         car->ctrl.steer = -angle / car->_steerLock;
-        Logger.AppendToLog("STUCK: Steering command angle over lock: ", to_string(-angle / car->_steerLock), 0);
+        Logger.AppendToLog("[STUCK: Steering]: ", to_string(-angle / car->_steerLock) + " ", 0);
         car->ctrl.gear = -1; // reverse gear
-        Logger.AppendToLog("STUCK: Gear: ", "R ", 0);
+        Logger.AppendToLog("[STUCK: Gear]: ", " R ", 0);
         car->ctrl.accelCmd = 0.5; // 50% accelerator pedal
-        Logger.AppendToLog("STUCK: Throttle: ", "0.5 ", 0);
+        Logger.AppendToLog("[STUCK: Throttle]: ", " 0.5 ", 0);
         car->ctrl.brakeCmd = 0.0; // no brakes
-        Logger.AppendToLog("STUCK: Brake: ", "0.0 ", 0);
+        Logger.AppendToLog("[STUCK: Brake]: ", " 0.0 ", 0);
     } else {
 
     //flag, 1 to drive in the middle of the track, 0 to take turns with the racing line
 	if(reconLaps == 1){
 	   	   float steerangle = angle - car->_trkPos.toMiddle;
-           Logger.AppendToLog("RECON: Steering angle w.r.t middle of track: ", to_string(steerangle), 0);
+           //Logger.AppendToLog("[Control] RECON: Steering angle w.r.t middle of track: ", to_string(steerangle), 0);
            car->ctrl.steer = steerangle / car->_steerLock;
-           Logger.AppendToLog("RECON: Steering command angle over lock: ", to_string(steerangle / car->_steerLock), 0);
+           Logger.AppendToLog("[RECON: Steering]: ", to_string(steerangle / car->_steerLock) + " ", 0);
            car->ctrl.gear = 1; // first gear
-           Logger.AppendToLog("RECON: Gear: ", to_string(1), 0);
+           Logger.AppendToLog("[RECON: Gear]: ", to_string(1) + " ", 0);
            car->ctrl.accelCmd = 0.3; // 30% accelerator pedal
-           Logger.AppendToLog("RECON: Throttle: ", to_string(0.3), 0);
+           Logger.AppendToLog("[RECON: Throttle]: ", to_string(0.3) + " ", 0);
            car->ctrl.brakeCmd = 0.05; // rough fix to limit speed
-           Logger.AppendToLog("RECON: Brake: ", to_string(0.05), 0);
+           Logger.AppendToLog("[RECON: Brake]: ", to_string(0.05) + " ", 0);
         }
 	
 	else{
         car->ctrl.steer = filterSColl(getSteer());
-        Logger.AppendToLog("FLAT OUT: Steering: ", to_string(filterSColl(getSteer())), 0);
+        Logger.AppendToLog("[FLAT OUT: Steering]: ", to_string(filterSColl(getSteer())) + " ", 0);
         car->ctrl.gear = 1; // first gear
         car->ctrl.accelCmd = 0.3; // 30% accelerator pedal
         car->ctrl.brakeCmd = 0.0; // no brakes
 	    car->ctrl.gear = getGear();
+        Logger.AppendToLog("[FLAT OUT: Gear]: ", to_string(getGear()) + " ", 0);
         car->ctrl.brakeCmd = filterABS(filterBColl(filterBPit(getBrake())));
-        Logger.AppendToLog("FLAT OUT: Brake: ", to_string(filterABS(filterBColl(filterBPit(getBrake())))), 0);
+        Logger.AppendToLog("[FLAT OUT: Brake]: ", to_string(filterABS(filterBColl(filterBPit(getBrake())))) + " ", 0);
         if (car->ctrl.brakeCmd == 0.0) {
             car->ctrl.accelCmd = filterTCL(filterTrk(getAccel()));
-            Logger.AppendToLog("FLAT OUT: Throttle: ", to_string(filterTCL(filterTrk(getAccel()))), 0);
+            Logger.AppendToLog("[FLAT OUT: Throttle]: ", to_string(filterTCL(filterTrk(getAccel()))) + " ", 0);
         } else {
             car->ctrl.accelCmd = 0.0;
         }
@@ -260,17 +264,19 @@ void Driver::endRace(tSituation *s)
 void Driver::update(tSituation *s)
 {
     trackangle = RtTrackSideTgAngleL(&(car->_trkPos));
-    Logger.AppendToLog("Track angle: ", to_string(trackangle) + " Degrees", 0);
+    Logger.AppendToLog("[TrackAngle]: ", to_string(trackangle) + " ", 0);
     angle = trackangle - car->_yaw;
-    Logger.AppendToLog("Yaw: ", to_string(car -> _yaw) + " Degrees", 0);
-    Logger.AppendToLog("Angle: ", to_string(angle) + " Degrees", 0);
+    Logger.AppendToLog("[Yaw]: ", to_string(car -> _yaw) + " ", 0);
     NORM_PI_PI(angle);
-    Logger.AppendToLog("Angle(Normalized): ", to_string(angle) + " Degrees", 0);
+    //Logger.AppendToLog("[Vehicle Angle Normalized]: ", to_string(angle) + " ", 0);
     mass = CARMASS + car->_fuel;
-    Logger.AppendToLog("Remaining Fuel: ", to_string(car->_fuel) + " L", 0);
-    Logger.AppendToLog("Mass with fuel update: ", to_string(mass) + " Kg", 0);
+    Logger.AppendToLog("[RemainingFuel]: ", to_string(car->_fuel) + " ", 0);
+    Logger.AppendToLog("[MassWithFuelUpdate]: ", to_string(mass) + " ", 0);
     speed = Opponent::getSpeed(car);
-    Logger.AppendToLog("Speed: ", to_string(speed) + " m/s", 0);
+    Logger.AppendToLog("[VehicleSpeed]: ", to_string(speed) + " ", 0);
+    Logger.AppendToLog("[SpeedX]: ", to_string(car->_speed_x) + " ", 0);
+    Logger.AppendToLog("[PositionX]: ", to_string(car->_pos_X) + " ", 0);
+    Logger.AppendToLog("[PositionY]: ", to_string(car->_pos_Y) + " ", 0);
     opponents->update(s, this);
     currentspeedsqr = car->_speed_x*car->_speed_x;
     pit->update();
@@ -286,12 +292,13 @@ bool Driver::isStuck()
             return true;
         } else {
             stuck++;
-            Logger.AppendToLog("Stuck Incrementing: ", to_string(stuck) + " m/s", 0);
+            Logger.AppendToLog("[Stuck]: ", to_string(stuck) + " ", 0);
 
             return false;
         }
     } else {
         stuck = 0;
+        Logger.AppendToLog("[Stuck]: ", to_string(stuck) + " ", 0);
         return false;
     }
 }

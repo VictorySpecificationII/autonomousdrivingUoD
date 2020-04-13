@@ -43,11 +43,6 @@ class Datalogger {
       
       int NewLog();
       int AppendToLog(string tag, string data, int rate);
-      //void LoggerInitialization(tTrack* t, void *carHandle, void **carParmHandle, tSituation *s);
-      //void LoggerRegisterNewRace(tCarElt* car, tSituation *s);
-      //tCarElt *getCarPtr() { return car; }
-      //tTrack *getTrackPtr() { return track; }
-      //float getSpeed() { return speed; }
       
 
   private:
