@@ -115,10 +115,10 @@ int Datalogger::AppendToLog(string tag, string data, int rate){
   ofstream MyFile("/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/Log.txt", std::ios::app);
   //printf("%s\n", "DATALOGGER: Opening file to append to..." );
   char* dt = TimeStamp();
-  //MyFile << tag << data << ",";//we already know that the data follows the timestamp, no need to include
-  MyFile << tag << data << "\n";//DEBUG STATEMENT
-  //MyFile << tag << data << dt << ",";//Uncomment to include time stamp
-  /*MyFile << dt << tag << " - " << data << ", ";*/
+  
+  //MyFile << tag << data << ",";//CSV format, we already know that the data follows the timestamp, no need to include
+  MyFile << tag << data << dt << ",";//CSV format, Uncomment to include time stamp
+  
   std::this_thread::sleep_for(std::chrono::milliseconds(rate));
   //printf("%s\n", "DATALOGGER: Data appended.");
   return 0;
@@ -143,7 +143,6 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
         case RM_TYPE_PRACTICE:
             if(LoggingStatus == 1){
             Logger.AppendToLog("[SessionDetail]: ", "Race Type: RM_TYPE_PRACTICE ", 0);}
-            //printf("%s\n", "RACE TYPE: Practice");
             sprintf(buffer, "drivers/Maria/%d/practice/%s", INDEX, trackname);
             break;
         case RM_TYPE_QUALIF:
@@ -166,7 +165,7 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
 
     fuel *= (s->_totLaps + 1.0);
     if(LoggingStatus == 1){
-    Logger.AppendToLog("[SessionDetail] Starting Fuel: ", to_string(fuel) + " L ", 0);}
+    Logger.AppendToLog("[SessionDetail]: Starting Fuel: ", to_string(fuel) + " L ", 0);}
     GfParmSetNum(*carParmHandle, SECT_CAR, PRM_FUEL, (char*)NULL, MIN(fuel, 100.0));
 
 }
@@ -180,7 +179,7 @@ void Driver::newRace(tCarElt* car, tSituation *s)
     this->car = car;
     CARMASS = GfParmGetNum(car->_carHandle, SECT_CAR, PRM_MASS, NULL, 1000.0);
     if(LoggingStatus == 1){
-    Logger.AppendToLog("[SessionDetail] Car Mass Unladen: ", to_string(CARMASS) +" Kg ", 0);
+    Logger.AppendToLog("[SessionDetail]: Car Mass Unladen: ", to_string(CARMASS) +" Kg ", 0);
     Logger.AppendToLog("[Stuck]: ", to_string(stuck) + " ", 0);}
     
     initCa();
