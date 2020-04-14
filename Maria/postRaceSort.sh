@@ -64,6 +64,7 @@ cat Log.txt | grep 'SlipOnWheelDuringBraking3' >> Logs/Vehicle/SlipOnWheel3Durin
 cat Log.txt | grep 'SlipOver4WheelsDuringBraking' >> Logs/Vehicle/SlipOver4WheelsDuringBraking
 cat Log.txt | grep 'ABSAssistance' >> Logs/Vehicle/ABSAssistance
 cat Log.txt | grep 'TCLAssistance' >> Logs/Vehicle/TCLAssistance
+cat Log.txt | grep 'TCLslip' >> Logs/Vehicle/TCLslip
 
 
 
