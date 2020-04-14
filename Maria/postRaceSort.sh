@@ -65,7 +65,8 @@ cat Log.txt | grep 'SlipOver4WheelsDuringBraking' >> Logs/Vehicle/SlipOver4Wheel
 cat Log.txt | grep 'ABSAssistance' >> Logs/Vehicle/ABSAssistance
 cat Log.txt | grep 'TCLAssistance' >> Logs/Vehicle/TCLAssistance
 cat Log.txt | grep 'TCLslip' >> Logs/Vehicle/TCLslip
-
+cat Log.txt | grep 'DownforceCoefficientInit' >> Logs/Vehicle/DownforceCoefficientInit
+cat Log.txt | grep 'DragCoefficientInit' >> Logs/Vehicle/DragCoefficientInit
 
 
 

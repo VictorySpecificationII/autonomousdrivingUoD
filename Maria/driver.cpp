@@ -507,6 +507,10 @@ void Driver::initCa()
         h += GfParmGetNum(car->_carHandle, WheelSect[i],
                           PRM_RIDEHEIGHT, (char*) NULL, 0.20);
     h*= 1.5; h = h*h; h = h*h; h = 2.0 * exp(-3.0*h);
+    if(LoggingStatus == 1){
+                Logger.AppendToLog("[DownforceCoefficientInit]: ", to_string(h*cl + 4.0*wingca) + " ", 0);
+            }
+    
     CA = h*cl + 4.0*wingca;
 }
 
@@ -517,6 +521,10 @@ void Driver::initCw()
                             PRM_CX, (char*) NULL, 0.0);
     float frontarea = GfParmGetNum(car->_carHandle, SECT_AERODYNAMICS,
                                    PRM_FRNTAREA, (char*) NULL, 0.0);
+
+    if(LoggingStatus == 1){
+                Logger.AppendToLog("[DragCoefficientInit]: ", to_string(0.645*cx*frontarea) + " ", 0);
+            }
     CW = 0.645*cx*frontarea;
 }
 
@@ -816,6 +824,8 @@ float Driver::brakedist(float allowedspeed, float mu)
     float allowedspeedsqr = allowedspeed*allowedspeed;
     float cm = mu*G*mass;
     float ca = CA*mu + CW;
+    //ONLY APPLIES WHILE PITTING
+
     return mass*(currentspeedsqr - allowedspeedsqr) / (2.0*(cm + allowedspeedsqr*ca));
 }
 
