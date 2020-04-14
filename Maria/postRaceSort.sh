@@ -51,6 +51,11 @@ cat Log.txt | grep 'SegmentType' >> Logs/Track/SegmentType
 cat Log.txt | grep 'SegmentWidth' >> Logs/Track/SegmentWidth
 cat Log.txt | grep 'SegmentRadius' >> Logs/Track/SegmentRadius
 cat Log.txt | grep 'CoefficientOfFriction' >> Logs/Track/CoefficientOfFriction
+cat Log.txt | grep 'RPMredline' >> Logs/Vehicle/RPMredline
+cat Log.txt | grep 'CurrentGrRatio' >> Logs/Vehicle/CurrentGrRatio
+cat Log.txt | grep 'GetAccel' >> Logs/Vehicle/GetAccel
+
+
 
 #Template, insert more
 #cat Log.txt | grep ' ' >> Logs/

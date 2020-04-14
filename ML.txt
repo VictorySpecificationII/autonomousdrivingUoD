@@ -1,6 +1,16 @@
 ML enhancement to original driving
 
+Developer notes for pre preprocessing
+
+RPM Redline is in rad/s, convert to RPM
+Some of the velocities are in m/s, go over logs and note which ones
+Gearing processed log shows a bug, FIXED
+Vehicle Speed processed log shows vs^2, FIXED
+
+All Track processed logs check out, they are fine
+
 Mode - Time Attack
+
 
 I/O
 

@@ -312,7 +312,6 @@ void Driver::update(tSituation *s)
         Logger.AppendToLog("[MassWithFuelUpdate]: ", to_string(mass) + " ", 0);
         Logger.AppendToLog("[VehicleSpeed]: ", to_string(speed) + " ", 0);
         Logger.AppendToLog("[SpeedX]: ", to_string(car->_speed_x) + " ", 0);
-        Logger.AppendToLog("[VehicleSpeedSquared]: ", to_string(currentspeedsqr) + " ", 0);
         Logger.AppendToLog("[PositionX]: ", to_string(car->_pos_X) + " ", 0);
         Logger.AppendToLog("[PositionY]: ", to_string(car->_pos_Y) + " ", 0);
 
@@ -398,12 +397,23 @@ float Driver::getDistToSegEnd()
 /* Compute fitting acceleration */
 float Driver::getAccel()
 {
-    float allowedspeed = getAllowedSpeed(car->_trkPos.seg);
+    float allowedspeed = getAllowedSpeed(car->_trkPos.seg);//logged already
     float gr = car->_gearRatio[car->_gear + car->_gearOffset];
     float rm = car->_enginerpmRedLine;
+    if(LoggingStatus == 1){
+    Logger.AppendToLog("[RPMredline]: ", to_string(rm) + " ", 0);
+    Logger.AppendToLog("[CurrentGrRatio]: ", to_string(gr) + " ", 0);
+    }
+
     if (allowedspeed > car->_speed_x + FULL_ACCEL_MARGIN) {
+        if(LoggingStatus == 1){
+         Logger.AppendToLog("[GetAccel]: ", "1.0 ", 0);   
+        }
         return 1.0;
     } else {
+        if(LoggingStatus == 1){
+        Logger.AppendToLog("[GetAccel]: ", to_string(allowedspeed/car->_wheelRadius(REAR_RGT)*gr /rm) + " ", 0);
+        } 
         return allowedspeed/car->_wheelRadius(REAR_RGT)*gr /rm;
     }
 }
