@@ -350,25 +350,36 @@ bool Driver::isStuck()
 float Driver::getAllowedSpeed(tTrackSeg *segment)
 {
     if (segment->type == TR_STR) {
-        Logger.AppendToLog("[AllowedSegmentSpeedStraight]: ", to_string(FLT_MAX), 0);
+        if(LoggingStatus == 1){
+        Logger.AppendToLog("[AllowedSegmentSpeedStraight]: ", to_string(FLT_MAX) + " ", 0);}
         return FLT_MAX;
     } else {
 
         float arc = 0.0;
         tTrackSeg *s = segment;
-        
+
         while (s->type == segment->type && arc < PI/2.0) {
+
+        if(LoggingStatus == 1){
+            Logger.AppendToLog("[SegmentType]: ", to_string(segment->type) + " ", 0);}
+
             arc += s->arc;
             s = s->next;
         }
 
         arc /= PI/2.0;
+        if(LoggingStatus == 1){
+        Logger.AppendToLog("[ArcOfTurn]: ", to_string(arc) + " ", 0);}
+
         float mu = segment->surface->kFriction;
 
 
         float r = (segment->radius + segment->width/2.0)/sqrt(arc);
         if(LoggingStatus == 1){
-            Logger.AppendToLog("[AllowedSegmentSpeedTurn]: ", to_string((sqrt((mu*G*r)/(1.0 - MIN(1.0, r*CA*mu/mass))))), 0);
+            Logger.AppendToLog("[AllowedSegmentSpeedTurn]: ", to_string((sqrt((mu*G*r)/(1.0 - MIN(1.0, r*CA*mu/mass))))) + " ", 0);
+            Logger.AppendToLog("[SegmentWidth]: ", to_string(segment->width) + " ", 0);
+            Logger.AppendToLog("[SegmentRadius]: ", to_string(segment->radius) + " ", 0);
+            Logger.AppendToLog("[CoefficientOfFriction]: ", to_string(mu) + " ", 0);
         }
         return sqrt((mu*G*r)/(1.0 - MIN(1.0, r*CA*mu/mass)));
     }

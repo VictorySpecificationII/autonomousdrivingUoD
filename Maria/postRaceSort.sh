@@ -42,9 +42,15 @@ cat Log.txt | grep 'VehicleSpeed' >> Logs/Vehicle/VehicleSpeed
 cat Log.txt | grep 'SpeedX' >> Logs/Vehicle/VehicleSpeedX
 cat Log.txt | grep 'PositionX' >> Logs/Vehicle/PositionX
 cat Log.txt | grep 'PositionY' >> Logs/Vehicle/PositionY
-cat Log.txt | grep 'SegmentTypeStraight' >> Logs/Track/SegmentTypeStraight
 cat Log.txt | grep 'Damage' >> Logs/Vehicle/Damage
 cat Log.txt | grep 'DistanceFromStartLine' >> Logs/Vehicle/DistanceFromStartLine
+cat Log.txt | grep 'AllowedSegmentSpeedStraight' >> Logs/Track/AllowedSegmentSpeedStraight
+cat Log.txt | grep 'AllowedSegmentSpeedTurn' >> Logs/Track/AllowedSegmentSpeedTurn
+cat Log.txt | grep 'ArcOfTurn' >> Logs/Track/ArcOfTurn
+cat Log.txt | grep 'SegmentType' >> Logs/Track/SegmentType
+cat Log.txt | grep 'SegmentWidth' >> Logs/Track/SegmentWidth
+cat Log.txt | grep 'SegmentRadius' >> Logs/Track/SegmentRadius
+cat Log.txt | grep 'CoefficientOfFriction' >> Logs/Track/CoefficientOfFriction
 
 #Template, insert more
 #cat Log.txt | grep ' ' >> Logs/
