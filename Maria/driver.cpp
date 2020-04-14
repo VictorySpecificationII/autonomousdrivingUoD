@@ -132,13 +132,14 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
     track = t;
     if(LoggingStatus == 1){
     Logger.NewLog();//init new log
+    //Logger.AppendToLog("[SessionDetail]: ", "TrackName: " + to_string(track->filename) + " ", 0);
     }
 
     char buffer[256];
     /* get a pointer to the first char of the track filename */
     char* trackname = strrchr(track->filename, '/') + 1;
 
-    
+
 
 
     switch (s->_raceType) {
@@ -259,6 +260,7 @@ void Driver::drive(tSituation *s)
             Logger.AppendToLog("[FLAT OUT: Gear]: ", to_string(getGear()) + " ", 0);
             Logger.AppendToLog("[FLAT OUT: Brake]: ", to_string(filterABS(filterBColl(filterBPit(getBrake())))) + " ", 0);
             Logger.AppendToLog("[Damage]: ", to_string(pit->getRepair()) + " ", 0);
+            Logger.AppendToLog("[DistanceFromStartLine]: ",to_string(car->_distFromStartLine) + " ", 0 );
         }
 
         if (car->ctrl.brakeCmd == 0.0) {

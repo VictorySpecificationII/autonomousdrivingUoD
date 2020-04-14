@@ -44,6 +44,7 @@ cat Log.txt | grep 'PositionX' >> Logs/Vehicle/PositionX
 cat Log.txt | grep 'PositionY' >> Logs/Vehicle/PositionY
 cat Log.txt | grep 'SegmentTypeStraight' >> Logs/Track/SegmentTypeStraight
 cat Log.txt | grep 'Damage' >> Logs/Vehicle/Damage
+cat Log.txt | grep 'DistanceFromStartLine' >> Logs/Vehicle/DistanceFromStartLine
 
 #Template, insert more
 #cat Log.txt | grep ' ' >> Logs/
