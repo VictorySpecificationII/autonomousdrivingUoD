@@ -54,6 +54,8 @@ cat Log.txt | grep 'CoefficientOfFriction' >> Logs/Track/CoefficientOfFriction
 cat Log.txt | grep 'RPMredline' >> Logs/Vehicle/RPMredline
 cat Log.txt | grep 'CurrentGrRatio' >> Logs/Vehicle/CurrentGrRatio
 cat Log.txt | grep 'GetAccel' >> Logs/Vehicle/GetAccel
+cat Log.txt | grep 'DistanceToEndOfSegment' >> Logs/Vehicle/DistanceToEndOfSegment
+
 
 
 
