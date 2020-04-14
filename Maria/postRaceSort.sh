@@ -56,7 +56,7 @@ cat Log.txt | grep 'CurrentGrRatio' >> Logs/Vehicle/CurrentGrRatio
 cat Log.txt | grep 'GetAccel' >> Logs/Vehicle/GetAccel
 cat Log.txt | grep 'DistanceToEndOfSegment' >> Logs/Vehicle/DistanceToEndOfSegment
 cat Log.txt | grep 'BrkDist' >> Logs/Vehicle/BrakeDistance
-
+cat Log.txt | grep 'GShiftOmega' >> Logs/Vehicle/GearshiftOmega
 
 
 

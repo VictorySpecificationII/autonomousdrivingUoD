@@ -462,12 +462,21 @@ int Driver::getGear()
     float omega = car->_enginerpmRedLine/gr_up;
     float wr = car->_wheelRadius(2);
 
+    if(LoggingStatus == 1){
+                Logger.AppendToLog("[GShiftOmega]: ", to_string(omega) + " ", 0);
+            }
+
     if (omega*wr*SHIFT < car->_speed_x) {
         return car->_gear + 1;
 
     } else {
         float gr_down = car->_gearRatio[car->_gear + car->_gearOffset - 1];
         omega = car->_enginerpmRedLine/gr_down;
+
+    if(LoggingStatus == 1){
+                Logger.AppendToLog("[GShiftOmega]: ", to_string(omega) + " ", 0);
+            }
+
         if (car->_gear > 1 && omega*wr*SHIFT > car->_speed_x + SHIFT_MARGIN) {
             return car->_gear - 1;
 
