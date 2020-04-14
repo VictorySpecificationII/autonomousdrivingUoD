@@ -530,11 +530,21 @@ float Driver::filterABS(float brake)
     float slip = 0.0;
     for (i = 0; i < 4; i++) {
         slip += car->_wheelSpinVel(i) * car->_wheelRadius(i) / car->_speed_x;
+        if(LoggingStatus == 1){
+            string SlipOnWheel = ("[SlipOnWheelDuringBraking" + to_string(i) + "]:" );
+                Logger.AppendToLog(SlipOnWheel, to_string(slip) + " ", 0);
+            }
     }
     slip = slip/4.0;
+    if(LoggingStatus == 1){
+                Logger.AppendToLog("[SlipOver4WheelsDuringBraking]: ", to_string(slip) + " ", 0);
+            }
 
 
     if (slip < ABS_SLIP) brake = brake*slip;
+        if(LoggingStatus == 1){
+                Logger.AppendToLog("[ABSAssistance]: ", to_string(brake) + " ", 0);
+            }
     return brake;
 }
 
@@ -543,10 +553,15 @@ float Driver::filterTCL(float accel)
 {
     if (car->_speed_x < TCL_MINSPEED) return accel;
     float slip = car->_speed_x/(this->*GET_DRIVEN_WHEEL_SPEED)();
-
+    if(LoggingStatus == 1){
+                Logger.AppendToLog("[TCLslip]: ", to_string(slip) + " ", 0);
+            }
     if (slip < TCL_SLIP) {
         accel = 0.0;
     }
+    if(LoggingStatus == 1){
+                Logger.AppendToLog("[TCLAssistance]: ", to_string(accel) + " ", 0);
+            }
     return accel;
 }
 
