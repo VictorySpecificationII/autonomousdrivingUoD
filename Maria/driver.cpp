@@ -426,7 +426,10 @@ float Driver::getBrake()
     float mu = segptr->surface->kFriction;
     float maxlookaheaddist = currentspeedsqr/(2.0*mu*G);
     float lookaheaddist = getDistToSegEnd();
-    Logger.AppendToLog("[DistanceToEndOfSegment]: ", to_string(lookaheaddist) + " ", 0);
+    
+    if(LoggingStatus == 1){
+    Logger.AppendToLog("[DistanceToEndOfSegment]: ", to_string(lookaheaddist) + " ", 0);}
+
     float allowedspeed = getAllowedSpeed(segptr);
     
 if (allowedspeed < car->_speed_x) return 1.0;
@@ -437,6 +440,8 @@ if (allowedspeed < car->_speed_x) return 1.0;
             float allowedspeedsqr = allowedspeed*allowedspeed;
             float brakedist = mass*(currentspeedsqr - allowedspeedsqr) /
                       (2.0*(mu*G*mass + allowedspeedsqr*(CA*mu + CW)));
+            if(LoggingStatus == 1){
+                Logger.AppendToLog("[BrkDist]: ", to_string(brakedist) + " ", 0);}
             if (brakedist > lookaheaddist) {
 
                 return 1.0;

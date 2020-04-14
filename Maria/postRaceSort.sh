@@ -55,6 +55,7 @@ cat Log.txt | grep 'RPMredline' >> Logs/Vehicle/RPMredline
 cat Log.txt | grep 'CurrentGrRatio' >> Logs/Vehicle/CurrentGrRatio
 cat Log.txt | grep 'GetAccel' >> Logs/Vehicle/GetAccel
 cat Log.txt | grep 'DistanceToEndOfSegment' >> Logs/Vehicle/DistanceToEndOfSegment
+cat Log.txt | grep 'BrkDist' >> Logs/Vehicle/BrakeDistance
 
 
 
