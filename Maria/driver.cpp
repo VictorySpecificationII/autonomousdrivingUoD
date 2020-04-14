@@ -138,6 +138,8 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
     /* get a pointer to the first char of the track filename */
     char* trackname = strrchr(track->filename, '/') + 1;
 
+    
+
 
     switch (s->_raceType) {
         case RM_TYPE_PRACTICE:
@@ -256,6 +258,7 @@ void Driver::drive(tSituation *s)
             Logger.AppendToLog("[FLAT OUT: Steering]: ", to_string(filterSColl(getSteer())) + " ", 0);
             Logger.AppendToLog("[FLAT OUT: Gear]: ", to_string(getGear()) + " ", 0);
             Logger.AppendToLog("[FLAT OUT: Brake]: ", to_string(filterABS(filterBColl(filterBPit(getBrake())))) + " ", 0);
+            Logger.AppendToLog("[Damage]: ", to_string(pit->getRepair()) + " ", 0);
         }
 
         if (car->ctrl.brakeCmd == 0.0) {
@@ -307,6 +310,7 @@ void Driver::update(tSituation *s)
         Logger.AppendToLog("[MassWithFuelUpdate]: ", to_string(mass) + " ", 0);
         Logger.AppendToLog("[VehicleSpeed]: ", to_string(speed) + " ", 0);
         Logger.AppendToLog("[SpeedX]: ", to_string(car->_speed_x) + " ", 0);
+        Logger.AppendToLog("[VehicleSpeedSquared]: ", to_string(currentspeedsqr) + " ", 0);
         Logger.AppendToLog("[PositionX]: ", to_string(car->_pos_X) + " ", 0);
         Logger.AppendToLog("[PositionY]: ", to_string(car->_pos_Y) + " ", 0);
 
@@ -344,9 +348,10 @@ bool Driver::isStuck()
 float Driver::getAllowedSpeed(tTrackSeg *segment)
 {
     if (segment->type == TR_STR) {
+        Logger.AppendToLog("[SegmentTypeStraight]: ", "True ", 0);
         return FLT_MAX;
     } else {
-
+        Logger.AppendToLog("[SegmentTypeStraight]: ", "False ", 0);
 
         float arc = 0.0;
         tTrackSeg *s = segment;

@@ -42,6 +42,9 @@ cat Log.txt | grep 'VehicleSpeed' >> Logs/Vehicle/VehicleSpeed
 cat Log.txt | grep 'SpeedX' >> Logs/Vehicle/VehicleSpeedX
 cat Log.txt | grep 'PositionX' >> Logs/Vehicle/PositionX
 cat Log.txt | grep 'PositionY' >> Logs/Vehicle/PositionY
+cat Log.txt | grep 'SegmentTypeStraight' >> Logs/Track/SegmentTypeStraight
+cat Log.txt | grep 'Damage' >> Logs/Vehicle/Damage
+
 #Template, insert more
 #cat Log.txt | grep ' ' >> Logs/
 echo "Processing complete."
