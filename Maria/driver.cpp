@@ -40,6 +40,7 @@ using namespace std;
 const int rate = 1000;//data logger sampling rate, 1000ms is 10Hz
 Datalogger Logger = Datalogger();//init datalogger
 const int LoggingStatus = 1;// 0- Off, 1 - On
+const string logDest = "/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/MLpipeline/0-Raw/Log.txt";
 
 /**********************************************************************************/
 
@@ -93,7 +94,7 @@ int Datalogger::NewLog()
 {
   
   // Create and open a text file
-  ofstream MyFile("/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/Log.txt");
+  ofstream MyFile(logDest);
   printf("%s\n", "DATALOGGER: Initializing logger...");
 
    
@@ -112,7 +113,7 @@ int Datalogger::NewLog()
 
 int Datalogger::AppendToLog(string tag, string data, int rate){
 
-  ofstream MyFile("/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/Log.txt", std::ios::app);
+  ofstream MyFile(logDest, std::ios::app);
   //printf("%s\n", "DATALOGGER: Opening file to append to..." );
   char* dt = TimeStamp();
   
