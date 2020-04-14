@@ -1,5 +1,6 @@
 #!/bin/bash
 
+previewFiles="False"
 
 mkdir -p Logs
 cat Log.txt | grep 'SessionDetail' >> Logs/SessionDetails
@@ -21,6 +22,14 @@ cat Log.txt | grep 'PositionY' >> Logs/PositionY
 
 cd Logs
 
+if [ "$previewFiles" == "True" ]; 
+then
+echo "Previewing Log Files..."
+echo "                       "
+echo "-----------------------"
+echo "                       "
+sleep 3s
+
 FILES=/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/Logs/*
 for f in $FILES
 do
@@ -28,3 +37,4 @@ do
   # take action on each file. $f store current file name
   cat $f && sleep 2s && clear
 done
+fi

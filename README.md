@@ -20,5 +20,6 @@ Created and tested with TORCS v.1.3.7 running on Ubuntu 16.04.
  - Custom message format.
  - Enable/Disable flag in driver.cpp.
  - After the end of each race, if you have datalogging enabled, run '''./postRaceSort.sh'''.
+ - If you wish to preview the files to check if the datalogging is indeed working right, set previewFlags to True in the above script.
  - The separated values will each appear in their own file in the Logs directory.
 
