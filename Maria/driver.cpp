@@ -144,9 +144,9 @@ void Driver::initTrack(tTrack* t, void *carHandle, void **carParmHandle, tSituat
 
     switch (s->_raceType) {
         case RM_TYPE_PRACTICE:
-            if(LoggingStatus == 1){
-            Logger.AppendToLog("[SessionDetail]: ", "Race Type: RM_TYPE_PRACTICE ", 0);}
             sprintf(buffer, "drivers/Maria/%d/practice/%s", INDEX, trackname);
+            if(LoggingStatus == 1){
+                Logger.AppendToLog("[SessionDetail]: ", "Race Type: RM_TYPE_PRACTICE ", 0);            }
             break;
         case RM_TYPE_QUALIF:
             sprintf(buffer, "drivers/Maria/%d/qualifying/%s", INDEX, trackname);
@@ -350,10 +350,9 @@ bool Driver::isStuck()
 float Driver::getAllowedSpeed(tTrackSeg *segment)
 {
     if (segment->type == TR_STR) {
-        Logger.AppendToLog("[SegmentTypeStraight]: ", "True ", 0);
+        Logger.AppendToLog("[AllowedSegmentSpeedStraight]: ", to_string(FLT_MAX), 0);
         return FLT_MAX;
     } else {
-        Logger.AppendToLog("[SegmentTypeStraight]: ", "False ", 0);
 
         float arc = 0.0;
         tTrackSeg *s = segment;
@@ -368,6 +367,9 @@ float Driver::getAllowedSpeed(tTrackSeg *segment)
 
 
         float r = (segment->radius + segment->width/2.0)/sqrt(arc);
+        if(LoggingStatus == 1){
+            Logger.AppendToLog("[AllowedSegmentSpeedTurn]: ", to_string((sqrt((mu*G*r)/(1.0 - MIN(1.0, r*CA*mu/mass))))), 0);
+        }
         return sqrt((mu*G*r)/(1.0 - MIN(1.0, r*CA*mu/mass)));
     }
 }
