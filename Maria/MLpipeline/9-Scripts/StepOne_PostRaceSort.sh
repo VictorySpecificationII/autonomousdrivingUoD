@@ -1,10 +1,13 @@
 #!/bin/bash
 
-previewFiles="False"
+previewFiles="True"
 
 FILE=/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/MLpipeline/0-Raw/Log.txt
+
 if test -f "$FILE"; then
-    echo "$FILE exists. Processing"
+   echo " "
+    echo "$FILE exists. Processing..."
+    echo " "
 else
 	echo "$FILE does not exist; Datalogging is disabled in driver.cpp"
 	echo ""
@@ -13,31 +16,36 @@ else
 	echo "Exiting..."
 	exit 130
 fi
-
+ echo " "
  echo "Current Working Directory: " $(pwd)
+ echo " "
  echo "Creating directories..."
  cd ../1-Sorted
+ echo " "
  echo "Current Working Directory: " $(pwd)
  mkdir -p Logs
  cd Logs
+ echo " "
  echo "Current Working Directory: " $(pwd)
  mkdir -p General
  mkdir -p Vehicle
  mkdir -p Track
  cd ../../0-Raw
+ echo " "
  echo "Current Working Directory: " $(pwd)
  sleep 2s
-
+ echo " "
  echo "Processing raw data log..."
  echo " "
  sleep 2s
+
  	cat Log.txt | grep 'SessionDetail' >> ../1-Sorted/Logs/General/SessionDetails
 	cat Log.txt | grep 'Stuck' >> ../1-Sorted/Logs/Vehicle/Stuck
 	cat Log.txt | grep 'Steering' >> ../1-Sorted/Logs/Vehicle/Steering
 	cat Log.txt | grep 'Gear' >> ../1-Sorted/Logs/Vehicle/Gearing
 	cat Log.txt | grep 'Throttle' >> ../1-Sorted/Logs/Vehicle/Throttling
 	cat Log.txt | grep 'Brake' >> ../1-Sorted/Logs/Vehicle/Braking
-	cat Log.txt | grep 'TrackAngle' >> ../1-Sorted/Logs/Track/TrackAngle
+	cat Log.txt | grep 'TrackAngle' >> ../1-Sorted/Logs/Vehicle/TrackAngle
 	cat Log.txt | grep 'Yaw' >> ../1-Sorted/Logs/Vehicle/Yaw
 	cat Log.txt | grep 'RemainingFuel' >> ../1-Sorted/Logs/Vehicle/RemainingFuel
 	cat Log.txt | grep 'MassWithFuelUpdate' >> ../1-Sorted/Logs/Vehicle/MassWithFuelUpdate
@@ -73,6 +81,7 @@ fi
 
 # #Template, insert more
 # #cat Log.txt | grep ' ' >> Logs/
+ echo " "
  echo "Processing complete."
  echo " "
 
@@ -81,6 +90,7 @@ fi
  then
  cd ../1-Sorted/Logs
  echo "Current Working Directory: " $(pwd)
+ echo " "
  echo "Previewing Log Files..."
  echo "                       "
  echo "-----------------------"
@@ -90,8 +100,9 @@ fi
 
 FILES=/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/MLpipeline/1-Sorted/Logs/*
 
-for d in $FILES ; do (cd "$d" && cat * && sleep 4s && clear); done
+for d in $FILES ; do (cd "$d" && cat * && sleep 6s  && clear); done
  else
+	echo " "
 	echo "Preview disabled."
 	echo " "
 	echo "Operation complete."

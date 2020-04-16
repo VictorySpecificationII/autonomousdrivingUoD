@@ -118,8 +118,9 @@ int Datalogger::AppendToLog(string tag, string data, int rate){
   char* dt = TimeStamp();
   
   //MyFile << tag << data << ",";//CSV format, we already know that the data follows the timestamp, no need to include
-  MyFile << tag << data << dt << ",";//CSV format, Uncomment to include time stamp
-  
+  //MyFile << tag << data << dt << ",";//CSV format, Uncomment to include time stamp
+  //MyFile << tag << data << "\n";
+  MyFile << tag << data << dt << "\n";//CSV format, Uncomment to include time stamp
   std::this_thread::sleep_for(std::chrono::milliseconds(rate));
   //printf("%s\n", "DATALOGGER: Data appended.");
   return 0;
