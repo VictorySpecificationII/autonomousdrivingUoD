@@ -224,10 +224,12 @@ void Driver::drive(tSituation *s)
             Logger.AppendToLog("[STUCK: Throttle]: ", " 0.5 ", 0);
             Logger.AppendToLog("[STUCK: Brake]: ", " 0.0 ", 0);
         }
-    } else {
+    } 
 
-    //flag, 1 to drive in the middle of the track, 0 to take turns with the racing line
-	if(reconLaps == 1){
+    else{
+
+     //flag, 1 to drive in the middle of the track, 0 to take turns with the racing line
+	 if(reconLaps == 1){
 	   	   float steerangle = angle - car->_trkPos.toMiddle;
            //Logger.AppendToLog("[Control] RECON: Steering angle w.r.t middle of track: ", to_string(steerangle), 0);
            car->ctrl.steer = steerangle / car->_steerLock;
@@ -246,7 +248,7 @@ void Driver::drive(tSituation *s)
            }
         }
 	
-	else{
+	 else{
         car->ctrl.steer = filterSColl(getSteer());
         
         car->ctrl.gear = 1; // first gear
@@ -257,21 +259,41 @@ void Driver::drive(tSituation *s)
         car->ctrl.brakeCmd = filterABS(filterBColl(filterBPit(getBrake())));
         
         
-        if(LoggingStatus == 1){
             Logger.AppendToLog("[FLAT OUT: Steering]: ", to_string(filterSColl(getSteer())) + " ", 0);
             Logger.AppendToLog("[FLAT OUT: Gear]: ", to_string(getGear()) + " ", 0);
             Logger.AppendToLog("[FLAT OUT: Brake]: ", to_string(filterABS(filterBColl(filterBPit(getBrake())))) + " ", 0);
-            Logger.AppendToLog("[Damage]: ", to_string(pit->getRepair()) + " ", 0);
-            Logger.AppendToLog("[DistanceFromStartLine]: ",to_string(car->_distFromStartLine) + " ", 0 );
-        }
+            
 
         if (car->ctrl.brakeCmd == 0.0) {
             car->ctrl.accelCmd = filterTCL(filterTrk(getAccel()));
             if(LoggingStatus == 1){
             Logger.AppendToLog("[FLAT OUT: Throttle]: ", to_string(filterTCL(filterTrk(getAccel()))) + " ", 0);}
         } else {
+            if(LoggingStatus == 1){
+            Logger.AppendToLog("[FLAT OUT: Throttle]: ", "0.0 ", 0);
+                }
             car->ctrl.accelCmd = 0.0;
+            }
         }
+
+            if(LoggingStatus == 1){
+            Logger.AppendToLog("[Damage]: ", to_string(pit->getRepair()) + " ", 0);
+            Logger.AppendToLog("[DistanceFromStartLine]: ",to_string(car->_distFromStartLine) + " ", 0 );
+            Logger.AppendToLog("[ABSAssistance]: ", to_string(filterABS(getBrake())) + " ", 0);
+            Logger.AppendToLog("[TCLAssistance]: ", to_string(filterTCL(filterTrk(getAccel()))) + " ", 0);
+            Logger.AppendToLog("[DistanceToEndOfSegment]: ", to_string(getDistToSegEnd()) + " ", 0);
+            Logger.AppendToLog("[RPMredline]: ", to_string(car->_enginerpmRedLine) + " ", 0);
+            Logger.AppendToLog("[CurrentGrRatio]: ", to_string(car->_enginerpmRedLine) + " ", 0);
+            int i;
+            float slipLog = 0.0;
+            for (i = 0; i < 4; i++) {
+                slipLog += car->_wheelSpinVel(i) * car->_wheelRadius(i) / car->_speed_x;
+                string SlipOnWheel = ("[SlipOnWheelDuringBraking" + to_string(i) + "]:" );
+                Logger.AppendToLog(SlipOnWheel, to_string(slipLog) + " ", 0);    
+            }
+            slipLog = slipLog/4.0;
+            Logger.AppendToLog("[SlipOver4WheelsDuringBraking]: ", to_string(slipLog) + " ", 0);
+            
         }
     }
 }
@@ -402,20 +424,10 @@ float Driver::getAccel()
     float allowedspeed = getAllowedSpeed(car->_trkPos.seg);//logged already
     float gr = car->_gearRatio[car->_gear + car->_gearOffset];
     float rm = car->_enginerpmRedLine;
-    if(LoggingStatus == 1){
-    Logger.AppendToLog("[RPMredline]: ", to_string(rm) + " ", 0);
-    Logger.AppendToLog("[CurrentGrRatio]: ", to_string(gr) + " ", 0);
-    }
 
     if (allowedspeed > car->_speed_x + FULL_ACCEL_MARGIN) {
-        if(LoggingStatus == 1){
-         Logger.AppendToLog("[GetAccel]: ", "1.0 ", 0);   
-        }
         return 1.0;
-    } else {
-        if(LoggingStatus == 1){
-        Logger.AppendToLog("[GetAccel]: ", to_string(allowedspeed/car->_wheelRadius(REAR_RGT)*gr /rm) + " ", 0);
-        } 
+    } else { 
         return allowedspeed/car->_wheelRadius(REAR_RGT)*gr /rm;
     }
 }
@@ -428,10 +440,6 @@ float Driver::getBrake()
     float mu = segptr->surface->kFriction;
     float maxlookaheaddist = currentspeedsqr/(2.0*mu*G);
     float lookaheaddist = getDistToSegEnd();
-    
-    if(LoggingStatus == 1){
-    Logger.AppendToLog("[DistanceToEndOfSegment]: ", to_string(lookaheaddist) + " ", 0);}
-
     float allowedspeed = getAllowedSpeed(segptr);
     
 if (allowedspeed < car->_speed_x) return 1.0;
@@ -442,8 +450,7 @@ if (allowedspeed < car->_speed_x) return 1.0;
             float allowedspeedsqr = allowedspeed*allowedspeed;
             float brakedist = mass*(currentspeedsqr - allowedspeedsqr) /
                       (2.0*(mu*G*mass + allowedspeedsqr*(CA*mu + CW)));
-            if(LoggingStatus == 1){
-                Logger.AppendToLog("[BrkDist]: ", to_string(brakedist) + " ", 0);}
+
             if (brakedist > lookaheaddist) {
 
                 return 1.0;
@@ -464,10 +471,6 @@ int Driver::getGear()
     float omega = car->_enginerpmRedLine/gr_up;
     float wr = car->_wheelRadius(2);
 
-    if(LoggingStatus == 1){
-                Logger.AppendToLog("[GShiftOmega]: ", to_string(omega) + " ", 0);
-            }
-
     if (omega*wr*SHIFT < car->_speed_x) {
         return car->_gear + 1;
 
@@ -475,9 +478,6 @@ int Driver::getGear()
         float gr_down = car->_gearRatio[car->_gear + car->_gearOffset - 1];
         omega = car->_enginerpmRedLine/gr_down;
 
-    if(LoggingStatus == 1){
-                Logger.AppendToLog("[GShiftOmega]: ", to_string(omega) + " ", 0);
-            }
 
         if (car->_gear > 1 && omega*wr*SHIFT > car->_speed_x + SHIFT_MARGIN) {
             return car->_gear - 1;
@@ -540,21 +540,10 @@ float Driver::filterABS(float brake)
     float slip = 0.0;
     for (i = 0; i < 4; i++) {
         slip += car->_wheelSpinVel(i) * car->_wheelRadius(i) / car->_speed_x;
-        if(LoggingStatus == 1){
-            string SlipOnWheel = ("[SlipOnWheelDuringBraking" + to_string(i) + "]:" );
-                Logger.AppendToLog(SlipOnWheel, to_string(slip) + " ", 0);
-            }
     }
     slip = slip/4.0;
-    if(LoggingStatus == 1){
-                Logger.AppendToLog("[SlipOver4WheelsDuringBraking]: ", to_string(slip) + " ", 0);
-            }
-
-
+    
     if (slip < ABS_SLIP) brake = brake*slip;
-        if(LoggingStatus == 1){
-                Logger.AppendToLog("[ABSAssistance]: ", to_string(brake) + " ", 0);
-            }
     return brake;
 }
 
@@ -563,15 +552,10 @@ float Driver::filterTCL(float accel)
 {
     if (car->_speed_x < TCL_MINSPEED) return accel;
     float slip = car->_speed_x/(this->*GET_DRIVEN_WHEEL_SPEED)();
-    if(LoggingStatus == 1){
-                Logger.AppendToLog("[TCLslip]: ", to_string(slip) + " ", 0);
-            }
+
     if (slip < TCL_SLIP) {
         accel = 0.0;
     }
-    if(LoggingStatus == 1){
-                Logger.AppendToLog("[TCLAssistance]: ", to_string(accel) + " ", 0);
-            }
     return accel;
 }
 

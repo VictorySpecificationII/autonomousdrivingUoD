@@ -64,10 +64,9 @@ fi
 	cat Log.txt | grep 'CoefficientOfFriction' >> ../1-Sorted/Logs/Track/CoefficientOfFriction
 	cat Log.txt | grep 'RPMredline' >> ../1-Sorted/Logs/Vehicle/RPMredline
 	cat Log.txt | grep 'CurrentGrRatio' >> ../1-Sorted/Logs/Vehicle/CurrentGrRatio
-	cat Log.txt | grep 'GetAccel' >> ../1-Sorted/Logs/Vehicle/GetAccel
 	cat Log.txt | grep 'DistanceToEndOfSegment' >> ../1-Sorted/Logs/Vehicle/DistanceToEndOfSegment
-	cat Log.txt | grep 'BrkDist' >> ../1-Sorted/Logs/Vehicle/BrakeDistance
-	cat Log.txt | grep 'GShiftOmega' >> ../1-Sorted/Logs/Vehicle/GearshiftOmega
+	####cat Log.txt | grep 'BrkDist' >> ../1-Sorted/Logs/Vehicle/BrakeDistance###DISABLEDUNTILIFIGUREOUTAFIX
+
 	cat Log.txt | grep 'SlipOnWheelDuringBraking0' >> ../1-Sorted/Logs/Vehicle/SlipOnWheel0DuringBraking
 	cat Log.txt | grep 'SlipOnWheelDuringBraking1' >> ../1-Sorted/Logs/Vehicle/SlipOnWheel1DuringBraking
 	cat Log.txt | grep 'SlipOnWheelDuringBraking2' >> ../1-Sorted/Logs/Vehicle/SlipOnWheel2DuringBraking
@@ -75,9 +74,8 @@ fi
 	cat Log.txt | grep 'SlipOver4WheelsDuringBraking' >> ../1-Sorted/Logs/Vehicle/SlipOver4WheelsDuringBraking
 	cat Log.txt | grep 'ABSAssistance' >> ../1-Sorted/Logs/Vehicle/ABSAssistance
 	cat Log.txt | grep 'TCLAssistance' >> ../1-Sorted/Logs/Vehicle/TCLAssistance
-	cat Log.txt | grep 'TCLslip' >> ../1-Sorted/Logs/Vehicle/TCLslip
-	cat Log.txt | grep 'DownforceCoefficientInit' >> ../1-Sorted/Logs/Vehicle/DownforceCoefficientInit
-	cat Log.txt | grep 'DragCoefficientInit' >> ../1-Sorted/Logs/Vehicle/DragCoefficientInit
+	cat Log.txt | grep 'DownforceCoefficientInit' >> ../1-Sorted/Logs/General/DownforceCoefficientInit
+	cat Log.txt | grep 'DragCoefficientInit' >> ../1-Sorted/Logs/General/DragCoefficientInit
 
 # #Template, insert more
 # #cat Log.txt | grep ' ' >> Logs/
