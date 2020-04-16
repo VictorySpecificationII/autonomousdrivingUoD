@@ -55,12 +55,13 @@ fi
 	cat Log.txt | grep 'PositionY' >> ../1-Sorted/Logs/Vehicle/PositionY
 	cat Log.txt | grep 'Damage' >> ../1-Sorted/Logs/Vehicle/Damage
 	cat Log.txt | grep 'DistanceFromStartLine' >> ../1-Sorted/Logs/Vehicle/DistanceFromStartLine
-	cat Log.txt | grep 'AllowedSegmentSpeedStraight' >> ../1-Sorted/Logs/Track/AllowedSegmentSpeedStraight
-	cat Log.txt | grep 'AllowedSegmentSpeedTurn' >> ../1-Sorted/Logs/Track/AllowedSegmentSpeedTurn
-	cat Log.txt | grep 'ArcOfTurn' >> ../1-Sorted/Logs/Track/ArcOfTurn
+	#cat Log.txt | grep 'AllowedSegmentSpeedStraight' >> ../1-Sorted/Logs/Track/AllowedSegmentSpeedStraight
+	#cat Log.txt | grep 'AllowedSegmentSpeedTurn' >> ../1-Sorted/Logs/Track/AllowedSegmentSpeedTurn
+	#cat Log.txt | grep 'ArcOfTurn' >> ../1-Sorted/Logs/Track/ArcOfTurn
 	cat Log.txt | grep 'SegmentType' >> ../1-Sorted/Logs/Track/SegmentType
 	cat Log.txt | grep 'SegmentWidth' >> ../1-Sorted/Logs/Track/SegmentWidth
 	cat Log.txt | grep 'SegmentRadius' >> ../1-Sorted/Logs/Track/SegmentRadius
+	cat Log.txt | grep 'SegmentLength' >> ../1-Sorted/Logs/Track/SegmentLength
 	cat Log.txt | grep 'CoefficientOfFriction' >> ../1-Sorted/Logs/Track/CoefficientOfFriction
 	cat Log.txt | grep 'RPMredline' >> ../1-Sorted/Logs/Vehicle/RPMredline
 	cat Log.txt | grep 'CurrentGrRatio' >> ../1-Sorted/Logs/Vehicle/CurrentGrRatio

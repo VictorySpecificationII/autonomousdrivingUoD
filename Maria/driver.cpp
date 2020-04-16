@@ -277,6 +277,7 @@ void Driver::drive(tSituation *s)
         }
 
             if(LoggingStatus == 1){
+            tTrackSeg *segment = car->_trkPos.seg;
             Logger.AppendToLog("[Damage]: ", to_string(pit->getRepair()) + " ", 0);
             Logger.AppendToLog("[DistanceFromStartLine]: ",to_string(car->_distFromStartLine) + " ", 0 );
             Logger.AppendToLog("[ABSAssistance]: ", to_string(filterABS(getBrake())) + " ", 0);
@@ -293,7 +294,11 @@ void Driver::drive(tSituation *s)
             }
             slipLog = slipLog/4.0;
             Logger.AppendToLog("[SlipOver4WheelsDuringBraking]: ", to_string(slipLog) + " ", 0);
-            
+            Logger.AppendToLog("[SegmentType]: ", to_string(segment->type) + " ", 0);
+            Logger.AppendToLog("[SegmentWidth]: ", to_string(segment->width) + " ", 0);
+            Logger.AppendToLog("[SegmentRadius]: ", to_string(segment->radius) + " ", 0);
+            Logger.AppendToLog("[SegmentLength]: ", to_string(segment->length) + " ", 0);
+            Logger.AppendToLog("[CoefficientOfFriction]: ", to_string(segment->surface->kFriction) + " ", 0);  
         }
     }
 }
@@ -373,8 +378,6 @@ bool Driver::isStuck()
 float Driver::getAllowedSpeed(tTrackSeg *segment)
 {
     if (segment->type == TR_STR) {
-        if(LoggingStatus == 1){
-        Logger.AppendToLog("[AllowedSegmentSpeedStraight]: ", to_string(FLT_MAX) + " ", 0);}
         return FLT_MAX;
     } else {
 
@@ -383,27 +386,16 @@ float Driver::getAllowedSpeed(tTrackSeg *segment)
 
         while (s->type == segment->type && arc < PI/2.0) {
 
-        if(LoggingStatus == 1){
-            Logger.AppendToLog("[SegmentType]: ", to_string(segment->type) + " ", 0);}
-
             arc += s->arc;
             s = s->next;
         }
 
         arc /= PI/2.0;
-        if(LoggingStatus == 1){
-        Logger.AppendToLog("[ArcOfTurn]: ", to_string(arc) + " ", 0);}
 
         float mu = segment->surface->kFriction;
 
 
         float r = (segment->radius + segment->width/2.0)/sqrt(arc);
-        if(LoggingStatus == 1){
-            Logger.AppendToLog("[AllowedSegmentSpeedTurn]: ", to_string((sqrt((mu*G*r)/(1.0 - MIN(1.0, r*CA*mu/mass))))) + " ", 0);
-            Logger.AppendToLog("[SegmentWidth]: ", to_string(segment->width) + " ", 0);
-            Logger.AppendToLog("[SegmentRadius]: ", to_string(segment->radius) + " ", 0);
-            Logger.AppendToLog("[CoefficientOfFriction]: ", to_string(mu) + " ", 0);
-        }
         return sqrt((mu*G*r)/(1.0 - MIN(1.0, r*CA*mu/mass)));
     }
 }
