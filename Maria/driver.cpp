@@ -185,11 +185,64 @@ void Driver::newRace(tCarElt* car, tSituation *s)
     CARMASS = GfParmGetNum(car->_carHandle, SECT_CAR, PRM_MASS, NULL, 1000.0);
     if(LoggingStatus == 1){
     Logger.AppendToLog("[SessionDetail]: Car Mass Unladen: ", to_string(CARMASS) +" Kg ", 0);
-    Logger.AppendToLog("[Stuck]: ", to_string(stuck) + " ", 0);}
+    }
     
     initCa();
     initCw();
     initTCLfilter();
+
+    Logger.AppendToLog("[SessionDetail] RimRadius0: ", to_string(car->_rimRadius(0)) + " ", 0); 
+    Logger.AppendToLog("[SessionDetail] RimRadius1: ", to_string(car->_rimRadius(1)) + " ", 0); 
+    Logger.AppendToLog("[SessionDetail] RimRadius2: ", to_string(car->_rimRadius(2)) + " ", 0); 
+    Logger.AppendToLog("[SessionDetail] RimRadius3: ", to_string(car->_rimRadius(3)) + " ", 0);
+
+    Logger.AppendToLog("[SessionDetail] TireHeight0: ", to_string(car->_tireHeight(0)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] TireHeight1: ", to_string(car->_tireHeight(1)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] TireHeight2: ", to_string(car->_tireHeight(2)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] TireHeight3: ", to_string(car->_tireHeight(3)) + " ", 0); 
+
+    Logger.AppendToLog("[SessionDetail] TireWidth0: ", to_string(car->_tireWidth(0)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] TireWidth1: ", to_string(car->_tireWidth(1)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] TireWidth2: ", to_string(car->_tireWidth(2)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] TireWidth3: ", to_string(car->_tireWidth(3)) + " ", 0);
+
+    Logger.AppendToLog("[SessionDetail] BDiskRadius0: ", to_string(car->_brakeDiskRadius(0)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] BDiskRadius1: ", to_string(car->_brakeDiskRadius(1)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] BDiskRadius2: ", to_string(car->_brakeDiskRadius(2)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] BDiskRadius3: ", to_string(car->_brakeDiskRadius(3)) + " ", 0);
+
+    Logger.AppendToLog("[SessionDetail] WheelRadius0: ", to_string(car->_wheelRadius(0)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelRadius1: ", to_string(car->_wheelRadius(1)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelRadius2: ", to_string(car->_wheelRadius(2)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelRadius3: ", to_string(car->_wheelRadius(3)) + " ", 0);
+
+    Logger.AppendToLog("[SessionDetail] DimensionX: ", to_string(car->_dimension_x) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] DimensionY: ", to_string(car->_dimension_x) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] DimensionZ: ", to_string(car->_dimension_x) + " ", 0);
+
+    Logger.AppendToLog("[SessionDetail] StaticGCX: ", to_string(car->_statGC_x) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] StaticGCY: ", to_string(car->_statGC_y) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] StaticGCZ: ", to_string(car->_statGC_z) + " ", 0);
+
+    Logger.AppendToLog("[SessionDetail] WheelFx0: ", to_string(car->_wheelFx(0)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelFx1: ", to_string(car->_wheelFx(1)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelFx2: ", to_string(car->_wheelFx(2)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelFx3: ", to_string(car->_wheelFx(3)) + " ", 0);
+        
+    Logger.AppendToLog("[SessionDetail] WheelFy0: ", to_string(car->_wheelFy(0)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelFy1: ", to_string(car->_wheelFy(1)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelFy2: ", to_string(car->_wheelFy(2)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelFy3: ", to_string(car->_wheelFy(3)) + " ", 0);
+        
+    Logger.AppendToLog("[SessionDetail] WheelFz0: ", to_string(car->_wheelFx(0)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelFz1: ", to_string(car->_wheelFz(1)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelFz2: ", to_string(car->_wheelFz(2)) + " ", 0);
+    Logger.AppendToLog("[SessionDetail] WheelFz3: ", to_string(car->_wheelFz(3)) + " ", 0);
+
+    Logger.AppendToLog("[SessionDetail] TankCapacity: ", to_string(car->_tank) + " ", 0);
+
+
+
     /* initialize the list of opponents */
     opponents = new Opponents(s, this);
     opponent = opponents->getOpponentPtr();
@@ -219,8 +272,8 @@ void Driver::drive(tSituation *s)
         car->ctrl.brakeCmd = 0.0; // no brakes
         
         if(LoggingStatus == 1){
-            Logger.AppendToLog("[STUCK: Steering]: ", to_string(-angle / car->_steerLock) + " ", 0);
-            Logger.AppendToLog("[STUCK: Gear]: ", " R ", 0);
+            Logger.AppendToLog("[STUCK: Steer]: ", to_string(-angle / car->_steerLock) + " ", 0);
+            Logger.AppendToLog("[STUCK: Gear]: ", to_string(car->_gear) + " ", 0);
             Logger.AppendToLog("[STUCK: Throttle]: ", " 0.5 ", 0);
             Logger.AppendToLog("[STUCK: Brake]: ", " 0.0 ", 0);
         }
@@ -241,8 +294,8 @@ void Driver::drive(tSituation *s)
            car->ctrl.brakeCmd = 0.05; // rough fix to limit speed
            
            if(LoggingStatus == 1){
-            Logger.AppendToLog("[RECON: Steering]: ", to_string(steerangle / car->_steerLock) + " ", 0);
-            Logger.AppendToLog("[RECON: Gear]: ", to_string(1) + " ", 0);
+            Logger.AppendToLog("[RECON: Steer]: ", to_string(steerangle / car->_steerLock) + " ", 0);
+            Logger.AppendToLog("[RECON: Gear]: ", to_string(car->_gear) + " ", 0);
             Logger.AppendToLog("[RECON: Throttle]: ", to_string(0.3) + " ", 0);
             Logger.AppendToLog("[RECON: Brake]: ", to_string(0.05) + " ", 0);
            }
@@ -258,11 +311,11 @@ void Driver::drive(tSituation *s)
         
         car->ctrl.brakeCmd = filterABS(filterBColl(filterBPit(getBrake())));
         
-        
-            Logger.AppendToLog("[FLAT OUT: Steering]: ", to_string(filterSColl(getSteer())) + " ", 0);
-            Logger.AppendToLog("[FLAT OUT: Gear]: ", to_string(getGear()) + " ", 0);
+            if(LoggingStatus == 1){
+            Logger.AppendToLog("[FLAT OUT: Steer]: ", to_string(filterSColl(getSteer())) + " ", 0);
+            Logger.AppendToLog("[FLAT OUT: Gear]: ", to_string(car->_gear) + " ", 0);
             Logger.AppendToLog("[FLAT OUT: Brake]: ", to_string(filterABS(filterBColl(filterBPit(getBrake())))) + " ", 0);
-            
+            }
 
         if (car->ctrl.brakeCmd == 0.0) {
             car->ctrl.accelCmd = filterTCL(filterTrk(getAccel()));
@@ -283,8 +336,6 @@ void Driver::drive(tSituation *s)
             Logger.AppendToLog("[ABSAssistance]: ", to_string(filterABS(getBrake())) + " ", 0);
             Logger.AppendToLog("[TCLAssistance]: ", to_string(filterTCL(filterTrk(getAccel()))) + " ", 0);
             Logger.AppendToLog("[DistanceToEndOfSegment]: ", to_string(getDistToSegEnd()) + " ", 0);
-            Logger.AppendToLog("[RPMredline]: ", to_string(car->_enginerpmRedLine) + " ", 0);
-            Logger.AppendToLog("[CurrentGrRatio]: ", to_string(car->_enginerpmRedLine) + " ", 0);
             int i;
             float slipLog = 0.0;
             for (i = 0; i < 4; i++) {
@@ -298,11 +349,111 @@ void Driver::drive(tSituation *s)
             Logger.AppendToLog("[SegmentWidth]: ", to_string(segment->width) + " ", 0);
             Logger.AppendToLog("[SegmentRadius]: ", to_string(segment->radius) + " ", 0);
             Logger.AppendToLog("[SegmentLength]: ", to_string(segment->length) + " ", 0);
-            Logger.AppendToLog("[CoefficientOfFriction]: ", to_string(segment->surface->kFriction) + " ", 0);  
+            Logger.AppendToLog("[CoefficientOfFriction]: ", to_string(segment->surface->kFriction) + " ", 0);
+
+
+
+            Logger.AppendToLog("[BestLapTime]: ", to_string(car->_bestLapTime) + " ", 0);
+            Logger.AppendToLog("[DeltaBest]: ", to_string(car->_deltaBestLapTime) + " ", 0);
+            Logger.AppendToLog("[CurrentLapTime]: ", to_string(car->_curLapTime) + " ", 0);
+            Logger.AppendToLog("[PerLpTime]: ", to_string(car->_curTime) + " ", 0);
+            Logger.AppendToLog("[TopSpeed]: ", to_string(car->_topSpeed) + " ", 0);
+            Logger.AppendToLog("[CurrentMinSpeedForLap]: ", to_string(car->_currentMinSpeedForLap) + " ", 0);
+            Logger.AppendToLog("[AmountOfLs]: ", to_string(car->_laps) + " ", 0);
+            Logger.AppendToLog("[RemainingLaps]: ", to_string(car->_remainingLaps) + " ", 0);
+            Logger.AppendToLog("[TimeBehindLeader]: ", to_string(car->_timeBehindLeader) + " ", 0);
+            Logger.AppendToLog("[LapsBehindLeader]: ", to_string(car->_lapsBehindLeader) + " ", 0);
+            Logger.AppendToLog("[TimeBehindPrev]: ", to_string(car->_timeBehindPrev) + " ", 0);
+            Logger.AppendToLog("[TimeBehindNext]: ", to_string(car->_timeBeforeNext) + " ", 0);
+
+                    Logger.AppendToLog("[TrackAngle]: ", to_string(trackangle) + " ", 0);
+        Logger.AppendToLog("[Roll]: ", to_string(car -> _roll) + " ", 0);
+        Logger.AppendToLog("[Pitch]: ", to_string(car -> _pitch) + " ", 0);
+        Logger.AppendToLog("[Yaw]: ", to_string(car -> _yaw) + " ", 0);
+        Logger.AppendToLog("[R_Y]: ", to_string(car ->_yaw_rate) + " ", 0);
+        Logger.AppendToLog("[RemainingFuel]: ", to_string(car->_fuel) + " ", 0);
+        Logger.AppendToLog("[MassWithFuelUpdate]: ", to_string(mass) + " ", 0);
+
+        Logger.AppendToLog("[SpeedX]: ", to_string(car->_speed_x) + " ", 0);
+        Logger.AppendToLog("[SpeedY]: ", to_string(car->_speed_y) + " ", 0);
+        Logger.AppendToLog("[SpeedZ]: ", to_string(car->_speed_z) + " ", 0);
+        
+        Logger.AppendToLog("[AccelX]: ", to_string(car->_accel_x) + " ", 0);
+        Logger.AppendToLog("[AccelY]: ", to_string(car->_accel_y) + " ", 0);
+        Logger.AppendToLog("[AccelZ]: ", to_string(car->_accel_z) + " ", 0);
+        
+        Logger.AppendToLog("[PositionX]: ", to_string(car->_pos_X) + " ", 0);
+        Logger.AppendToLog("[PositionY]: ", to_string(car->_pos_Y) + " ", 0);
+        Logger.AppendToLog("[PositionZ]: ", to_string(car->_pos_Z) + " ", 0);
+        
+        Logger.AppendToLog("[Ride0]: ", to_string(car->_ride(0)) + " ", 0);
+        Logger.AppendToLog("[Ride1]: ", to_string(car->_ride(1)) + " ", 0);
+        Logger.AppendToLog("[Ride2]: ", to_string(car->_ride(2)) + " ", 0);
+        Logger.AppendToLog("[Ride3]: ", to_string(car->_ride(3)) + " ", 0);
+        
+        Logger.AppendToLog("[BrkTemp0]: ", to_string(car->_brakeTemp(0)) + " ", 0);
+        Logger.AppendToLog("[BrkTemp1]: ", to_string(car->_brakeTemp(1)) + " ", 0);
+        Logger.AppendToLog("[BrkTemp2]: ", to_string(car->_brakeTemp(2)) + " ", 0);
+        Logger.AppendToLog("[BrkTemp3]: ", to_string(car->_brakeTemp(3)) + " ", 0);
+        
+        Logger.AppendToLog("[WheelSpinVel0]: ", to_string(car->_wheelSpinVel(0)) + " ", 0);
+        Logger.AppendToLog("[WheelSpinVel1]: ", to_string(car->_wheelSpinVel(1)) + " ", 0);
+        Logger.AppendToLog("[WheelSpinVel2]: ", to_string(car->_wheelSpinVel(2)) + " ", 0);
+        Logger.AppendToLog("[WheelSpinVel3]: ", to_string(car->_wheelSpinVel(3)) + " ", 0);
+        
+        Logger.AppendToLog("[WheelSlipSide0]: ", to_string(car->_wheelSlipSide(0)) + " ", 0);
+        Logger.AppendToLog("[WheelSlipSide1]: ", to_string(car->_wheelSlipSide(1)) + " ", 0);
+        Logger.AppendToLog("[WheelSlipSide2]: ", to_string(car->_wheelSlipSide(2)) + " ", 0);
+        Logger.AppendToLog("[WheelSlipSide3]: ", to_string(car->_wheelSlipSide(3)) + " ", 0);
+        
+        Logger.AppendToLog("[WheelSlipAccel0]: ", to_string(car->_wheelSlipAccel(0)) + " ", 0);
+        Logger.AppendToLog("[WheelSlipAccel1]: ", to_string(car->_wheelSlipAccel(1)) + " ", 0);
+        Logger.AppendToLog("[WheelSlipAccel2]: ", to_string(car->_wheelSlipAccel(2)) + " ", 0);
+        Logger.AppendToLog("[WheelSlipAccel3]: ", to_string(car->_wheelSlipAccel(3)) + " ", 0);
+        
+        Logger.AppendToLog("[Tyre0TempInner]: ", to_string(car->_tyreT_in(0)) + " ", 0);
+        Logger.AppendToLog("[Tyre1TempInner]: ", to_string(car->_tyreT_in(1)) + " ", 0);
+        Logger.AppendToLog("[Tyre2TempInner]: ", to_string(car->_tyreT_in(2)) + " ", 0);
+        Logger.AppendToLog("[Tyre3TempInner]: ", to_string(car->_tyreT_in(3)) + " ", 0);
+
+        Logger.AppendToLog("[Tyre0TempMiddle]: ", to_string(car->_tyreT_mid(0)) + " ", 0);
+        Logger.AppendToLog("[Tyre1TempMiddle]: ", to_string(car->_tyreT_mid(1)) + " ", 0);
+        Logger.AppendToLog("[Tyre2TempMiddle]: ", to_string(car->_tyreT_mid(2)) + " ", 0);
+        Logger.AppendToLog("[Tyre3TempMiddle]: ", to_string(car->_tyreT_mid(3)) + " ", 0);
+
+        Logger.AppendToLog("[Tyre0TempOuter]: ", to_string(car->_tyreT_out(0)) + " ", 0);
+        Logger.AppendToLog("[Tyre1TempOuter]: ", to_string(car->_tyreT_out(1)) + " ", 0);
+        Logger.AppendToLog("[Tyre2TempOuter]: ", to_string(car->_tyreT_out(2)) + " ", 0);
+        Logger.AppendToLog("[Tyre3TempOuter]: ", to_string(car->_tyreT_out(3)) + " ", 0);
+
+        Logger.AppendToLog("[Tyre0Condition]: ", to_string(car->_tyreCondition(0)) + " ", 0);
+        Logger.AppendToLog("[Tyre1Condition]: ", to_string(car->_tyreCondition(1)) + " ", 0);
+        Logger.AppendToLog("[Tyre2Condition]: ", to_string(car->_tyreCondition(2)) + " ", 0);
+        Logger.AppendToLog("[Tyre3Condition]: ", to_string(car->_tyreCondition(3)) + " ", 0);
+
+        Logger.AppendToLog("[NgnRPM]: ", to_string(car->_enginerpm) + " ", 0);
+        Logger.AppendToLog("[EngineRPMred]: ", to_string(car->_enginerpmRedLine) + " ", 0);
+        Logger.AppendToLog("[EngineRPMmax]: ", to_string(car->_enginerpmMax) + " ", 0);
+        Logger.AppendToLog("[EngineRPMMaxTq]: ", to_string(car->_enginerpmMaxTq) + " ", 0);
+        Logger.AppendToLog("[EngineMaxTq]: ", to_string(car->_engineMaxTq) + " ", 0);
+        Logger.AppendToLog("[EngineMaxPw]: ", to_string(car->_engineMaxPw) + " ", 0);
+        Logger.AppendToLog("[CurrentGrRatio]: ", to_string(car->_gearRatio[car->_gear]) + " ", 0);
+
+        Logger.AppendToLog("[SkidIntensity0]: ", to_string(car->_skid[0]) + " ", 0);
+        Logger.AppendToLog("[SkidIntensity1]: ", to_string(car->_skid[1]) + " ", 0);
+        Logger.AppendToLog("[SkidIntensity2]: ", to_string(car->_skid[2]) + " ", 0);
+        Logger.AppendToLog("[SkidIntensity3]: ", to_string(car->_skid[3]) + " ", 0);
+
+        Logger.AppendToLog("[WheelReaction0]: ", to_string(car->_reaction[0]) + " ", 0);
+        Logger.AppendToLog("[WheelReaction1]: ", to_string(car->_reaction[1]) + " ", 0);
+        Logger.AppendToLog("[WheelReaction2]: ", to_string(car->_reaction[2]) + " ", 0);
+        Logger.AppendToLog("[WheelReaction3]: ", to_string(car->_reaction[3]) + " ", 0);
+            
+
+
         }
     }
 }
-
 
 /* Set pitstop commands */
 int Driver::pitCommand(tSituation *s)
@@ -333,18 +484,6 @@ void Driver::update(tSituation *s)
     
     opponents->update(s, this);
     currentspeedsqr = car->_speed_x*car->_speed_x;
-
-    if(LoggingStatus == 1){
-        Logger.AppendToLog("[TrackAngle]: ", to_string(trackangle) + " ", 0);
-        Logger.AppendToLog("[Yaw]: ", to_string(car -> _yaw) + " ", 0);
-        Logger.AppendToLog("[RemainingFuel]: ", to_string(car->_fuel) + " ", 0);
-        Logger.AppendToLog("[MassWithFuelUpdate]: ", to_string(mass) + " ", 0);
-        Logger.AppendToLog("[VehicleSpeed]: ", to_string(speed) + " ", 0);
-        Logger.AppendToLog("[SpeedX]: ", to_string(car->_speed_x) + " ", 0);
-        Logger.AppendToLog("[PositionX]: ", to_string(car->_pos_X) + " ", 0);
-        Logger.AppendToLog("[PositionY]: ", to_string(car->_pos_Y) + " ", 0);
-
-    }
 
     pit->update();
 }
