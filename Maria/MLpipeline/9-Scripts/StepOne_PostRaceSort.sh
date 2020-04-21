@@ -5,13 +5,21 @@ previewFiles="False"
 FILE=/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/MLpipeline/0-Raw/Log.txt
 
 if test -f "$FILE"; then
-   echo " "
-    echo "$FILE exists. Processing..."
     echo " "
-else
-	echo "$FILE does not exist; Datalogging is disabled in driver.cpp"
-	echo ""
-	echo "Enable datalogging, compile and run, then re run this script."
+    echo "$FILE"
+    echo " "
+    echo "Status: Exists on your filesystem."
+    sleep 2s
+    echo " "
+    echo "Information: Proceeding..."
+    echo " "
+else	
+	echo " "
+	echo "$FILE"
+	echo " "
+	echo "Status: Does not exist on your filesystem."
+	echo " "
+	echo "Information: Enable datalogging in driver.cpp, compile and run, then re-run this script."
 	echo " "
 	echo "Exiting..."
 	exit 130
@@ -19,8 +27,10 @@ fi
  echo " "
  echo "Current Working Directory: " $(pwd)
  echo " "
- echo "Creating directories..."
- cd ../1-Sorted
+ echo "Process: Creating directories..."
+ cd ..
+ mkdir -p '1-Sorted'
+ cd '1-Sorted'
  echo " "
  echo "Current Working Directory: " $(pwd)
  mkdir -p Logs
@@ -36,7 +46,7 @@ fi
  echo "Current Working Directory: " $(pwd)
  sleep 2s
  echo " "
- echo "Processing raw data log..."
+ echo "Process: Processing raw data log..."
  echo " "
  sleep 2s
 
@@ -189,7 +199,7 @@ fi
 # #Template, insert more
 # #cat Log.txt | grep '' >> ../1-Sorted/Logs//
  echo " "
- echo "Processing complete."
+ echo "Process: Complete."
  echo " "
 
 
@@ -198,7 +208,7 @@ fi
  cd ../1-Sorted/Logs
  echo "Current Working Directory: " $(pwd)
  echo " "
- echo "Previewing Log Files..."
+ echo "Information: Previewing Log Files..."
  echo "                       "
  echo "-----------------------"
  echo "                       "
@@ -210,9 +220,9 @@ FILES=/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/MLpipeline/1-Sorted/Logs/*
 for d in $FILES ; do (cd "$d" && cat * && sleep 6s  && clear); done
  else
 	echo " "
-	echo "Preview disabled."
+	echo "Information: Preview disabled."
 	echo " "
-	echo "Operation complete."
+	echo "Status: Operation complete."
 	echo " "
 	echo "Exiting..."
 	sleep 1s
