@@ -340,15 +340,7 @@ void Driver::drive(tSituation *s)
             Logger.AppendToLog("[ABSAssistance]: ", to_string(filterABS(getBrake())) + " ", 0);
             Logger.AppendToLog("[TCLAssistance]: ", to_string(filterTCL(filterTrk(getAccel()))) + " ", 0);
             Logger.AppendToLog("[DistanceToEndOfSegment]: ", to_string(getDistToSegEnd()) + " ", 0);
-            int i;
-            float slipLog = 0.0;
-            for (i = 0; i < 4; i++) {
-                slipLog += car->_wheelSpinVel(i) * car->_wheelRadius(i) / car->_speed_x;
-                string SlipOnWheel = ("[SlipOnWheelDuringBraking" + to_string(i) + "]:" );
-                Logger.AppendToLog(SlipOnWheel, to_string(slipLog) + " ", 0);    
-            }
-            slipLog = slipLog/4.0;
-            Logger.AppendToLog("[SlipOverFourWheelsDuringBraking]: ", to_string(slipLog) + " ", 0);
+
             Logger.AppendToLog("[SegmentType]: ", to_string(segment->type) + " ", 0);
             Logger.AppendToLog("[SegmentWidth]: ", to_string(segment->width) + " ", 0);
             Logger.AppendToLog("[SegmentRadius]: ", to_string(segment->radius) + " ", 0);

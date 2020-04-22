@@ -91,14 +91,6 @@ fi
 	
 	cat Log.txt | grep 'CurrentGrRatio' >> ../1-Sorted/Logs/Vehicle/CurrentGrRatio
 	
-	####cat Log.txt | grep 'BrkDist' >> ../1-Sorted/Logs/Vehicle/BrakeDistance###DISABLEDUNTILIFIGUREOUTAFIX
-	
-	cat Log.txt | grep 'SlipOnWheelDuringBraking0' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBrakingZero
-	cat Log.txt | grep 'SlipOnWheelDuringBraking1' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBrakingOne
-	cat Log.txt | grep 'SlipOnWheelDuringBraking2' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBrakingTwo
-	cat Log.txt | grep 'SlipOnWheelDuringBraking3' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBrakingThree
-	cat Log.txt | grep 'SlipOverFourWheelsDuringBraking' >> ../1-Sorted/Logs/Vehicle/SlipOverFourWheelsDuringBraking
-	
 	cat Log.txt | grep 'ABSAssistance' >> ../1-Sorted/Logs/Vehicle/ABSAssistance
 	cat Log.txt | grep 'TCLAssistance' >> ../1-Sorted/Logs/Vehicle/TCLAssistance
 	
