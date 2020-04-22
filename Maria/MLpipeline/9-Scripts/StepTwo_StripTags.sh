@@ -78,13 +78,30 @@ cd "$directory"
                 #delete occurences of string in temp
 		sed 's/[^0-9.]//g' < "$file" > "$tempfile"
 		echo "Process: Tags stripped."
-		
 		#Manipulate string to replace 1-sorted with 2-tagless
 		targetDir="2-Tagless"
 		targetAbsPath="${directory/1-Sorted/$targetDir}"
-		
 		#copy contents of temp file into the appropriate file
-		mv "$tempfile" "$targetAbsPath"
-		#rm "$tempfile"
+		cp  "$tempfile" "$targetAbsPath"
+		rm "$tempfile"
+done
+done
+
+
+taglessDIR=/usr/src/torcs/torcs-1.3.7/src/drivers/Maria/MLpipeline/2-Tagless/Logs/*
+
+for dir in $taglessDIR; do
+	cd "$dir"
+		for file in *; do
+		sleep 0.1s
+		filename=$(basename -- "$file")
+		echo " "
+		echo "Original Filename: $filename"
+		filename="${file%.*}"
+		echo "Cut filename: $filename"
+		extension=".txt"
+		final="$filename$extension"
+		echo "Finalname: $final"
+		mv "$file" "$final"
 done
 done
