@@ -93,11 +93,11 @@ fi
 	
 	####cat Log.txt | grep 'BrkDist' >> ../1-Sorted/Logs/Vehicle/BrakeDistance###DISABLEDUNTILIFIGUREOUTAFIX
 	
-	cat Log.txt | grep 'SlipOnWheelDuringBraking0' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBraking0
-	cat Log.txt | grep 'SlipOnWheelDuringBraking1' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBraking1
-	cat Log.txt | grep 'SlipOnWheelDuringBraking2' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBraking2
-	cat Log.txt | grep 'SlipOnWheelDuringBraking3' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBraking3
-	cat Log.txt | grep 'SlipOver4WheelsDuringBraking' >> ../1-Sorted/Logs/Vehicle/SlipOver4WheelsDuringBraking
+	cat Log.txt | grep 'SlipOnWheelDuringBraking0' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBrakingZero
+	cat Log.txt | grep 'SlipOnWheelDuringBraking1' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBrakingOne
+	cat Log.txt | grep 'SlipOnWheelDuringBraking2' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBrakingTwo
+	cat Log.txt | grep 'SlipOnWheelDuringBraking3' >> ../1-Sorted/Logs/Vehicle/SlipOnWheelDuringBrakingThree
+	cat Log.txt | grep 'SlipOverFourWheelsDuringBraking' >> ../1-Sorted/Logs/Vehicle/SlipOverFourWheelsDuringBraking
 	
 	cat Log.txt | grep 'ABSAssistance' >> ../1-Sorted/Logs/Vehicle/ABSAssistance
 	cat Log.txt | grep 'TCLAssistance' >> ../1-Sorted/Logs/Vehicle/TCLAssistance
@@ -105,82 +105,83 @@ fi
 	cat Log.txt | grep 'DownforceCoefficientInit' >> ../1-Sorted/Logs/General/DownforceCoefficientInit
 	cat Log.txt | grep 'DragCoefficientInit' >> ../1-Sorted/Logs/General/DragCoefficientInit
 	
-	cat Log.txt | grep 'Ride0' >> ../1-Sorted/Logs/Vehicle/Ride0
-	cat Log.txt | grep 'Ride1' >> ../1-Sorted/Logs/Vehicle/Ride1
-	cat Log.txt | grep 'Ride2' >> ../1-Sorted/Logs/Vehicle/Ride2
-	cat Log.txt | grep 'Ride3' >> ../1-Sorted/Logs/Vehicle/Ride3
+	cat Log.txt | grep 'RideZero' >> ../1-Sorted/Logs/Vehicle/RideZero
+	cat Log.txt | grep 'RideOne' >> ../1-Sorted/Logs/Vehicle/RideOne
+	cat Log.txt | grep 'RideTwo' >> ../1-Sorted/Logs/Vehicle/RideTwo
+	cat Log.txt | grep 'RideThree' >> ../1-Sorted/Logs/Vehicle/RideThree
 	
-	cat Log.txt | grep 'BrkTemp0' >> ../1-Sorted/Logs/Vehicle/BrkTemp0
-	cat Log.txt | grep 'BrkTemp1' >> ../1-Sorted/Logs/Vehicle/BrkTemp1
-	cat Log.txt | grep 'BrkTemp2' >> ../1-Sorted/Logs/Vehicle/BrkTemp2
-	cat Log.txt | grep 'BrkTemp3' >> ../1-Sorted/Logs/Vehicle/BrkTemp3
+	cat Log.txt | grep 'BrkTempZero' >> ../1-Sorted/Logs/Vehicle/BrkTempZero
+	cat Log.txt | grep 'BrkTempOne' >> ../1-Sorted/Logs/Vehicle/BrkTempOne
+	cat Log.txt | grep 'BrkTempTwo' >> ../1-Sorted/Logs/Vehicle/BrkTempTwo
+	cat Log.txt | grep 'BrkTempThree' >> ../1-Sorted/Logs/Vehicle/BrkTempThree
 	
-	cat Log.txt | grep 'WheelSpinVel0' >> ../1-Sorted/Logs/Vehicle/WheelSpinVel0
-	cat Log.txt | grep 'WheelSpinVel1' >> ../1-Sorted/Logs/Vehicle/WheelSpinVel1
-	cat Log.txt | grep 'WheelSpinVel2' >> ../1-Sorted/Logs/Vehicle/WheelSpinVel2
-	cat Log.txt | grep 'WheelSpinVel3' >> ../1-Sorted/Logs/Vehicle/WheelSpinVel3
+	cat Log.txt | grep 'WheelSpinVelZero' >> ../1-Sorted/Logs/Vehicle/WheelSpinVelZero
+	cat Log.txt | grep 'WheelSpinVelOne' >> ../1-Sorted/Logs/Vehicle/WheelSpinVelOne
+	cat Log.txt | grep 'WheelSpinVelTwo' >> ../1-Sorted/Logs/Vehicle/WheelSpinVelTwo
+	cat Log.txt | grep 'WheelSpinVelThree' >> ../1-Sorted/Logs/Vehicle/WheelSpinVelThree
 	
-	cat Log.txt | grep 'WheelSlipSide0' >> ../1-Sorted/Logs/Vehicle/WheelSlipSide0
-	cat Log.txt | grep 'WheelSlipSide1' >> ../1-Sorted/Logs/Vehicle/WheelSlipSide1
-	cat Log.txt | grep 'WheelSlipSide2' >> ../1-Sorted/Logs/Vehicle/WheelSlipSide2
-	cat Log.txt | grep 'WheelSlipSide3' >> ../1-Sorted/Logs/Vehicle/WheelSlipSide3
+	cat Log.txt | grep 'WheelSlipSideZero' >> ../1-Sorted/Logs/Vehicle/WheelSlipSideZero
+	cat Log.txt | grep 'WheelSlipSideOne' >> ../1-Sorted/Logs/Vehicle/WheelSlipSideOne
+	cat Log.txt | grep 'WheelSlipSideTwo' >> ../1-Sorted/Logs/Vehicle/WheelSlipSideTwo
+	cat Log.txt | grep 'WheelSlipSideThree' >> ../1-Sorted/Logs/Vehicle/WheelSlipSideThree
 	
-	cat Log.txt | grep 'WheelSlipAccel0' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccel0
-	cat Log.txt | grep 'WheelSlipAccel1' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccel1
-	cat Log.txt | grep 'WheelSlipAccel2' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccel2
-	cat Log.txt | grep 'WheelSlipAccel3' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccel3
+	cat Log.txt | grep 'WheelSlipAccelZero' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccelZero
+	cat Log.txt | grep 'WheelSlipAccelOne' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccelOne
+	cat Log.txt | grep 'WheelSlipAccelTwo' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccelTwo
+	cat Log.txt | grep 'WheelSlipAccelThree' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccelThree
 	
-	cat Log.txt | grep 'WheelFx0' >> ../1-Sorted/Logs/General/SessionDetail
-	cat Log.txt | grep 'WheelFx1' >> ../1-Sorted/Logs/General/SessionDetail
-	cat Log.txt | grep 'WheelFx2' >> ../1-Sorted/Logs/General/SessionDetail
-	cat Log.txt | grep 'WheelFx3' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'WheelFxZero' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'WheelFxOne' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'WheelFxTwo' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'WheelFxThree' >> ../1-Sorted/Logs/General/SessionDetail
 	
-	cat Log.txt | grep 'WheelFy0' >> ../1-Sorted/Logs/General/SessionDetail
-	cat Log.txt | grep 'WheelFy1' >> ../1-Sorted/Logs/General/SessionDetail
-	cat Log.txt | grep 'WheelFy2' >> ../1-Sorted/Logs/General/SessionDetail
-	cat Log.txt | grep 'WheelFy3' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'WheelFyZero' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'WheelFyOne' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'WheelFyTwo' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'WheelFyThree' >> ../1-Sorted/Logs/General/SessionDetail
 	
-	cat Log.txt | grep 'WheelFz0' >> ../1-Sorted/Logs/General/SessionDetail
-	cat Log.txt | grep 'WheelFz1' >> ../1-Sorted/Logs/General/SessionDetail
-	cat Log.txt | grep 'WheelFz2' >> ../1-Sorted/Logs/General/SessionDetail
-	cat Log.txt | grep 'WheelFz3' >> ../1-Sorted/Logs/General/SessionDetail	
+	cat Log.txt | grep 'WheelFzZero' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'WheelFzOne' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'WheelFzTwo' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'WheelFzThree' >> ../1-Sorted/Logs/General/SessionDetail	
 	
-	cat Log.txt | grep 'Tyre0TempInner' >> ../1-Sorted/Logs/Vehicle/Tyre0TempInner
-	cat Log.txt | grep 'Tyre1TempInner' >> ../1-Sorted/Logs/Vehicle/Tyre1TempInner
-	cat Log.txt | grep 'Tyre2TempInner' >> ../1-Sorted/Logs/Vehicle/Tyre2TempInner
-	cat Log.txt | grep 'Tyre3TempInner' >> ../1-Sorted/Logs/Vehicle/Tyre3TempInner
+	cat Log.txt | grep 'TyreZeroTempInner' >> ../1-Sorted/Logs/Vehicle/TyreZeroTempInner
+	cat Log.txt | grep 'TyreOneTempInner' >> ../1-Sorted/Logs/Vehicle/TyreOneTempInner
+	cat Log.txt | grep 'TyreTwoTempInner' >> ../1-Sorted/Logs/Vehicle/TyreTwoTempInner
+	cat Log.txt | grep 'TyreThreeTempInner' >> ../1-Sorted/Logs/Vehicle/TyreThreeTempInner
 	
-	cat Log.txt | grep 'Tyre0TempMiddle' >> ../1-Sorted/Logs/Vehicle/Tyre0TempMiddle
-	cat Log.txt | grep 'Tyre1TempMiddle' >> ../1-Sorted/Logs/Vehicle/Tyre1TempMiddle
-	cat Log.txt | grep 'Tyre2TempMiddle' >> ../1-Sorted/Logs/Vehicle/Tyre2TempMiddle
-	cat Log.txt | grep 'Tyre3TempMiddle' >> ../1-Sorted/Logs/Vehicle/Tyre3TempMiddle
+	cat Log.txt | grep 'TyreZeroTempMiddle' >> ../1-Sorted/Logs/Vehicle/TyreZeroTempMiddle
+	cat Log.txt | grep 'TyreOneTempMiddle' >> ../1-Sorted/Logs/Vehicle/TyreOneTempMiddle
+	cat Log.txt | grep 'TyreTwoTempMiddle' >> ../1-Sorted/Logs/Vehicle/TyreTwoTempMiddle
+	cat Log.txt | grep 'TyreThreeTempMiddle' >> ../1-Sorted/Logs/Vehicle/TyreThreeTempMiddle
 	
-	cat Log.txt | grep 'Tyre0TempOuter' >> ../1-Sorted/Logs/Vehicle/Tyre0TempOuter
-	cat Log.txt | grep 'Tyre1TempOuter' >> ../1-Sorted/Logs/Vehicle/Tyre1TempOuter
-	cat Log.txt | grep 'Tyre2TempOuter' >> ../1-Sorted/Logs/Vehicle/Tyre2TempOuter
-	cat Log.txt | grep 'Tyre3TempOuter' >> ../1-Sorted/Logs/Vehicle/Tyre3TempOuter
+	cat Log.txt | grep 'TyreZeroTempOuter' >> ../1-Sorted/Logs/Vehicle/TyreZeroTempOuter
+	cat Log.txt | grep 'TyreOneTempOuter' >> ../1-Sorted/Logs/Vehicle/TyreOneTempOuter
+	cat Log.txt | grep 'TyreTwoTempOuter' >> ../1-Sorted/Logs/Vehicle/TyreTwoTempOuter
+	cat Log.txt | grep 'TyreThreeTempOuter' >> ../1-Sorted/Logs/Vehicle/TyreThreeTempOuter
 	
-	cat Log.txt | grep 'Tyre0Condition' >> ../1-Sorted/Logs/Vehicle/Tyre0Condition
-	cat Log.txt | grep 'Tyre1Condition' >> ../1-Sorted/Logs/Vehicle/Tyre1Condition
-	cat Log.txt | grep 'Tyre2Condition' >> ../1-Sorted/Logs/Vehicle/Tyre2Condition
-	cat Log.txt | grep 'Tyre3Condition' >> ../1-Sorted/Logs/Vehicle/Tyre3Condition
+	cat Log.txt | grep 'TyreZeroCondition' >> ../1-Sorted/Logs/Vehicle/TyreZeroCondition
+	cat Log.txt | grep 'TyreOneCondition' >> ../1-Sorted/Logs/Vehicle/TyreOneCondition
+	cat Log.txt | grep 'TyreTwoCondition' >> ../1-Sorted/Logs/Vehicle/TyreTwoCondition
+	cat Log.txt | grep 'TyreThreeCondition' >> ../1-Sorted/Logs/Vehicle/TyreThreeCondition
 	
 	cat Log.txt | grep 'NgnRPM' >> ../1-Sorted/Logs/Vehicle/NgnRPM
-	cat Log.txt | grep 'EngineRPMred' >> ../1-Sorted/Logs/Vehicle/EngineRPMred
-	cat Log.txt | grep 'EngineRPMmax' >> ../1-Sorted/Logs/Vehicle/EngineRPMmax
-	cat Log.txt | grep 'EngineRPMMaxTq' >> ../1-Sorted/Logs/Vehicle/EngineRPMMaxTq
-	cat Log.txt | grep 'EngineMaxTq' >> ../1-Sorted/Logs/Vehicle/EngineMaxTq
-	cat Log.txt | grep 'EngineMaxPw' >> ../1-Sorted/Logs/Vehicle/EngineMaxPw
 	
-	cat Log.txt | grep 'SkidIntensity0' >> ../1-Sorted/Logs/Vehicle/SkidIntensity0
-	cat Log.txt | grep 'SkidIntensity1' >> ../1-Sorted/Logs/Vehicle/SkidIntensity1
-	cat Log.txt | grep 'SkidIntensity2' >> ../1-Sorted/Logs/Vehicle/SkidIntensity2
-	cat Log.txt | grep 'SkidIntensity3' >> ../1-Sorted/Logs/Vehicle/SkidIntensity3
+	cat Log.txt | grep 'EngineRPMred' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'EngineRPMmax' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'EngineRPMMaxTq' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'EngineMaxTq' >> ../1-Sorted/Logs/General/SessionDetail
+	cat Log.txt | grep 'EngineMaxPw' >> ../1-Sorted/Logs/General/SessionDetail
 	
-	cat Log.txt | grep 'WheelReaction0' >> ../1-Sorted/Logs/Vehicle/WheelReaction0
-	cat Log.txt | grep 'WheelReaction1' >> ../1-Sorted/Logs/Vehicle/WheelReaction1
-	cat Log.txt | grep 'WheelReaction2' >> ../1-Sorted/Logs/Vehicle/WheelReaction2
-	cat Log.txt | grep 'WheelReaction3' >> ../1-Sorted/Logs/Vehicle/WheelReaction3
+	cat Log.txt | grep 'SkidIntensityZero' >> ../1-Sorted/Logs/Vehicle/SkidIntensityZero
+	cat Log.txt | grep 'SkidIntensityOne' >> ../1-Sorted/Logs/Vehicle/SkidIntensityOne
+	cat Log.txt | grep 'SkidIntensityTwo' >> ../1-Sorted/Logs/Vehicle/SkidIntensityTwo
+	cat Log.txt | grep 'SkidIntensityThree' >> ../1-Sorted/Logs/Vehicle/SkidIntensityThree
+	
+	cat Log.txt | grep 'WheelReactionZero' >> ../1-Sorted/Logs/Vehicle/WheelReactionZero
+	cat Log.txt | grep 'WheelReactionOne' >> ../1-Sorted/Logs/Vehicle/WheelReactionOne
+	cat Log.txt | grep 'WheelReactionTwo' >> ../1-Sorted/Logs/Vehicle/WheelReactionTwo
+	cat Log.txt | grep 'WheelReactionThree' >> ../1-Sorted/Logs/Vehicle/WheelReactionThree
 
 	cat Log.txt | grep 'BestLapTime' >> ../1-Sorted/Logs/Timing/BestLapTime
 	cat Log.txt | grep 'DeltaBest' >> ../1-Sorted/Logs/Timing/DeltaBest
