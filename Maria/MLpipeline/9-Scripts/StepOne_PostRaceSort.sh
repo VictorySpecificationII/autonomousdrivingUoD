@@ -117,10 +117,10 @@ fi
 	cat Log.txt | grep 'WheelSlipSideTwo' >> ../1-Sorted/Logs/Vehicle/WheelSlipSideTwo
 	cat Log.txt | grep 'WheelSlipSideThree' >> ../1-Sorted/Logs/Vehicle/WheelSlipSideThree
 	
-	cat Log.txt | grep 'WheelSlipAccelZero' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccelZero
-	cat Log.txt | grep 'WheelSlipAccelOne' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccelOne
-	cat Log.txt | grep 'WheelSlipAccelTwo' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccelTwo
-	cat Log.txt | grep 'WheelSlipAccelThree' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccelThree
+	cat Log.txt | grep 'WheelSlipAccZero' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccZero
+	cat Log.txt | grep 'WheelSlipAccOne' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccOne
+	cat Log.txt | grep 'WheelSlipAccTwo' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccTwo
+	cat Log.txt | grep 'WheelSlipAccThree' >> ../1-Sorted/Logs/Vehicle/WheelSlipAccThree
 	
 	cat Log.txt | grep 'WheelFxZero' >> ../1-Sorted/Logs/General/SessionDetail
 	cat Log.txt | grep 'WheelFxOne' >> ../1-Sorted/Logs/General/SessionDetail

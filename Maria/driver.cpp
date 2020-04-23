@@ -402,10 +402,10 @@ void Driver::drive(tSituation *s)
         Logger.AppendToLog("[WheelSlipSideTwo]: ", to_string(car->_wheelSlipSide(2)) + " ", 0);
         Logger.AppendToLog("[WheelSlipSideThree]: ", to_string(car->_wheelSlipSide(3)) + " ", 0);
         
-        Logger.AppendToLog("[WheelSlipAccelZero]: ", to_string(car->_wheelSlipAccel(0)) + " ", 0);
-        Logger.AppendToLog("[WheelSlipAccelOne]: ", to_string(car->_wheelSlipAccel(1)) + " ", 0);
-        Logger.AppendToLog("[WheelSlipAccelTwo]: ", to_string(car->_wheelSlipAccel(2)) + " ", 0);
-        Logger.AppendToLog("[WheelSlipAccelThree]: ", to_string(car->_wheelSlipAccel(3)) + " ", 0);
+        Logger.AppendToLog("[WheelSlipAccZero]: ", to_string(car->_wheelSlipAccel(0)) + " ", 0);
+        Logger.AppendToLog("[WheelSlipAccOne]: ", to_string(car->_wheelSlipAccel(1)) + " ", 0);
+        Logger.AppendToLog("[WheelSlipAccTwo]: ", to_string(car->_wheelSlipAccel(2)) + " ", 0);
+        Logger.AppendToLog("[WheelSlipAccThree]: ", to_string(car->_wheelSlipAccel(3)) + " ", 0);
         
         Logger.AppendToLog("[TyreZeroTempInner]: ", to_string(car->_tyreT_in(0)) + " ", 0);
         Logger.AppendToLog("[TyreOneTempInner]: ", to_string(car->_tyreT_in(1)) + " ", 0);

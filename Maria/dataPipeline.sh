@@ -32,16 +32,13 @@ echo "Converting captured data to CSV format from the tagless log..."
 echo "**************************************************************"
 sleep 4s
 
-echo "Work in progress;Convert to CSV format."
-
+./StepThree_MergeFiles.sh
 
 sleep 3s
 echo "*************************************************************"
-echo "Processing complete! Data is ML-Ready. Combine to create your"
-echo "desired dataset!"
+echo "			Processing complete! Data is ML-Ready!             "
 echo "*************************************************************"
 sleep 4s
-
 echo "Exiting..."
 sleep 2s
 exit
