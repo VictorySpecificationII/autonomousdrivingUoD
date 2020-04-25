@@ -31,16 +31,14 @@ for file in *; do
 	echo "Original Filename: $filename"
 	filename="${file%.*}"
 	echo "Cut filename: $filename"
-
-	 if [ "$filename" == "Yaw" ]; 
-		then
-			firstLine+="${filename}"
-		else
-			firstLine+="${filename}, "
-	fi
+	#open file and inline edit add name of file in first row
+	sed -i '1 i\'"$filename" "$file"
 done
 
-#echo "$firstLine" | tr -d ', ' > output.txt
-#sleep 3s
+#final step, merge all into one CSV file
 echo $(pwd)
-paste -d "," * >> output.txt
+paste -d "," * >> Final.txt
+echo $(pwd)
+
+mkdir -p ../4-Final
+mv Final.txt ../4-Final/
